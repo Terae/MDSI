@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Marques>
+  <bouteille nom="Cristaline">
+    <source nom="St-Cyr la Source"
+            departement="Loiret"
+            code-barre="3274080005003">
+      <pH>7.45</pH>
+      <contenance>150 cl</contenance>
+      <ions-positifs>
+        <!-- ions positifs calcium -->
+        <calcium>71 mg</calcium>
+        <!-- ions positionfs magnésium -->
+        <magnésium>5.5 mg</magnésium>
+      </ions-positifs>
+      <ions-negatifs>
+        <!-- ions négatifs chlorure -->
+        <chlorure>20 mg</chlorure>
+        <!-- ions négatifs nitrates -->
+        <nitrate>1 mg</nitrate>
+      </ions-negatifs>
+    </source>
+
+    <source nom="Aurèle"
+            departement="Alpes Maritimes"
+            code-barre="3268840001008">
+      <pH>7.4</pH>
+      <contenance>50 cl</contenance>
+      <ions-positifs>
+        <!-- ions positifs calcium -->
+        <calcium>98 mg</calcium>
+        <!-- ions positifs magnésium -->
+        <magnésium>4 mg</magnésium>
+      </ions-positifs>
+      <ions-negatifs>
+        <!-- ions négatifs chlorure -->
+        <chlorure>3.6 mg</chlorure>
+        <!-- ions négatifs nitrates -->
+        <nitrate>2 mg</nitrate>
+      </ions-negatifs>
+    </source>
+  </bouteille>
+
+  <bouteille nom="Volvic">
+    <source nom="Volvic"
+            departement="Puy-de-Dôme">
+      <code-barre>3057640117008</code-barre>
+      <pH>7</pH>
+      <contenance>50 cl</contenance>
+      <ions-positifs>
+        <!-- ions positifs calcium -->
+        <calcium>11.5 mg</calcium>
+        <!-- ions positionfs magnésium -->
+        <magnésium>8 mg</magnésium>
+      </ions-positifs>
+      <ions-negatifs>
+        <!-- ions négatifs chlorure -->
+        <chlorure>13.5 mg</chlorure>
+        <!-- ions négatifs nitrates -->
+        <nitrate>6.3 mg</nitrate>
+        <silice/>
+      </ions-negatifs>
+    </source>
+  </bouteille>
+</Marques>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurant>
+  <liste_entrees>
+    <entree nom=". . .">
+      <!-- Et oui on force le client à prendre des menus -->
+      <supplement>42€</supplement>
+    </entree>
+  </liste_entrees>
+
+  <liste_plats>
+    <plat nom=". . ."/>
+  </liste_plats>
+
+  <liste_menus>
+    <menu nom="moyen-gros sac">
+      <prix>30€</prix>
+      <description>"Pour les grosses faims"</description>
+      <entree>3</entree>
+      <plat>3</plat>
+      <fromage/>
+      <dessert/>
+      <cafe/>
+    </menu>
+
+    <menu nom="Équilibré">
+      <prix>20€</prix>
+      <description>"Le menu le plus économique (mais pas forcément écologique)"</description>
+      <entree>2</entree>
+      <plat>2</plat>
+      <fromage/>
+      <dessert>2</dessert>
+      <cafe/>
+    </menu>
+
+    <menu nom="Radin">
+      <prix>10€</prix>
+      <description>"C'est pas cool pour ta copine"</description>
+      <entree>1</entree>
+      <plat>1</plat>
+      <fromage/>
+      <dessert/>
+      <cafe/>
+    </menu>
+
+    <menu nom="Énorme gros sac">
+      <prix>50€</prix>
+      <description>"T'as d'quoi nourrir ta famille tabernak"</description>
+      <entree>3</entree>
+      <plat>3</plat>
+      <fromage>3</fromage>
+      <dessert>4</dessert>
+      <cafe/>
+    </menu>
+  </liste_menus>
+</restaurant>
