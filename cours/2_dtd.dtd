@@ -1,0 +1,5 @@
+<!ELEMENT etudiant (prenom.nom).(email | numTel)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT numTel (#PCDATA)>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<laboratoire type="recherche">
+	<projet acronyme="AC1" titre="Premier projet" portee="national">
+		<partenaire nom="Dupuis" prenom="Jean" pays="Belgique">
+			<role>Inspecteur des travaux finis</role>
+		</partenaire>
+		<partenaire nom="Dupont" prenom="Paulette" pays="Canada">
+			<role>Stagiaire</role>
+			<role>Maîtresse</role>
+		</partenaire>
+	</projet>
+
+	<projet acronyme="AC2" titre="Projet trop cool" portee="europeen">
+		<partenaire nom="LAAS" prenom="CNRS" pays="France">
+			<role>Ceux qui sont intelligents</role>
+		</partenaire>
+	</projet>
+</liste>

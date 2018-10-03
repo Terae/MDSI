@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema>
+  <xs:complexType name="numeroType">
+    <xs:sequence>
+      <xs:element name="contact" type="contactType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="contactType">
+    <xs:sequence>
+      <xs:element name="nom" type="xs:string"/>
+      <xs:element name="prenom" type="xs:string"/>
+    </xs:sequence>
+  </xs:ComplexType>
+  <xs:element name="numero" type="numeroType"/>
+</xs:schema>
