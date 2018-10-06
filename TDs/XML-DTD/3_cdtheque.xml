@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE cdtheque SYSTEM "3_cdtheque.dtd">
+
+<cdtheque date="2" auteur="Chezpaki">
+	<cd>
+		<titre>IPSEITE</titre>
+		<artiste>DAMSO</artiste>
+		<style>RAP</style>
+	</cd>
+</cdtheque>

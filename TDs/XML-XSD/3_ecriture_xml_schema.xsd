@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="Gestion">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="Parcelles"/>
+        <xsd:element ref="Gestionnaires"/>
+      </xsd:sequence>
+    </xsd:complexType>
+    <xsd:element name="Parcelles">
+      <xsd:complexType>
+        <xsd:element ref="Parcelle" minOccurs="1" maxOccurs="unbounded"/>
+      </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="Gestionnaires">
+      <xsd:complexType>
+        <xsd:element ref="Gestionnaire" minOccurs="1" maxOccurs="unbounded"/>
+      </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="Parcelle">
+      <xsd:complexType>
+        <xsd:element name="Section" type="xsd:string"/>
+        <xsd:element name="Superficie" type="xsd:string"/>
+        <xsd:element name="Gestionnaire" type="xsd:string"/>
+        <xsd:element ref="Activites"/>
+      </xsd:complexType>
+    </xsd:element>

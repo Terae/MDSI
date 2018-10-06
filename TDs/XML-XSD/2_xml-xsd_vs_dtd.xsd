@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="cdtheque">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="cd" maxOccurs="unbounded" minOccurs="0"/>
+      </xsd:sequence>
+      <xsd:attribute name="date" type="xsd:date" use="required"/>
+      <xsd:attribute name="auteur" type="xsd:string" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="cd">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="titre"/>
+        <xsd:element name="artiste"/>
+        <xsd:element name="style" minOccurs="0"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

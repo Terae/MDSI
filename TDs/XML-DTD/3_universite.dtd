@@ -1,0 +1,12 @@
+<!ELEMENT Universite (cours+, prof+)>
+<!ELEMENT cours (titre, eval)>
+<!ATTLIST cours
+id CDATA #REQUIRED
+prof CDATA #IMPLIED>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT eval EMPTY>
+<!ATTLIST eval score CDATA #REQUIRED>
+<!ELEMENT prof EMPTY>
+<!ATTLIST prof
+          id CDATA #REQUIRED
+          ref_cours CDATA #REQUIRED>
