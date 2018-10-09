@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <xsd:element name="Gestion">
     <xsd:complexType>
@@ -7,21 +7,85 @@
         <xsd:element ref="Gestionnaires"/>
       </xsd:sequence>
     </xsd:complexType>
-    <xsd:element name="Parcelles">
-      <xsd:complexType>
-        <xsd:element ref="Parcelle" minOccurs="1" maxOccurs="unbounded"/>
-      </xsd:complexType>
-    </xsd:element>
-    <xsd:element name="Gestionnaires">
-      <xsd:complexType>
-        <xsd:element ref="Gestionnaire" minOccurs="1" maxOccurs="unbounded"/>
-      </xsd:complexType>
-    </xsd:element>
-    <xsd:element name="Parcelle">
-      <xsd:complexType>
+  </xsd:element>
+
+  <!-- Parcelles -->
+  <xsd:element name="Parcelles">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="Parcelle" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="Parcelle">
+    <xsd:complexType>
+      <xsd:sequence>
         <xsd:element name="Section" type="xsd:string"/>
         <xsd:element name="Superficie" type="xsd:string"/>
+        <!--<xsd:element ref="Gestionnaire"/>-->
         <xsd:element name="Gestionnaire" type="xsd:string"/>
         <xsd:element ref="Activites"/>
-      </xsd:complexType>
-    </xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="numParcelle" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="Activites">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="ActAgricole" minOccurs="0" maxOccurs="unbounded"/>
+        <xsd:element ref="ActTraitement" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <!-- Type personnalisé -->
+  <xsd:simpleType name="type_agricole_action">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Anti-Insectes"/>
+      <xsd:enumeration value="Récolte"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:element name="ActAgricole">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Semaine" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
+      </xsd:sequence>
+      <xsd:attribute name="cout" type="xsd:string"/>
+      <xsd:attribute name="type" type="type_agricole_action"/>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="ActTraitement">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Semaine" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
+      </xsd:sequence>
+      <xsd:attribute name="type" type="type_agricole_action"/>
+      <xsd:attribute name="cout" type="xsd:string"/>
+      <xsd:attribute name="typeInsectes" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+
+  <!-- Gestionnaires -->
+  <xsd:element name="Gestionnaires">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="Gestionnaire" minOccurs="1" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="Gestionnaire">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="nom" type="xsd:string"/>
+        <xsd:element name="prenom" type="xsd:string"/>
+        <xsd:element name="adresse" type="xsd:string"/>
+      </xsd:sequence>
+      <xsd:attribute name="idGestionnaire" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
