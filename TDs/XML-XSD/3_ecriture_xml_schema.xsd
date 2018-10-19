@@ -7,6 +7,12 @@
         <xsd:element ref="Gestionnaires"/>
       </xsd:sequence>
     </xsd:complexType>
+
+    <xsd:keyref name="refGestionaire" refer="cleGestionnaire">
+      <xsd:selector xpath="Parcelles/Parcelle"/>
+      <xsd:field xpath="Gestionnaire"/>
+    </xsd:keyref>
+
   </xsd:element>
 
   <!-- Parcelles -->
@@ -25,10 +31,16 @@
         <xsd:element name="Superficie" type="xsd:string"/>
         <!--<xsd:element ref="Gestionnaire"/>-->
         <xsd:element name="Gestionnaire" type="xsd:string"/>
+
         <xsd:element ref="Activites"/>
       </xsd:sequence>
       <xsd:attribute name="numParcelle" type="xsd:string"/>
     </xsd:complexType>
+
+    <xsd:key name="cleParcelle">
+      <xsd:selector xpath="."/>
+      <xsd:field xpath="@numParcelle"/>
+    </xsd:key>
   </xsd:element>
 
   <xsd:element name="Activites">
@@ -87,5 +99,10 @@
       </xsd:sequence>
       <xsd:attribute name="idGestionnaire" type="xsd:string"/>
     </xsd:complexType>
+
+    <xsd:key name="cleGestionnaire">
+      <xsd:selector xpath="."/>
+      <xsd:field xpath="@idGestionnaire"/>
+    </xsd:key>
   </xsd:element>
 </xsd:schema>
