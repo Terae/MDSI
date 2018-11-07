@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs= "http://www.w3.org/2001/XMLSchema%22%3E"/>
+<xs:complexType name="examenType">
+  <xs:sequence>
+    <xs:element name="titre" type="xs:string"/>
+    <xs:element name="date" type="complexDate"/>
+    <xs:element name="questions" type="complexQuestions"/>
+  </xs:sequence>
+  <xs:attribute name="code" type="xs:string"/>
+</xs:complexType>
+<xs:complexType name="complexDate">
+  <xs:attribute name="mois" type="simpleMois"/>
+  <xs:attribute name="annee" type="xs:string"/>
+  <!-- NMTOKEN ??-->
+</xs:complexType>
+<xs:simpleType name="simpleMois">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="jan"/>
+    <xs:enumeration value="fev"/>
+    <xs:enumeration value="mar"/>
+    <xs:enumeration value="avr"/>
+    <xs:enumeration value="mai"/>
+    <xs:enumeration value="jun"/>
+    <xs:enumeration value="jui"/>
+    <xs:enumeration value="aou"/>
+    <xs:enumeration value="sep"/>
+    <xs:enumeration value="oct"/>
+    <xs:enumeration value="nov"/>
+    <xs:enumeration value="dec"/>
+  </xs:restriction>
+</xs:simpleType>
+<xs:complexType name="complexQuestions">
+  <xs:sequence>
+    <xs:element name="question" type="complexQuestion" minOccurs='5' maxOccurs='6'/>
+  </xs:sequence>
+</xs:complexType>
+<xs:complexType name="complexQuestion">
+  <xs:sequence>
+    <xs:element name="partie" type="complexPartie" maxOccurs="unbounded"/>
+  </xs:sequence>
+</xs:complexType>
+<xs:complexType name="complexPartie" mixed="true">
+  <xs:sequence>
+    <xs:element name="partie" type="complexPartie" minOccurs="0" maxOccurs="unbounded"/>
+  </xs:sequence>
+</xs:complexType>
+<xs:element name="examen" type="examenType"/>
+</xs:schema>

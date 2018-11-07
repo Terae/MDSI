@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stock>
+  <produit>
+    <nom>Livre</nom>
+    <prix monnaie="Francs">50</prix>
+    <comment> Un commentaire </comment>
+  </produit>
+  <produit>
+    <nom>CD</nom>
+    <prix monnaie="Euros">23</prix>
+    <comment>Je suis un commentaire de l'élément en 2ème position</comment>
+    <!-- Bonjour, je suis un commentaire -->
+  </produit>
+  <produit>
+    <nom>Random</nom>
+    <prix monnaie="Yen">800</prix>
+  </produit>
+
+    <!-- EXO 1
+     Le noeud courant est 'stock/produit[2]/nom' -> nom du 2ème produit
+    *Que retournent les requêtes suivantes ?* (il faut écrire `cat <command>`)
+    On peut utiliser l'interpréteur de commandes de XPath : `xmllint - -shell <file.xml>`
+    * descendant::node()
+      -> `CD`
+
+    * following-sibling::node()
+      -> `<prix monnaie="Euros">23</prix>`
+
+    * preceding::*/@*     // prends le premier attribut du premier produit
+      -> `monnaie="Francs"`
+
+    * following::comment()
+      -> `Bonjour, je suis un commentaire`
+
+    * child::*
+      -> *nothing*
+
+    -->
+
+    <!-- EXO 2
+
+    * Tous les produits pour lesquels il existe un prix ayant un attribut monnaie
+      -> `cat child::stock/child::produit::child::prix[@monnaie]`
+      -> `cat //child::prix[@monnaie]`
+
+    * Le prix des produits livre
+      -> `cat //child::prix[../nom="Livre"]`
+
+    * Le nœuds produit qui est en deuxième position et qui possède un élément fils comment
+      -> `cat //produit[position()=2 and child::comment]`
+
+    * Le produit le moins cher (sans utilisation des fonctions)
+      -> `cat //produit[not(prix > //prix)]`
+
+    -->
+
+</stock>
