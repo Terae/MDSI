@@ -1,6 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Departements>
-  <nom>DGEI</nom>
-  <creation>25-02-1987</creation>
-  <directeur>Daniela-Jesépaskomenellesapèle-1</directeur>
+  <!-- GB -->
+  <Departement>
+    <nom>Genie Biologique</nom>
+    <acronyme>GB</acronyme>
+    <creation>?</creation>
+    <directeur>Philippe-SCHMITZ-1</directeur>
+  </Departement>
+  <!-- GC -->
+  <Departement>
+    <nom>Genie Civil</nom>
+    <acronyme>GC</acronyme>
+    <creation>?</creation>
+    <directeur>Frederic-DUPRAT-1</directeur>
+  </Departement>
+  <!-- GEI -->
+  <Departement>
+    <nom>Genie Electronique et Informatique</nom>
+    <acronyme>GEI</acronyme>
+    <creation>?</creation>
+    <directeur>Daniela-DRAGOMIRESCU-1</directeur>
+  </Departement>
+  <!-- GM -->
+  <Departement>
+    <nom>Genie Mecanique</nom>
+    <acronyme>GM</acronyme>
+    <creation>?</creation>
+    <directeur>Manuel-PAREDES-1</directeur>
+  </Departement>
+  <!-- GP -->
+  <Departement>
+    <nom>Genie Physique</nom>
+    <acronyme>GP</acronyme>
+    <creation>?</creation>
+    <directeur>David-VIGNOLLES-1</directeur>
+  </Departement>
+  <!-- GPE -->
+  <Departement>
+    <nom>Genie des Procedes et Environnement</nom>
+    <acronyme>GPE</acronyme>
+    <creation>?</creation>
+    <directeur>Gilles-HEBRARD-1</directeur>
+  </Departement>
+  <!-- MA -->
+  <Departement>
+    <nom>Mathematiques Appliques</nom>
+    <acronyme>MA</acronyme>
+    <creation>?</creation>
+    <directeur>Jean-Yves-DAUXOIS-1</directeur>
+  </Departement>
+  <!-- STPI -->
+  <Departement>
+    <nom>Sciences et Techniques Pour l'Ingenieur</nom>
+    <acronyme>STPI</acronyme>
+    <creation>?</creation>
+    <directeur>Alain-BOYER-1</directeur>
+  </Departement>
 </Departements>
