@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Personnes name="Personnes">
-  <Personne>
-    <nom>Dupont</nom>
-  </Personne>
+
+	<Personne>
+    	<nom>GUERMOUCHE</nom>
+		<prenom>Nawal</prenom>
+		<bureau></bureau>
+		<telephone>06-24-35-62-17</telephone>
+		<email>nawal.guermouch@insa-toulouse.fr</email>
+		<id>Nawal-Guermouche-1</id>
+  	</Personne>
+
+	<Responsabilite idResponsable="Guermouche-Nawal-1">
+		<type idtype="UF"> Ingénierie logicielle et architectures oreitnées services </type>
+		<type idtype="Cours"> Responsable Ingénieurie logicielle </type>
+		<type idtype="Cours"> Architectures orientées services </type>
+	</Responsabilite>
+
+	<Personne>
+    	<nom>BOYER</nom>
+		<prenom>Alain</prenom>
+		<bureau></bureau>
+		<telephone>06-25-12-97-45</telephone>
+		<email>Boyer.alain@insa-toulouse.fr</email>
+		<id>Alain-BOYER-1</id>
+  	</Personne>
+
+	<Responsabilite idResponsab="Alain-BOYER-1">
+		<type> </type>
+	</Responsabilite>
+
+	<Personne>
+    	<nom></nom>
+		<prenom></prenom>
+		<bureau></bureau>
+		<telephone></telephone>
+		<email></email>
+		<id></id>
+  	</Personne>
+
 </Personnes>
