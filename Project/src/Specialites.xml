@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Specialites>
+   <!-- Informatique et Réseau -->
+  <Specialite name ="Informatique Reseau">
+    <Semestre> S7-4IR </Semestre>
+    <Semestre> S8-4IR </Semestre>
+    <Semestre> S9-5IR </Semestre>
+    <Semestre> S10-5IR </Semestre>
+    <Departement> DGEI </Departement>
+  </Specialite>
+</Specialites>
