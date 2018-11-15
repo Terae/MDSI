@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="Departements">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="Departement" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+
+    <!-- On peut avoir une référence vers un département à partir de son acronyme -->
+    <xsd:keyref name="refDepartement" refer="cleDepartement">
+      <xsd:selector xpath="Departements/Departement"/>
+      <xsd:field xpath="acronyme"/>
+    </xsd:keyref>
+
+  </xsd:element>
+
+  <xsd:element name="Departement">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="nom" type="xsd:string"/>
+        <xsd:element name="creation" type="xsd:string"/>
+        <xsd:element name="directeur" type="xsd:string"/>
+      </xsd:sequence>
+      <xsd:attribute name="acronyme" type="xsd:string"/>
+    </xsd:complexType>
+
+    <xsd:key name="cleDepartement">
+      <xsd:selector xpath="."/>
+      <xsd:field xpath="@acronyme"/>
+    </xsd:key>
+  </xsd:element>
+</xsd:schema>

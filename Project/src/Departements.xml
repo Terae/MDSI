@@ -1,58 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Departements>
   <!-- GB -->
-  <Departement>
+  <Departement acronyme="GB">
     <nom>Genie Biologique</nom>
-    <acronyme>GB</acronyme>
     <creation>?</creation>
     <directeur>Philippe-SCHMITZ-1</directeur>
   </Departement>
   <!-- GC -->
-  <Departement>
+  <Departement acronyme="GC">
     <nom>Genie Civil</nom>
-    <acronyme>GC</acronyme>
     <creation>?</creation>
     <directeur>Frederic-DUPRAT-1</directeur>
   </Departement>
   <!-- GEI -->
-  <Departement>
+  <Departement acronyme="GEI">
     <nom>Genie Electronique et Informatique</nom>
-    <acronyme>GEI</acronyme>
     <creation>?</creation>
     <directeur>Daniela-DRAGOMIRESCU-1</directeur>
   </Departement>
   <!-- GM -->
-  <Departement>
+  <Departement acronyme="GM">
     <nom>Genie Mecanique</nom>
-    <acronyme>GM</acronyme>
     <creation>?</creation>
     <directeur>Manuel-PAREDES-1</directeur>
   </Departement>
   <!-- GP -->
-  <Departement>
+  <Departement acronyme="GP">
     <nom>Genie Physique</nom>
-    <acronyme>GP</acronyme>
     <creation>?</creation>
     <directeur>David-VIGNOLLES-1</directeur>
   </Departement>
   <!-- GPE -->
-  <Departement>
+  <Departement acronyme="GPE">
     <nom>Genie des Procedes et Environnement</nom>
-    <acronyme>GPE</acronyme>
     <creation>?</creation>
     <directeur>Gilles-HEBRARD-1</directeur>
   </Departement>
   <!-- MA -->
-  <Departement>
+  <Departement acronyme="MA">
     <nom>Mathematiques Appliques</nom>
-    <acronyme>MA</acronyme>
     <creation>?</creation>
     <directeur>Jean-Yves-DAUXOIS-1</directeur>
   </Departement>
   <!-- STPI -->
-  <Departement>
+  <Departement acronyme="STPI">
     <nom>Sciences et Techniques Pour l'Ingenieur</nom>
-    <acronyme>STPI</acronyme>
     <creation>?</creation>
     <directeur>Alain-BOYER-1</directeur>
   </Departement>
