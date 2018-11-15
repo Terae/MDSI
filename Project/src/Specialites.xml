@@ -1,11 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Specialites>
-   <!-- Informatique et Réseau -->
-  <Specialite name ="Informatique Reseau">
-    <Semestre> S7-4IR </Semestre>
-    <Semestre> S8-4IR </Semestre>
-    <Semestre> S9-5IR </Semestre>
-    <Semestre> S10-5IR </Semestre>
-    <Departement> DGEI </Departement>
+  <!-- Année de tronc commjun -->
+  <Specialite acronyme="TC">
+    <nom> Tronc Commun </nom>
+    <Semestre> S1-1TC </Semestre>
+    <Semestre> S2-1TC </Semestre>
+    <Responsable> alain-boyer-1 </Responsable>
+    <Departement> STPI </Departement>
+ </Specialite>
+
+   <!--Ingéniere de construction -->
+  <Specialite acronyme="IC">
+   <nom> Ingenieurie de construction </nom>
+   <Semestre> S3-2IC </Semestre>
+   <Semestre> S4-2IC </Semestre>
+   <Semestre> S5-3IC </Semestre>
+   <Semestre> S6-3IC </Semestre>
+   <Responsable> </Responsable>
+   <Departement> STPI </Departement>
+ </Specialite>
+
+
+  <!-- Ingénierie des Matériaux, Composants et Systèmes -->
+  <Specialite acronyme="IMACS">
+    <nom>Ingenierie des Materiaux, Composants et Systemes </nom>
+    <Semestre> S3-2IMACS </Semestre>
+    <Semestre> S4-2IMACS </Semestre>
+    <Semestre> S5-3IMACS </Semestre>
+    <Semestre> S6-3IMACS </Semestre>
+    <Responsable> </Responsable>
+    <Departement> STPI </Departement>
+ </Specialite>
+
+
+ <!-- Modélisation, Informatique et Communication -->
+ <Specialite acronyme="MIC">
+   <nom> Modelisation, Informatique et Communication </nom>
+   <Semestre> S3-2MIC </Semestre>
+   <Semestre> S4-2MIC </Semestre>
+   <Semestre> S5-3MIC </Semestre>
+   <Semestre> S6-3MIC </Semestre>
+   <Responsable> violaine-roussier-michon-1 </Responsable>
+   <Departement> STPI </Departement>
+ </Specialite>
+
+ <!-- Ingénierie Chimique, Biochimique et Environnementale-->
+ <Specialite acronyme="ICBE">
+   <nom> Ingenierie Chimique, Biochimique et Environnementale </nom>
+   <Semestre> S3-2ICBE </Semestre>
+   <Semestre> S4-2ICBE </Semestre>
+   <Semestre> S5-3ICBE </Semestre>
+   <Semestre> S6-3ICBE </Semestre>
+   <Responsable> sandrine.morel-1 </Responsable>
+   <Departement> STPI </Departement>
+ </Specialite>
+
+   <!-- Automatique Electronique -->
+ <Specialite acronyme="AE">
+   <nom> Automatique Electronique  </nom>
+   <Semestre> S7-4AE  </Semestre>
+   <Semestre> S8-4AE  </Semestre>
+   <Semestre> S9-5AE  </Semestre>
+   <Semestre> S10-5AE </Semestre>
+   <Responsable> </Responsable>
+   <Departement> GEI </Departement>
+ </Specialite>
+
+   <!-- Génie Biologique -->
+  <Specialite acronyme="GB">
+    <nom> Genie Biologique </nom>
+    <Semestre> S7-4GB  </Semestre>
+    <Semestre> S8-4GB  </Semestre>
+    <Semestre> S9-5GB  </Semestre>
+    <Semestre> S10-5GB </Semestre>
+    <Responsable> </Responsable>
+    <Departement> GB </Departement>
+ </Specialite>
+
+  <!-- Génie Civile -->
+<Specialite acronyme="GC">
+    <nom> Genie Civile </nom>
+    <Semestre> S7-4GC  </Semestre>
+    <Semestre> S8-4IC  </Semestre>
+    <Semestre> S9-4IC  </Semestre>
+    <Semestre> S10-4IC </Semestre>
+    <Responsable> </Responsable>
+    <Departement> GC </Departement>
+ </Specialite>
+  <!-- Génie des Procédés et Environnement -->
+<Specialite acronyme="GPE">
+    <nom> Genie des Procedes et Environnement </nom>
+    <Semestre> S7-4GPE  </Semestre>
+    <Semestre> S8-4GPE  </Semestre>
+    <Semestre> S9-4GPE  </Semestre>
+    <Semestre> S10-4GPE </Semestre>
+    <Responsable> </Responsable>
+    <Departement> GPE </Departement>
+ </Specialite>
+  <!-- Génie Mécanique -->
+  <Specialite acronyme="GM">
+      <nom> Genie Mécanique </nom>
+      <Semestre> S7-4GM  </Semestre>
+      <Semestre> S8-4GM  </Semestre>
+      <Semestre> S9-5GM  </Semestre>
+      <Semestre> S10-5GM </Semestre>
+      <Departement> GM </Departement>
+  </Specialite>
+    <!-- Génie Physique -->
+  <Specialite acronyme="GP">
+        <nom> Genie Physique </nom>
+        <Semestre> S7-4GP  </Semestre>
+        <Semestre> S8-4GP  </Semestre>
+        <Semestre> S9-5GP  </Semestre>
+        <Semestre> S10-5GP </Semestre>
+        <Departement> GP </Departement>
+ </Specialite>
+  <!-- Informatique et Réseau -->
+  <Specialite acronyme ="IR">
+      <nom> Informatique et Reseau </nom>
+      <Semestre> S7-4IR  </Semestre>
+      <Semestre> S8-4IR  </Semestre>
+      <Semestre> S9-5IR  </Semestre>
+      <Semestre> S10-5IR </Semestre>
+      <Departement> GEI </Departement>
+  </Specialite>
+
+  <!-- Mathématiques appliquées -->
+  <Specialite acronyme="MA">
+      <nom> Mathematiques appliquees </nom>
+      <Semestre> S7-4MA  </Semestre>
+      <Semestre> S8-4MA  </Semestre>
+      <Semestre> S9-5MA  </Semestre>
+      <Semestre> S10-5MA </Semestre>
+      <Departement> MA  </Departement>
   </Specialite>
 </Specialites>
