@@ -4,38 +4,145 @@
 	<Personne>
     	<nom>GUERMOUCHE</nom>
 		<prenom>Nawal</prenom>
-		<bureau></bureau>
+		<bureau> </bureau>
 		<telephone>06-24-35-62-17</telephone>
 		<email>nawal.guermouch@insa-toulouse.fr</email>
 		<id>Nawal-Guermouche-1</id>
   	</Personne>
 
 	<Responsabilite idResponsable="Guermouche-Nawal-1">
-		<type idtype="UF"> Ingénierie logicielle et architectures oreitnées services </type>
-		<type idtype="Cours"> Responsable Ingénieurie logicielle </type>
-		<type idtype="Cours"> Architectures orientées services </type>
+		<type idtype="UF" idResponsabilite=""/>
+		<type idtype="Cours"
+		<type idtype="Cours"
 	</Responsabilite>
 
 	<Personne>
     	<nom>BOYER</nom>
 		<prenom>Alain</prenom>
-		<bureau></bureau>
+		<bureau> amphi 15 </bureau>
 		<telephone>06-25-12-97-45</telephone>
 		<email>Boyer.alain@insa-toulouse.fr</email>
 		<id>Alain-BOYER-1</id>
   	</Personne>
 
-	<Responsabilite idResponsab="Alain-BOYER-1">
-		<type> </type>
+	<Responsabilite idResponsable="Alain-BOYER-1">
+		<type idtype="Departement" idResponsabilite="STPI"/>
 	</Responsabilite>
 
 	<Personne>
-    	<nom></nom>
-		<prenom></prenom>
-		<bureau></bureau>
-		<telephone></telephone>
-		<email></email>
-		<id></id>
+    	<nom>SCHMITZ</nom>
+		<prenom>Philippe</prenom>
+		<bureau> GB 15 </bureau>
+		<telephone>06-78-79-15-11</telephone>
+		<email>Philippe.schmitz@insa-toulouse.fr</email>
+		<id>Philippe-SCHMITZ-1</id>
   	</Personne>
+
+	<Responsabilite idResponsable="Philippe-SCHMITZ-1">
+		<type idtype="Departement" idResponsabilite="GB"/>
+	</Responsabilite>
+
+	<Personne>
+    	<nom>DUPRAT</nom>
+		<prenom>Frederic</prenom>
+		<bureau> GC 217 </bureau>
+		<telephone>06-45-39-98-14</telephone>
+		<email>Frederic.duprat@insa-toulouse.fr</email>
+		<id>Frederic-DUPRAT-1</id>
+  	</Personne>
+
+	<Responsabilite idResponsable="Frederic-DUPRAT-1">
+		<type idtype="Departement" idResponsabilite="GC"/>
+	</Responsabilite>
+
+
+	<Personne>
+    	<nom>DRAGOMIRESCU</nom>
+		<prenom>Daniela</prenom>
+		<bureau> GEI 217</bureau>
+		<telephone>06-99-98-97-96</telephone>
+		<email>daniela.drago@insa-toulouse.fr</email>
+		<id>Daniela-DRAGOMIRESCU-1</id>
+  	</Personne>
+
+	<Responsabilite idResponsable="Daniela-DRAGOMIRESCU-1">
+		<type idtype="Departement" idResponsabilite="GEI" />
+	</Responsabilite>
+
+	<Personne>
+    	<nom>PAREDES</nom>
+		<prenom>Manuel</prenom>
+		<bureau> GPE 12 </bureau>
+		<telephone>06-11-12-13-14</telephone>
+		<email>manuel.paredes@insa-toulouse.fr</email>
+		<id>Manuel-PAREDES-1</id>
+  	</Personne>
+
+	<Responsabilite idResponsable="Manuel-PAREDES-1">
+		<type idtype="Departement" idResponsabilite="GPE"/>
+	</Responsabilite>
+
+
+	<Personne>
+    	<nom>David</nom>
+		<prenom>VIGNOLLES</prenom>
+		<bureau> GP 218</bureau>
+		<telephone>06-66-84-45-96</telephone>
+		<email>david.vignolles@insa-toulouse.fr</email>
+		<id>David-VIGNOLLES-1</id>
+  	</Personne>
+
+	<Responsabilite idResponsable="David-VIGNOLLES-1">
+		<type idtype="Departement" idResponsabilite="GP">
+	</Responsabilite>
+
+	<Personne>
+    	<nom>HEBRARD</nom>
+		<prenom>Gilles</prenom>
+		<bureau> GPE 201 </bureau>
+		<telephone>06-36-65-15-65</telephone>
+		<email>gilles.hebrard@insa-toulouse.fr</email>
+		<id>Gilles-HEBRARD-1</id>
+  	</Personne>
+
+	<Responsabilite idResponsable="Gilles-HEBRARD-1">
+		<type idtype="Departement" idResponsabilite="GPE"/>
+	</Responsabilite>
+
+	<Personne>
+    	<nom>DAUXOIS</nom>
+		<prenom>Jean-Yves</prenom>
+		<bureau> MA 17 </bureau>
+		<telephone>06-60-02-65-02</telephone>
+		<email>jydauxois@insa-toulouse.fr</email>
+		<id>Jean-Yves-DAUXOIS-1</id>
+  	</Personne>
+
+	<Responsabilite idResponsable="Jean-Yves-DAUXOIS-1">
+		<type idtype="Departement" idResponsabilite="MA"/>
+	</Responsabilite>
+
+	<Personne>
+    	<nom>VERNADAT</nom>
+		<prenom>Francois</prenom>
+		<bureau></bureau>
+		<telephone>06-12-26-40-23</telephone>
+		<email>Francois-vernadat@insa-toulouse.fr</email>
+		<id>Francois-VERNADAT-1</id>
+  	</Personne>
+
+	<Responsabilite idResponsable="Francois-VERNADAT-1">
+		<type idtype="UF" idResponsabilite=""/> 
+		<type idtype="Cours" idResponsabilite=""/>
+		<type idtype="Cours" idResponsabilite=""/>  
+	</Responsabilite>	
+
+
+
+
+
+
+
+
 
 </Personnes>
