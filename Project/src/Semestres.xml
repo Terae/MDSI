@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Semestres>
+	<Semestre idSemestre = "S7-4IR">
+		<UF>Conception et Programmation Orientees Objet</UF>
+		<id>I4IRIL11</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S7-4IR">
+		<UF>Internet et Securite</UF>
+		<id>I4IRRS11</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S7-4IR">
+		<UF>Developper ses competences manageriales</UF>
+		<id>I4CCGE11</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S7-4IR">
+		<UF>Grandir en autonomie et construire son projet professionnel</UF>
+		<id>I4CCGA11</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S7-4IR">
+		<UF>Informatique fondamentale et peripherique</UF>
+		<id>I4IRIF11</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S7-4IR">
+		<UF>Systeme d'information</UF>
+		<id>I4IRIF21</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S7-4IR">
+		<UF>Reseaux mobiles et reseaux sans fil</UF>
+		<id>I4IRRS21</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S7-4IR">
+		<UF>Techniques et systèmes de transmission</UF>
+		<id>I4IRTC11</id> 
+	</Semestre>
+
+	<Semestre idSemestre = "S8-4IR">
+		<UF>Systèmes concurrents et Temps réel </UF>
+		<id>I4IRTR11</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S8-4IR">
+		<UF>Projet de recherche tutoré et conduite de projet</UF>
+		<id>I4IRPJ11</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S8-4IR">
+		<UF>Communiquer dans les organisations </UF>
+		<id>I4CCLA11</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S8-4IR">
+		<UF>Grandir en autonomie et construire son projet professionnel</UF>
+		<id>I4IRGA41</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S8-4IR">
+		<UF>Systèmes intelligents</UF>
+		<id>I4IRSD11</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S8-4IR">
+		<UF>Architecture logicielle et matérielle des systèmes informatiques</UF>
+		<id>I4IRIM11</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S8-4IR">
+		<UF>Interconnexion avancée et réseaux grande distance</UF>
+		<id>I4IRRS31</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S8-4IR">
+		<UF>Architecture matérielle des systèmes de télécommunication</UF>
+		<id>I4IRTC21</id> 
+	</Semestre> 
+
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Paradigmes de programmation et architectures réseaux</UF>
+		<id>I5AISE11</id> 
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Fiabilité des Systèmes Embarqués Critiques</UF>
+		<id>I5AISE21</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Méthodes et outils pour l'analyse fonctionnelle et anglais</UF>
+		<id>I5AISE31</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Paradigmes de programmation et architectures réseaux</UF>
+		<id>I5AISE11</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Test et Intégration de systèmes</UF>
+		<id>I5AISE41</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Gestion des Ressources Humaines et vie dans les organisations</UF>
+		<id>I5CCGE21</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Ingéniérie des modèles</UF>
+		<id>I5IRFM11</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Processus de développement logiciel</UF>
+		<id>I5IRIL11</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Architectures orientées services</UF>
+		<id>I5IRIL21</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Sureté de fonctionnement et modèle temporel</UF>
+		<id>I5IRSF11</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Recherche d'information et représentation des connaissances</UF>
+		<id>I5IRIL31</id> 
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Gestion des Ressources Humaines et vie dans les organisations</UF>
+		<id>I5CCGE21</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Ingéniérie des modèles</UF>
+		<id>I5IRFM11</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Programmation par contraintes et optimisation combinatoire</UF>
+		<id>I5IRSD21</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Sécurité du logiciel et des réseaux</UF>
+		<id>I5IRSI11</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Processus de développement logiciel pour les architectures orientées services</UF>
+		<id>I5IRIL41</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Modélisation, évaluation et optimisation des réseaux et protocoles</UF>
+		<id>I5IRRS11</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Réseaux émergents</UF>
+		<id>I5IRRS21</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Gestion des Ressources Humaines et vie dans les organisations</UF>
+		<id>I5CCGE21</id> 
+	</Semestre> 
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Applications mobiles et réseaux ambiants</UF>
+		<id>I5IRRS31</id>
+	<Semestre idSemestre = "S9-5IR">
+		<UF>Sécurité du logiciel et des réseaux </UF>
+		<id>I5IRSI11</id>
+	</Semestre>
+	<Semestre idSemestre = "S10-5IR">
+		<UF>Projet de fin d'étude</UF>
+		<id>I5CCST21</id>  
+	</Semestre> 
+</Semestres>
