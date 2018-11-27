@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UFs>
+	<UF code = "I2MAPH11">
+		<ECTS>4</ECTS>
+		<nom>Nanophysique : optique, photonique, nanotechnologies</nom>
+		<Responsable_UF>Christophe-VIEU-1<Responsable_UF>
+		<grand_domaine>Sciences appliquées</grand_domaine> 
+		<type></type>
+		<par_competence></par_competence>
+	</UF> 
+	<UF code = "I2MAMT11">
+		<ECTS>6</ECTS>
+		<nom>Algèbre et Analyse</nom>	
+		<Responsable_UF>Sandrine-SCOTT-1<Responsable_UF>
+		<grand_domaine>Sciences appliquées</grand_domaine> 
+	</UF> 
+	<UF code = "I2MAEL11">
+		<ECTS>6</ECTS>
+		<nom>Concepts et Circuits pour le Traitement du Signal</nom>	
+		<Responsable_UF>Etienne-SICARD-1<Responsable_UF>
+		<grand_domaine>Sciences appliquées</grand_domaine> 
+	</UF> 
+	<UF code = "I2MAIF11">
+		<ECTS>4</ECTS>
+		<nom>Informatique matérielle</nom>	
+		<Responsable_UF>Gwendoline-LECORRE-1<Responsable_UF>
+		<grand_domaine>Sciences appliquées</grand_domaine> 
+	</UF> 
+	<UF code = "I2CCGE31">
+		<ECTS>5</ECTS>
+		<nom>Connaissance de l'entreprise et des modes de communication</nom>	
+		<Responsable_UF>Laure-FABRE-1<Responsable_UF>
+		<grand_domaine>Sciences humaines</grand_domaine> 
+	</UF> 
+	<UF code = "I2CCGA11">
+		<ECTS>5</ECTS>
+		<nom>Grandir en autonomie - construire son projet professionnel 2</nom>	
+		<Responsable_UF>Sylvie-ROSSARD-1<Responsable_UF>
+		<grand_domaine>APS MO PPI</grand_domaine> 
+	</UF> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<UF code = "I4IRIL11">
+		<ECTS></ECTS>
+		<nom>Conception et Programmation Orientees Objet</nom>
+		<Semestre></Semestre>
+		<Responsable_UF><Responsable_UF>
+		<grand_domaine></grand_domaine> 
+	</UF> 
+	<UF code = "S7-4IR">
+		<></code>
+		<ECTS>Internet et Securite</ECTS>
+		<nom>I4IRRS11</nom> 
+	</UF> 
+	<UF code = "S7-4IR">
+		<ECTS>Developper ses competences manageriales</ECTS>
+		<nom>I4CCGE11</nom>
+		 
+	</UF> 
+	<UF code = "S7-4IR">
+		<ECTS>Grandir en autonomie et construire son projet professionnel</ECTS>
+		<nom>I4CCGA11</nom> 
+	</UF> 
+	<UF code = "S7-4IR">
+		<ECTS>Informatique fondamentale et peripherique</ECTS>
+		<nom>I4IRIF11</nom> 
+	</UF> 
+	<UF code = "S7-4IR">
+		<ECTS>Systeme d'information</ECTS>
+		<nom>I4IRIF21</nom> 
+	</UF> 
+	<UF code = "S7-4IR">
+		<ECTS>Reseaux mobiles et reseaux sans fil</ECTS>
+		<nom>I4IRRS21</nom> 
+	</UF> 
+	<UF code = "S7-4IR">
+		<ECTS>Techniques et systèmes de transmission</ECTS>
+		<nom>I4IRTC11</nom> 
+	</UF>
+
+	<UF code = "S8-4IR">
+		<ECTS>Systèmes concurrents et Temps réel </ECTS>
+		<nom>I4IRTR11</nom> 
+	</UF> 
+	<UF code = "S8-4IR">
+		<ECTS>Projet de recherche tutoré et conduite de projet</ECTS>
+		<nom>I4IRPJ11</nom> 
+	</UF> 
+	<UF code = "S8-4IR">
+		<ECTS>Communiquer dans les organisations </ECTS>
+		<nom>I4CCLA11</nom> 
+	</UF> 
+	<UF code = "S8-4IR">
+		<ECTS>Grandir en autonomie et construire son projet professionnel</ECTS>
+		<nom>I4IRGA41</nom> 
+	</UF> 
+	<UF code = "S8-4IR">
+		<ECTS>Systèmes intelligents</ECTS>
+		<nom>I4IRSD11</nom> 
+	</UF> 
+	<UF code = "S8-4IR">
+		<ECTS>Architecture logicielle et matérielle des systèmes informatiques</ECTS>
+		<nom>I4IRIM11</nom> 
+	</UF> 
+	<UF code = "S8-4IR">
+		<ECTS>Interconnexion avancée et réseaux grande distance</ECTS>
+		<nom>I4IRRS31</nom> 
+	</UF> 
+	<UF code = "S8-4IR">
+		<ECTS>Architecture matérielle des systèmes de télécommunication</ECTS>
+		<nom>I4IRTC21</nom> 
+	</UF> 
+
+	<UF code = "S9-5IR">
+		<ECTS>Paradigmes de programmation et architectures réseaux</ECTS>
+		<nom>I5AISE11</nom> 
+	<UF code = "S9-5IR">
+		<ECTS>Fiabilité des Systèmes Embarqués Critiques</ECTS>
+		<nom>I5AISE21</nom> 
+	</UF> 
+	<UF code = "S9-5IR">
+		<ECTS>Méthodes et outils pour l'analyse fonctionnelle et anglais</ECTS>
+		<nom>I5AISE31</nom> 
+	</UF> 
+	<UF code = "S9-5IR">
+		<ECTS>Paradigmes de programmation et architectures réseaux</ECTS>
+		<nom>I5AISE11</nom> 
+	</UF> 
+	<UF code = "S9-5IR">
+		<ECTS>Test et Intégration de systèmes</ECTS>
+		<nom>I5AISE41</nom> 
+	</UF> 
+	<UF code = "S9-5IR">
+		<ECTS>Gestion des Ressources Humaines et vie dans les organisations</ECTS>
+		<nom>I5CCGE21</nom> 
+	</UF> 
+	<UF code = "S9-5IR">
+		<ECTS>Ingéniérie des modèles</ECTS>
+		<nom>I5IRFM11</nom> 
+	</UF> 
+	<UF code = "S9-5IR">
+		<ECTS>Processus de développement logiciel</ECTS>
+		<nom>I5IRIL11</nom> 
+	</UF> 
+	<UF code = "S9-5IR">
+		<ECTS>Architectures orientées services</ECTS>
+		<nom>I5IRIL21</nom> 
+	</UF> 
+	<UF code = "S9-5IR">
+		<ECTS>Sureté de fonctionnement et modèle temporel</ECTS>
+		<nom>I5IRSF11</nom> 
+	</UF> 
+	<UF code = "S9-5IR">
+		<ECTS>Recherche d'information et représentation des connaissances</ECTS>
+		<nom>I5IRIL31</nom> 
+	<UF code = "S9-5IR">
+		<ECTS>Gestion des Ressources Humaines et vie dans les organisations</ECTS>
+		<nom>I5CCGE21</nom> 
+	</UF> 
+	<UF code = "S9-5IR">
+		<ECTS>Ingéniérie des modèles</ECTS>
+		<nom>I5IRFM11</nom> 
+	</UF> 
+	<UF code = "S9-5IR">
+		<ECTS>Programmation par contraintes et optimisation combinatoire</ECTS>
+		<nom>I5IRSD21</nom> 
+	</UF> 
+	<UF code = "S9-5IR">
+		<ECTS>Sécurité du logiciel et des réseaux</ECTS>
+		<nom>I5IRSI11</nom> 
+	</UF> 
+	<UF code = "S9-5IR">
+		<ECTS>Processus de développement logiciel pour les architectures orientées services</ECTS>
+		<nom>I5IRIL41</nom> 
+	</UF> 
+	<UF code = "S9-5IR">
+		<ECTS>Modélisation, évaluation et optimisation des réseaux et protocoles</ECTS>
+		<nom>I5IRRS11</nom> 
+	</UF> 
+	<UF code = "S9-5IR">
+		<ECTS>Réseaux émergents</ECTS>
+		<nom>I5IRRS21</nom> 
+	</UF> 
+	<UF code = "S9-5IR">
+		<ECTS>Gestion des Ressources Humaines et vie dans les organisations</ECTS>
+		<nom>I5CCGE21</nom> 
+	</UF> 
+	<UF code = "S9-5IR">
+		<ECTS>Applications mobiles et réseaux ambiants</ECTS>
+		<nom>I5IRRS31</nom>
+	<UF code = "S9-5IR">
+		<ECTS>Sécurité du logiciel et des réseaux </ECTS>
+		<nom>I5IRSI11</nom>
+	</UF>
+	<UF code = "S10-5IR">
+		<ECTS>Projet de fin d'étude</ECTS>
+		<nom>I5CCST21</nom>  
+	</UF> 
+</UFs>
