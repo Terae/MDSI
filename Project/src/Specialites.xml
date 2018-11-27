@@ -5,7 +5,7 @@
     <nom> Tronc Commun </nom>
     <Semestre> S1-1TC </Semestre>
     <Semestre> S2-1TC </Semestre>
-    <Responsable> alain-boyer-1 </Responsable>
+    <Responsable> Alain-BOYER-1 </Responsable>
     <Departement> STPI </Departement>
  </Specialite>
 
@@ -16,7 +16,7 @@
    <Semestre> S4-2IC </Semestre>
    <Semestre> S5-3IC </Semestre>
    <Semestre> S6-3IC </Semestre>
-   <Responsable> </Responsable>
+   <Responsable> Alexandra-BERTRON-1 </Responsable>
    <Departement> STPI </Departement>
  </Specialite>
 
@@ -28,7 +28,7 @@
     <Semestre> S4-2IMACS </Semestre>
     <Semestre> S5-3IMACS </Semestre>
     <Semestre> S6-3IMACS </Semestre>
-    <Responsable> </Responsable>
+    <Responsable> Inconnu-1 </Responsable>
     <Departement> STPI </Departement>
  </Specialite>
 
@@ -40,7 +40,7 @@
    <Semestre> S4-2MIC </Semestre>
    <Semestre> S5-3MIC </Semestre>
    <Semestre> S6-3MIC </Semestre>
-   <Responsable> violaine-roussier-michon-1 </Responsable>
+   <Responsable> Violaine-ROUSSIER-MICHON-1 </Responsable>
    <Departement> STPI </Departement>
  </Specialite>
 
@@ -51,7 +51,7 @@
    <Semestre> S4-2ICBE </Semestre>
    <Semestre> S5-3ICBE </Semestre>
    <Semestre> S6-3ICBE </Semestre>
-   <Responsable> sandrine.morel-1 </Responsable>
+   <Responsable> Sandrine.MOREL-1 </Responsable>
    <Departement> STPI </Departement>
  </Specialite>
 
@@ -62,7 +62,7 @@
    <Semestre> S8-4AE  </Semestre>
    <Semestre> S9-5AE  </Semestre>
    <Semestre> S10-5AE </Semestre>
-   <Responsable> </Responsable>
+   <Responsable> Inconnu-2 </Responsable>
    <Departement> GEI </Departement>
  </Specialite>
 
@@ -73,7 +73,7 @@
     <Semestre> S8-4GB  </Semestre>
     <Semestre> S9-5GB  </Semestre>
     <Semestre> S10-5GB </Semestre>
-    <Responsable> </Responsable>
+    <Responsable> Inconnu-3 </Responsable>
     <Departement> GB </Departement>
  </Specialite>
 
@@ -84,7 +84,7 @@
     <Semestre> S8-4IC  </Semestre>
     <Semestre> S9-4IC  </Semestre>
     <Semestre> S10-4IC </Semestre>
-    <Responsable> </Responsable>
+    <Responsable> Inconnu-4 </Responsable>
     <Departement> GC </Departement>
  </Specialite>
   <!-- Génie des Procédés et Environnement -->
@@ -94,7 +94,7 @@
     <Semestre> S8-4GPE  </Semestre>
     <Semestre> S9-4GPE  </Semestre>
     <Semestre> S10-4GPE </Semestre>
-    <Responsable> </Responsable>
+    <Responsable> Inconnu-5 </Responsable>
     <Departement> GPE </Departement>
  </Specialite>
   <!-- Génie Mécanique -->
@@ -104,6 +104,7 @@
       <Semestre> S8-4GM  </Semestre>
       <Semestre> S9-5GM  </Semestre>
       <Semestre> S10-5GM </Semestre>
+      <Responsable> Inconnu-6 </Responsable>
       <Departement> GM </Departement>
   </Specialite>
     <!-- Génie Physique -->
@@ -113,6 +114,7 @@
         <Semestre> S8-4GP  </Semestre>
         <Semestre> S9-5GP  </Semestre>
         <Semestre> S10-5GP </Semestre>
+        <Responsable> Inconnu-7 </Responsable>
         <Departement> GP </Departement>
  </Specialite>
   <!-- Informatique et Réseau -->
@@ -122,6 +124,7 @@
       <Semestre> S8-4IR  </Semestre>
       <Semestre> S9-5IR  </Semestre>
       <Semestre> S10-5IR </Semestre>
+      <Responsable> Pierre-PINEL-1 </Responsable>
       <Departement> GEI </Departement>
   </Specialite>
 
@@ -132,6 +135,7 @@
       <Semestre> S8-4MA  </Semestre>
       <Semestre> S9-5MA  </Semestre>
       <Semestre> S10-5MA </Semestre>
+      <Responsable> Inconnu-8 </Responsable>
       <Departement> MA  </Departement>
   </Specialite>
 </Specialites>
