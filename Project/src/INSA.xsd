@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Départements -->
   <xsd:element name="Departements">
     <xsd:complexType>
       <xsd:sequence>
@@ -9,8 +10,8 @@
 
     <!-- On peut avoir une référence vers un département à partir de son acronyme -->
     <xsd:keyref name="refDepartement" refer="cleDepartement">
-      <xsd:selector xpath="Departements/Departement"/>
-      <xsd:field xpath="acronyme"/>
+      <xsd:selector xpath="//Departements/Departement"/>
+      <xsd:field xpath="@acronyme"/>
     </xsd:keyref>
 
   </xsd:element>
@@ -29,5 +30,55 @@
       <xsd:selector xpath="."/>
       <xsd:field xpath="@acronyme"/>
     </xsd:key>
+
+    <xsd:key name="clePersonne">
+      <xsd:selector xpath="."/>
+      <xsd:field xpath="directeur"/>
+    </xsd:key>
+
   </xsd:element>
+
+  <!-- Specialites -->
+  <xsd:element name="Specialites">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="Specialite" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+
+    <!-- On peut avoir une référence vers un département à partir de son acronyme -->
+    <xsd:keyref name="refSpecialite" refer="cleSpecialite">
+      <xsd:selector xpath="//Specialites/Specialite"/>
+      <xsd:field xpath="acronyme"/>
+    </xsd:keyref>
+  </xsd:element>
+
+  <xsd:element name="Specialite">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="nom" type="xsd:string"/>
+        <xsd:element name="Semestre" minOccurs="2" maxOccurs="4"/>
+        <xsd:element name="Responsable" type="xsd:string"/>
+        <xsd:element name="Departement" type="xsd:string"/>
+      </xsd:sequence>
+      <xsd:attribute name="acronyme" type="xsd:string"/>
+    </xsd:complexType>
+
+    <xsd:key name="cleSpecialite">
+      <xsd:selector xpath="."/>
+      <xsd:field xpath="@acronyme"/>
+    </xsd:key>
+
+    <xsd:key name="clePersonne">
+      <xsd:selector xpath="."/>
+      <xsd:field xpath="Responsable"/>
+    </xsd:key>
+
+    <xsd:key name="cleDepartement">
+      <xsd:selector xpath="."/>
+      <xsd:field xpath="Departement"/>
+    </xsd:key>
+
+  </xsd:element>
+
 </xsd:schema>
