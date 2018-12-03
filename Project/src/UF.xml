@@ -9,6 +9,8 @@
 		<grand_domaine>Sciences appliquées</grand_domaine> 
 		<type></type>
 		<par_competence></par_competence>
+		<cours></cours>
+		<competence></competence>
 	</UF> 
 	<UF code = "I2MAMT11">
 		<ECTS>6</ECTS>

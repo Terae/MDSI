@@ -134,19 +134,19 @@
 	<Epreuve code="E1_CPartiel">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 	<Epreuve code="E2_TP">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 	<Epreuve code="E3_CTerminal">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 
@@ -156,19 +156,19 @@
 	<Epreuve code="cc1_formatif">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 	<Epreuve code="cc2_formatif">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 	<Epreuve code="cc3_certificatif">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 	
@@ -177,19 +177,19 @@
 	<Epreuve code="E1_CPartiel">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 	<Epreuve code="E2_CPartiel">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 	<Epreuve code="E3_CTerminal">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 
@@ -199,19 +199,19 @@
 	<Epreuve code="E1_CTlogique">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 	<Epreuve code="E2_CP Elec num">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 	<Epreuve code="E3_CT SFO+Elec">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 <!-- UF : I2CCGE31-->
@@ -219,25 +219,25 @@
 	<Epreuve code="E1_Exp">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 	<Epreuve code="E2_Gest">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 	<Epreuve code="E3_Lv1">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 	<Epreuve code="E4_Stage">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 
@@ -246,25 +246,25 @@
 	<Epreuve code="E1_Eps">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 	<Epreuve code="E2_Ppi">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 	<Epreuve code="I2CCMO10">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 	<Epreuve code="E4_Musiciens">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 
@@ -286,7 +286,7 @@
 	<Epreuve code="">
 		<Duree>	</Duree>
 		<Nature>	</Nature>
-		<Coefficient> </Coefficient>
+		<Coefficient> 0 </Coefficient>
 	</Epreuve>
 
 
