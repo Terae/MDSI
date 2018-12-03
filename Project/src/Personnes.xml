@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Personnes name="Personnes">
+<Personnes>
 
 	<Personne id="Nawal-GUERMOUCHE-1">
     	<nom>GUERMOUCHE</nom>
@@ -106,7 +106,7 @@
 		<telephone> 06-14-16-18-32</telephone>
 		<email>Alexandra-bertron@insa-toulouse.fr</email>
 	</Personne>
-	
+
 	<Personne id="Violaine-ROUSSIER-MICHON-1">
 		<nom>ROUSSIER-MICHON</nom>
 		<prenom>Violaine</prenom>
@@ -202,35 +202,13 @@
 		<telephone>06-35-66-87-55</telephone>
 		<email>pascal-noble@insa-toulouse.fr</email>
 	</Personne>
-	
+
 	<Personne id="Jean-Claude-LAFFITTE-1">
 		<nom>LAFFITTE</nom>
 		<prenom>Jean-Claude</prenom>
 		<bureau></bureau>
 		<telephone>06-23-89-66-24</telephone>
 		<email>jc-laffitte@insa-toulouse.fr</email>
-	</Personne>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<Personne id="">
-		<nom></nom>
-		<prenom></prenom>
-		<bureau></bureau>
-		<telephone></telephone>
-		<email></email>
 	</Personne>
 
 </Personnes>
