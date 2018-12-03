@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LesCours>
+
+<!-- A FAIRE : CReer un type pour l'element " type " acceptant un string "obligatoire" ou "facultatif "-->  
+
+<!-- 1ere Annee --> 
+
+	<Cours nom="APP d'Optique">
+		<CM> 10 </CM>
+		<TP> 4 </TP>
+		<TD> 8 </TD>
+		<type> Obligatoire <type>
+		<code_Epreuve> P0_APP0 </code_Epreuve>
+		<code_Epreuve> E3_Optique </code_Epreuve>
+		<code_Epreuve> P4_Tpoptique </code_Epreuve>
+		<code_Epreuve> P5_APPoptique </code_Epreuve>
+		<Responsable_cours> Julian-CARREY-1	</Responsable_cours>
+	<Cours>
+
+	<Cours nom="App de Mécanique">
+		<CM> 12 </CM>
+		<TP> 8 </TP>
+		<TD> 8 </TD>
+		<type> Obligatoire <type>
+		<code_Epreuve> E2_Meca </code_Epreuve>
+		<code_Epreuve> C1_CC1	</code_Epreuve>
+		<Responsable_cours> Julian-CARREY-1	</Responsable_cours>
+	<Cours>
+
+	<Cours nom="Mathematique">
+		<CM> 12 </CM>
+		<TP> 4 </TP>
+		<TD>  12 </TD>
+		<type> Obligatoire <type>
+		<code_Epreuve> C1_CC1 </code_Epreuve>
+		<code_Epreuve> C2_CC2	</code_Epreuve>
+		<code_Epreuve> E3_Examen </code_Epreuve>
+		<Responsable_cours> Pascal-NOBLE-1	</Responsable_cours>
+	<Cours>
+
+	<Cours nom="Liaisons Chimiques">
+		<CM> 4 </CM>
+		<TP> 1 </TP>
+		<TD> 3 </TD>
+		<type> Obligatoire <type>
+		<code_Epreuve> E3_Chimie </code_Epreuve>
+		<Responsable_cours> Philippe-SCHMITZ-1	</Responsable_cours>
+	<Cours>
+
+	<Cours nom="Chimie des Solutions">
+		<CM> 6 </CM>
+		<TP> 4 </TP>
+		<TD> 4 </TD>
+		<type> Obligatoire <type>
+		<code_Epreuve> P4_TP </code_Epreuve>
+		<code_Epreuve>	C1_CC1 </code_Epreuve>
+		<Responsable_cours> Philippe-SCHMITZ-1	</Responsable_cours>
+	<Cours>
+
+	<Cours nom="Biotechnologies">
+		<CM> 6 </CM>
+		<TP> 0 </TP>
+		<TD> 3 </TD>
+		<type> Obligatoire <type>
+		<code_Epreuve> E2_Bio </code_Epreuve>
+		<Responsable_cours> Philippe-SCHMITZ-1	</Responsable_cours>
+	<Cours>
+
+	<Cours nom="Algorithmique">
+		<CM> 8 </CM>
+		<TP> 0 </TP>
+		<TD> 4 </TD>
+		<type> Obligatoire <type>
+		<code_Epreuve> M1_Moodle </code_Epreuve>
+		<code_Epreuve> E3_Examen </code_Epreuve>
+		<Responsable_cours> Didier-LEBOTLAN-1	</Responsable_cours>
+	<Cours>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<Cours nom="">
+		<CM>  </CM>
+		<TP>  </TP>
+		<TD>  </TD>
+		<type>  <type>
+		<code_Epreuve>  </code_Epreuve>
+		<code_Epreuve>	</code_Epreuve>
+		<Responsable_cours> 	</Responsable_cours>
+	<Cours>
+
+</Cours>

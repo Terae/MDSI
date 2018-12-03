@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Personnes name="Personnes">
 
-	<Personne id="Nawal-Guermouche-1">
+	<Personne id="Nawal-GUERMOUCHE-1">
     	<nom>GUERMOUCHE</nom>
 		<prenom>Nawal</prenom>
 		<bureau> </bureau>
@@ -179,13 +179,30 @@
 		<email>sylvie-rossard@insa-toulouse.fr</email>
 	</Personne>
 
-	<Personne id="">
-		<nom></nom>
-		<prenom></prenom>
+	<Personne id="Helene-CARRERE-1">
+		<nom>CARRERE</nom>
+		<prenom>Helene</prenom>
 		<bureau></bureau>
-		<telephone></telephone>
-		<email></email>
+		<telephone>06-06-98-6-35</telephone>
+		<email>helene-carrere@insa-toulouse.fr</email>
 	</Personne>
+
+	<Personne id="Julian-CARREY-1">
+		<nom>CARREY</nom>
+		<prenom>Julian</prenom>
+		<bureau></bureau>
+		<telephone>06-33-66-83-12</telephone>
+		<email>julian-carrey@insa-toulouse.fr</email>
+	</Personne>
+
+	<Personne id="Pascal-NOBLE-1">
+		<nom>NOBLE</nom>
+		<prenom>Pascal</prenom>
+		<bureau></bureau>
+		<telephone>06-35-66-87-55</telephone>
+		<email>pascal-noble@insa-toulouse.fr</email>
+	</Personne>
+	
 
 
 

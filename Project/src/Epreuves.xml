@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Epreuves>
+
+<!-- 1ere Annee -->
+
+<!-- UF:I1 ANPH21 -->
+	<Epreuve code="P0_APP0">
+		<Duree>	1h15 </Duree>
+		<Nature> IE </Nature>
+		<Coefficient> 0.10 </Coefficient>
+	</Epreuve>
+
+	<Epreuve code="C1_CC1">
+		<Duree> 1H15 </Duree>
+		<Nature> IE </Nature>
+		<Coefficient> 0.10 </Coefficient>
+	</Epreuve>
+
+	<Epreuve code="E2_MECA">
+		<Duree>	2H </Duree>
+		<Nature> IE </Nature>
+		<Coefficient> 0.25 </Coefficient>
+	</Epreuve>
+
+	<Epreuve code="e3_Optique">
+		<Duree> 2H	</Duree>
+		<Nature> IE </Nature>
+		<Coefficient> 0.25 </Coefficient>
+	</Epreuve>
+
+	<Epreuve code="P4_Tpoptique">
+		<Duree> 2H30 </Duree>
+		<Nature> TP + Rapport </Nature>
+		<Coefficient> 0.15 </Coefficient>
+	</Epreuve>
+
+	<Epreuve code="P5_APPoptique">
+		<Duree>	20Min </Duree>
+		<Nature> Soutenance	</Nature>
+		<Coefficient> 0.10 </Coefficient>
+	</Epreuve>
+
+<!-- UF: I1 ANMT11 -->
+
+	<Epreuve code="C1_CC1">
+		<Duree>	1h15 </Duree>
+		<Nature> IE	</Nature>
+		<Coefficient> 0.25 </Coefficient>
+	</Epreuve>
+
+	<Epreuve code="C18CC2">
+		<Duree> 1H15	</Duree>
+		<Nature> IE	</Nature>
+		<Coefficient> 0.25 </Coefficient>
+	</Epreuve>
+
+	<Epreuve code="E3_Examen">
+		<Duree> 2H30	</Duree>
+		<Nature> IE	</Nature>
+		<Coefficient> 0.50 </Coefficient>
+	</Epreuve>
+
+<!-- UF: I1 ANBC11  -->
+
+	<Epreuve code="C1_CC1">
+		<Duree> 1H15	</Duree>
+		<Nature> IE	</Nature>
+		<Coefficient> 0.19 </Coefficient>
+	</Epreuve>
+
+	<Epreuve code="E2_Bio">
+		<Duree>1h15</Duree>
+		<Nature> IE </Nature>
+		<Coefficient> 0.24 </Coefficient>
+	</Epreuve>
+
+	<Epreuve code="E3_Chimie">
+		<Duree>	2H</Duree>
+		<Nature> IE	</Nature>
+		<Coefficient>0.39 </Coefficient>
+	</Epreuve>
+
+	<Epreuve code="P4_TP">
+		<Duree> 2H30	</Duree>
+		<Nature> TP + rapport </Nature>
+		<Coefficient> 0.18 </Coefficient>
+	</Epreuve>
+
+<!-- UF : I1 ANIF11 -->
+
+	<Epreuve code="M1_Moodle">
+		<Duree>	1h15</Duree>
+		<Nature> IE	</Nature>
+		<Coefficient> 0.18 </Coefficient>
+	</Epreuve>
+
+	<Epreuve code="P2_TP">
+		<Duree>	2H</Duree>
+		<Nature>	TP </Nature>
+		<Coefficient> 0.46 </Coefficient>
+	</Epreuve>
+
+	<Epreuve code="E3_Examen">
+		<Duree> 1h15	</Duree>
+		<Nature> IE	</Nature>
+		<Coefficient> 0.36 </Coefficient>
+	</Epreuve> 
+
+<!-- UF: I1 ANTI11 -->
+
+	<Epreuve code="C1_CSM">
+		<Duree>	1H15 </Duree>
+		<Nature> IE	</Nature>
+		<Coefficient> 0.60 </Coefficient>
+	</Epreuve>
+
+	<Epreuve code="C2_EM">
+		<Duree>	1H15 </Duree>
+		<Nature> IE </Nature>
+		<Coefficient> 0.24 </Coefficient>
+	</Epreuve>
+
+	<Epreuve code="C3_TDP">
+		<Duree>	2H </Duree>
+		<Nature> IE	</Nature>
+		<Coefficient> 0.16 </Coefficient>
+	</Epreuve>
+
+
+<!-- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<Epreuve code="">
+		<Duree>	</Duree>
+		<Nature>	</Nature>
+		<Coefficient> </Coefficient>
+	</Epreuve>
+
+
+</Epreuves>
+
+
+
