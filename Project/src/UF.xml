@@ -1,218 +1,242 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UFs>
+  <!-- Semestre 3  IMACS   -->
+  <UF code = "I2MAPH11">
+    <ECTS>4</ECTS>
+    <nom>Nanophysique : optique, photonique, nanotechnologies</nom>
+    <Responsable_UF>Christophe-VIEU-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+    <type></type>
+    <par_competence></par_competence>
+    <cours></cours>
+    <competence></competence>
+  </UF>
 
-	<!-- Semestre 3  IMACS   -->
-	<UF code = "I2MAPH11">
-		<ECTS>4</ECTS>
-		<nom>Nanophysique : optique, photonique, nanotechnologies</nom>
-		<Responsable_UF>Christophe-VIEU-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-		<type></type>
+  <UF code = "I2MAMT11">
+    <ECTS>6</ECTS>
+    <nom>Algèbre et Analyse</nom>
+    <Responsable_UF>Sandrine-SCOTT-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+  </UF>
+
+  <UF code = "I2MAEL11">
+    <ECTS>6</ECTS>
+    <nom>Concepts et Circuits pour le Traitement du Signal</nom>
+    <Responsable_UF>Etienne-SICARD-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+  </UF>
+
+  <UF code = "I2MAIF11">
+    <ECTS>4</ECTS>
+    <nom>Informatique matérielle</nom>
+    <Responsable_UF>Gwendoline-LECORRE-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+  </UF>
+
+  <UF code = "I2CCGE31">
+    <ECTS>5</ECTS>
+    <nom>Connaissance de l'entreprise et des modes de communication</nom>
+    <Responsable_UF>Laure-FABRE-1</Responsable_UF>
+    <grand_domaine>Sciences humaines</grand_domaine>
+  </UF>
+
+  <UF code = "I2CCGA11">
+    <ECTS>5</ECTS>
+    <nom>Grandir en autonomie - construire son projet professionnel 2</nom>
+    <Responsable_UF>Sylvie-ROSSARD-1</Responsable_UF>
+    <grand_domaine>APS MO PPI</grand_domaine>
+  </UF>
+
+  <!-- Semestre 4  IMACS   -->
+  <UF code = "I2MAPH31">
+    <ECTS>5</ECTS>
+    <nom>Physique des matériaux applications à la microélectrique</nom>
+    <Responsable_UF>Bertrand-RAQUET-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+    <type>
+    </type>
+    <par_competence>
+    </par_competence>
+  </UF>
+
+  <UF code = "I2MAPH21">
+    <ECTS>3</ECTS>
+    <nom>Electromagnétisme</nom>
+    <Responsable_UF>Xavier-HEBRAS-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+  </UF>
+
+  <UF code = "I2MAMT21">
+    <ECTS>5</ECTS>
+    <nom>Analyse et probabilités</nom>
+    <Responsable_UF>Stephane-GENIEYS-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+  </UF>
+
+  <UF code = "I2MAIF21">
+    <ECTS>4</ECTS>
+    <nom>Algorithme et programmation, Système d'exploitation</nom>
+    <Responsable_UF>Guillaume-AURIOL-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+  </UF>
+
+  <UF code = "I2MAAU11">
+    <ECTS>3</ECTS>
+    <nom>Systèmes bouclés</nom>
+    <Responsable_UF>Vincent-MAHOUT-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+  </UF>
+
+  <UF code = "I2CCLA31">
+    <ECTS>5</ECTS>
+    <nom>Communiquer en langue étrangères</nom>
+    <Responsable_UF>Claire-HEURTE-1</Responsable_UF>
+    <grand_domaine>Sciences humaines</grand_domaine>
+  </UF>
+
+  <UF code = "I2CCGA21">
+    <ECTS>5</ECTS>
+    <nom>Grandir en autonomie - construire son projet professionnel 2</nom>
+    <Responsable_UF>Sylvie-ROSSARD-1</Responsable_UF>
+    <grand_domaine>APS MO PPI</grand_domaine>
+  </UF>
+
+  <!-- Semestre 5 IMACS  -->
+  <UF code = "I3MAIF11">
+    <ECTS>6</ECTS>
+    <nom>Langage C, Analyse Numérique et Réseaux</nom>
+    <Responsable_UF>Florent-CHAZEL-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+    <type></type>
+    <par_competence></par_competence>
+  </UF>
+
+  <UF code = "I3MAPH11">
+    <ECTS>5</ECTS>
+    <nom>Mesures physique et statistique</nom>
+    <Responsable_UF>David-VIGNOLLES-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+  </UF>
+
+  <UF code = "I3MAAE11">
+    <ECTS>5</ECTS>
+    <nom>Automatique et Electronique </nom>
+    <Responsable_UF>Patrick-TOUNSI-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+  </UF>
+
+  <UF code = "I3MAPH31">
+    <ECTS>4</ECTS>
+    <nom>Propagation ondes électromagnétiques / mécanique classique</nom>
+    <Responsable_UF>Guillaume-AURIOL-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+  </UF>
+
+  <UF code = "I3CCGA11">
+    <ECTS>5</ECTS>
+    <nom>Grandir en autonomie 3 </nom>
+    <Responsable_UF>inconnu</Responsable_UF>
+    <grand_domaine>Sciences humaines</grand_domaine>
+  </UF>
+
+  <UF code = "I3CCGE31">
+    <ECTS>inconnu</ECTS>
+    <nom>Techniques de Recherche d'Emploi et Langues (avec LV2 ou Anglais renforcé) </nom>
+    <Responsable_UF>Florence-WAGNER-1</Responsable_UF>
+    <grand_domaine>Sciences humaines</grand_domaine>
+  </UF>
+
+  <UF code = "I3CCGE11">
+    <ECTS>5</ECTS>
+    <nom>Technique de recherche d'emploi et Langues</nom>
+    <Responsable_UF>Laure-FABRE-1</Responsable_UF>
+    <grand_domaine>Sciences humaines</grand_domaine>
+  </UF>
+
+  <!-- Semestre 6  IMACS   -->
+
+  <!-- Orientation AUTOMATIQUE et ELECTRONIQUE -->
+  <UF code = "I3MAIF22">
+    <ECTS>5</ECTS>
+    <nom>Informatique Matérielle : Architec. et Langage d'assemblage</nom>
+    <Responsable_UF>Vincent-MAHOUT-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+    <type></type>
 		<par_competence></par_competence>
-		<cours></cours>
-		<competence></competence>
-	</UF> 
-	<UF code = "I2MAMT11">
-		<ECTS>6</ECTS>
-		<nom>Algèbre et Analyse</nom>	
-		<Responsable_UF>Sandrine-SCOTT-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-	</UF> 
-	<UF code = "I2MAEL11">
-		<ECTS>6</ECTS>
-		<nom>Concepts et Circuits pour le Traitement du Signal</nom>	
-		<Responsable_UF>Etienne-SICARD-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-	</UF> 
-	<UF code = "I2MAIF11">
-		<ECTS>4</ECTS>
-		<nom>Informatique matérielle</nom>	
-		<Responsable_UF>Gwendoline-LECORRE-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-	</UF> 
-	<UF code = "I2CCGE31">
-		<ECTS>5</ECTS>
-		<nom>Connaissance de l'entreprise et des modes de communication</nom>	
-		<Responsable_UF>Laure-FABRE-1<Responsable_UF>
-		<grand_domaine>Sciences humaines</grand_domaine> 
-	</UF> 
-	<UF code = "I2CCGA11">
-		<ECTS>5</ECTS>
-		<nom>Grandir en autonomie - construire son projet professionnel 2</nom>	
-		<Responsable_UF>Sylvie-ROSSARD-1<Responsable_UF>
-		<grand_domaine>APS MO PPI</grand_domaine> 
-	</UF> 
+  </UF>
 
+  <UF code = "I3MAIF31">
+    <ECTS>4</ECTS>
+    <nom>Prog C, Réseaux, B.D.</nom>
+    <Responsable_UF>inconnu</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+  </UF>
 
-		<!-- Semestre 4  IMACS   -->
-	<UF code = "I2MAPH31">
-		<ECTS>5</ECTS>
-		<nom>Physique des matériaux applications à la microélectrique</nom>
-		<Responsable_UF>Bertrand-RAQUET-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-		<type></type>
-		<par_competence></par_competence>
-	</UF> 
-	<UF code = "I2MAPH21">
-		<ECTS>3</ECTS>
-		<nom>Electromagnétisme</nom>	
-		<Responsable_UF>Xavier-HEBRAS-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-	</UF> 
-	<UF code = "I2MAMT21">
-		<ECTS>5</ECTS>
-		<nom>Analyse et probabilités</nom>	
-		<Responsable_UF>Stephane-GENIEYS-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-	</UF> 
-	<UF code = "I2MAIF21">
-		<ECTS>4</ECTS>
-		<nom>Algorithme et programmation, Système d'exploitation</nom>	
-		<Responsable_UF>Guillaume-AURIOL-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-	</UF> 
-	<UF code = "I2MAAU11">
-		<ECTS>3</ECTS>
-		<nom>Systèmes bouclés</nom>	
-		<Responsable_UF>Vincent-MAHOUT-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-	</UF> 
-	<UF code = "I2CCLA31">
-		<ECTS>5</ECTS>
-		<nom>Communiquer en langue étrangères</nom>	
-		<Responsable_UF>Claire-HEURTE-1<Responsable_UF>
-		<grand_domaine>Sciences humaines</grand_domaine> 
-	</UF> 
-	<UF code = "I2CCGA21">
-		<ECTS>5</ECTS>
-		<nom>Grandir en autonomie - construire son projet professionnel 2</nom>	
-		<Responsable_UF>Sylvie-ROSSARD-1<Responsable_UF>
-		<grand_domaine>APS MO PPI</grand_domaine> 
-	</UF> 
+  <UF code = "I3MAAU12">
+    <ECTS>5</ECTS>
+    <nom>Automatique : Modélisation et Commande </nom>
+    <Responsable_UF>Audine-SUBIAS-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+  </UF>
 
+  <UF code = "I3MAPH31">
+    <ECTS>6</ECTS>
+    <nom>Electronique et signal</nom>
+    <Responsable_UF>Thierry-ROCACHER-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+  </UF>
 
-		 <!-- Semestre 5 IMACS  -->
-	<UF code = "I3MAIF11">
-		<ECTS>6</ECTS>
-		<nom>Langage C, Analyse Numérique et Réseaux</nom>
-		<Responsable_UF>Florent-CHAZEL-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-		<type></type>
-		<par_competence></par_competence>
-	</UF> 
-	<UF code = "I3MAPH11">
-		<ECTS>5</ECTS>
-		<nom>Mesures physique et statistique</nom>	
-		<Responsable_UF>David-VIGNOLLES-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-	</UF> 
-	<UF code = "I3MAAE11">
-		<ECTS>5</ECTS>
-		<nom>Automatique et Electronique </nom>	
-		<Responsable_UF>Patrick-TOUNSI-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-	</UF> 
-	<UF code = "I3MAPH31">
-		<ECTS>4</ECTS>
-		<nom>Propagation ondes électromagnétiques / mécanique classique</nom>	
-		<Responsable_UF>Guillaume-AURIOL-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-	</UF> 
-	<UF code = "I3CCGA11">
-		<ECTS>5</ECTS>
-		<nom>Grandir en autonomie 3 </nom>	
-		<Responsable_UF>inconnu<Responsable_UF>
-		<grand_domaine>Sciences humaines</grand_domaine> 
-	</UF> 
-	<UF code = "I3CCGE31">
-		<ECTS>inconnu</ECTS>
-		<nom>Techniques de Recherche d'Emploi et Langues (avec LV2 ou Anglais renforcé) </nom>	
-		<Responsable_UF>Florence-WAGNER-1<Responsable_UF>
-		<grand_domaine>Sciences humaines</grand_domaine> 
-	</UF> 
-	<UF code = "I3CCGE11">
-		<ECTS>5</ECTS>
-		<nom>Technique de recherche d'emploi et Langues</nom>	
-		<Responsable_UF>Laure-FABRE-1<Responsable_UF>
-		<grand_domaine>Sciences humaines</grand_domaine> 
-	</UF> 
-	
-		<!-- Semestre 6  IMACS   -->
-		<!-- Orientation AUTOMATIQUE et ELECTRONIQUE -->
-	<UF code = "I3MAIF22">
-		<ECTS>5</ECTS>
-		<nom>Informatique Matérielle : Architec. et Langage d'assemblage</nom>
-		<Responsable_UF>Vincent-MAHOUT-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-		<type></type>
-		<par_competence></par_competence>
-	</UF> 
-	<UF code = "I3MAIF31">
-		<ECTS>4</ECTS>
-		<nom>Prog C, Réseaux, B.D.</nom>	
-		<Responsable_UF>inconnu<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-	</UF> 
-	<UF code = "I3MAAU12">
-		<ECTS>5</ECTS>
-		<nom>Automatique : Modélisation et Commande </nom>	
-		<Responsable_UF>Audine-SUBIAS-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-	</UF> 
-	<UF code = "I3MAPH31">
-		<ECTS>6</ECTS>
-		<nom>Electronique et signal</nom>	
-		<Responsable_UF>Thierry-ROCACHER-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-	</UF> 
+  <!-- Orientation Genie Physique -->
+  <UF code = "I3MAPH42">
+    <ECTS>5</ECTS>
+    <nom>Thermodynamqiue et Diffusion</nom>
+    <Responsable_UF>Marc-RESPAUD-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+    <type></type>
+    <par_competence></par_competence>
+  </UF>
 
-	<!-- Orientation Genie Physique -->
-	<UF code = "I3MAPH42">
-		<ECTS>5</ECTS>
-		<nom>Thermodynamqiue et Diffusion</nom>
-		<Responsable_UF>Marc-RESPAUD-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-		<type></type>
-		<par_competence></par_competence>
-	</UF> 
-	<UF code = "I3MAPH52">
-		<ECTS>4</ECTS>
-		<nom>Physique des matériaux</nom>	
-		<Responsable_UF>Claude-MENY-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-	</UF> 
-	<UF code = "I3MAPH62">
-		<ECTS>5</ECTS>
-		<nom>Physique Appliquée des Matériaux</nom>	
-		<Responsable_UF>Benoit-VIALLET-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-	</UF> 
-	<UF code = "I3MAPH71">
-		<ECTS>6</ECTS>
-		<nom>Physique Quantique et Statistique</nom>	
-		<Responsable_UF>Pierre-RENUCCI-1<Responsable_UF>
-		<grand_domaine>Sciences appliquées</grand_domaine> 
-	</UF> 
-		
-	<!-- Tronc Commun -->
-	<UF code = "I3CCGE41">
-		<ECTS>inconnu</ECTS>
-		<nom>L'entreprise et son environnement</nom>	
-		<Responsable_UF>Michel-LOMI-1<Responsable_UF>
-		<grand_domaine>Sciences humaines</grand_domaine> 
-	</UF> 
-	<UF code = "I3CCGA21">
-		<ECTS>5</ECTS>
-		<nom>Grandir en autonomie niveau 3</nom>	
-		<Responsable_UF>inconnu<Responsable_UF>
-		<grand_domaine>Sciences humaines</grand_domaine> 
-	</UF> 
-	<UF code = "I3CCGE51">
-		<ECTS>inconnu</ECTS>
-		<nom>L'entreprise et son environnement (avec LV2 ou Anglais Renforcé)</nom>	
-		<Responsable_UF>inconnu<Responsable_UF>
-		<grand_domaine>Sciences humaines</grand_domaine> 
-	</UF> 
-		
+  <UF code = "I3MAPH52">
+    <ECTS>4</ECTS>
+    <nom>Physique des matériaux</nom>
+    <Responsable_UF>Claude-MENY-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+  </UF>
+
+  <UF code = "I3MAPH62">
+    <ECTS>5</ECTS>
+    <nom>Physique Appliquée des Matériaux</nom>
+    <Responsable_UF>Benoit-VIALLET-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+  </UF>
+
+  <UF code = "I3MAPH71">
+    <ECTS>6</ECTS>
+    <nom>Physique Quantique et Statistique</nom>
+    <Responsable_UF>Pierre-RENUCCI-1</Responsable_UF>
+    <grand_domaine>Sciences appliquées</grand_domaine>
+  </UF>
+
+  <!-- Tronc Commun -->
+  <UF code = "I3CCGE41">
+    <ECTS>inconnu</ECTS>
+    <nom>L'entreprise et son environnement</nom>
+    <Responsable_UF>Michel-LOMI-1</Responsable_UF>
+    <grand_domaine>Sciences humaines</grand_domaine>
+  </UF>
+
+  <UF code = "I3CCGA21">
+    <ECTS>5</ECTS>
+    <nom>Grandir en autonomie niveau 3</nom>
+    <Responsable_UF>inconnu</Responsable_UF>
+    <grand_domaine>Sciences humaines</grand_domaine>
+  </UF>
+
+  <UF code = "I3CCGE51">
+    <ECTS>inconnu</ECTS>
+    <nom>L'entreprise et son environnement (avec LV2 ou Anglais Renforcé)</nom>
+    <Responsable_UF>inconnu</Responsable_UF>
+    <grand_domaine>Sciences humaines</grand_domaine>
+  </UF>
 
 </UFs>

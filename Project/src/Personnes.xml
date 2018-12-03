@@ -1,214 +1,207 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Personnes>
 
-	<Personne id="Nawal-GUERMOUCHE-1">
-    	<nom>GUERMOUCHE</nom>
-		<prenom>Nawal</prenom>
-		<bureau> </bureau>
-		<telephone>06-24-35-62-17</telephone>
-		<email>nawal.guermouch@insa-toulouse.fr</email>
-  	</Personne>
+  <Personne id="Nawal-GUERMOUCHE-1">
+    <nom>GUERMOUCHE</nom>
+    <prenom>Nawal</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-24-35-62-17</telephone>
+    <email>nawal.guermouch@insa-toulouse.fr</email>
+  </Personne>
 
+  <Personne id="Alain-BOYER-1">
+    <nom>BOYER</nom>
+    <prenom>Alain</prenom>
+    <bureau> amphi 15 </bureau>
+    <telephone>06-25-12-97-45</telephone>
+    <email>Boyer.alain@insa-toulouse.fr</email>
+  </Personne>
 
+  <Personne id="Philippe-SCHMITZ-1">
+    <nom>SCHMITZ</nom>
+    <prenom>Philippe</prenom>
+    <bureau> GB 15 </bureau>
+    <telephone>06-78-79-15-11</telephone>
+    <email>Philippe.schmitz@insa-toulouse.fr</email>
+  </Personne>
 
-	<Personne id="Alain-BOYER-1">
-    	<nom>BOYER</nom>
-		<prenom>Alain</prenom>
-		<bureau> amphi 15 </bureau>
-		<telephone>06-25-12-97-45</telephone>
-		<email>Boyer.alain@insa-toulouse.fr</email>
-  	</Personne>
+  <Personne id="Frederic-DUPRAT-1">
+    <nom>DUPRAT</nom>
+    <prenom>Frederic</prenom>
+    <bureau> GC 217 </bureau>
+    <telephone>06-45-39-98-14</telephone>
+    <email>Frederic.duprat@insa-toulouse.fr</email>
+  </Personne>
 
+  <Personne id="Daniela-DRAGOMIRESCU-1">
+    <nom>DRAGOMIRESCU</nom>
+    <prenom>Daniela</prenom>
+    <bureau> GEI 217</bureau>
+    <telephone>06-99-98-97-96</telephone>
+    <email>daniela.drago@insa-toulouse.fr</email>
+  </Personne>
 
+  <Personne id="Manuel-PAREDES-1">
+    <nom>PAREDES</nom>
+    <prenom>Manuel</prenom>
+    <bureau> GPE 12 </bureau>
+    <telephone>06-11-12-13-14</telephone>
+    <email>manuel.paredes@insa-toulouse.fr</email>
+  </Personne>
 
-	<Personne id="Philippe-SCHMITZ-1">
-    	<nom>SCHMITZ</nom>
-		<prenom>Philippe</prenom>
-		<bureau> GB 15 </bureau>
-		<telephone>06-78-79-15-11</telephone>
-		<email>Philippe.schmitz@insa-toulouse.fr</email>
-  	</Personne>
+  <Personne id="David-VIGNOLLES-1">
+    <nom>David</nom>
+    <prenom>VIGNOLLES</prenom>
+    <bureau> GP 218</bureau>
+    <telephone>06-66-84-45-96</telephone>
+    <email>david.vignolles@insa-toulouse.fr</email>
+  </Personne>
 
+  <Personne id="Gilles-HEBRARD-1">
+    <nom>HEBRARD</nom>
+    <prenom>Gilles</prenom>
+    <bureau> GPE 201 </bureau>
+    <telephone>06-36-65-15-65</telephone>
+    <email>gilles.hebrard@insa-toulouse.fr</email>
+  </Personne>
 
+  <Personne id="Jean-Yves-DAUXOIS-1">
+    <nom>DAUXOIS</nom>
+    <prenom>Jean-Yves</prenom>
+    <bureau> MA 17 </bureau>
+    <telephone>06-60-02-65-02</telephone>
+    <email>jydauxois@insa-toulouse.fr</email>
+  </Personne>
 
-	<Personne id="Frederic-DUPRAT-1">
-    	<nom>DUPRAT</nom>
-		<prenom>Frederic</prenom>
-		<bureau> GC 217 </bureau>
-		<telephone>06-45-39-98-14</telephone>
-		<email>Frederic.duprat@insa-toulouse.fr</email>
-  	</Personne>
+  <Personne id="Francois-VERNADAT-1">
+    <nom>VERNADAT</nom>
+    <prenom>Francois</prenom>
+    <bureau> GEI 212</bureau>
+    <telephone>06-12-26-40-23</telephone>
+    <email>francois-vernadat@insa-toulouse.fr</email>
+  </Personne>
 
+  <Personne id="Alexandre-BERTRON-1">
+    <nom>BERTRON</nom>
+    <prenom>Alexandra</prenom>
+    <bureau> MA 18</bureau>
+    <telephone> 06-14-16-18-32</telephone>
+    <email>Alexandra-bertron@insa-toulouse.fr</email>
+  </Personne>
 
+  <Personne id="Violaine-ROUSSIER-MICHON-1">
+    <nom>ROUSSIER-MICHON</nom>
+    <prenom>Violaine</prenom>
+    <bureau> MA 16</bureau>
+    <telephone> 06-54-56-35-99 </telephone>
+    <email>violaine-roussier@insa-toulouse.fr</email>
+  </Personne>
 
-	<Personne id="Daniela-DRAGOMIRESCU-1">
-    	<nom>DRAGOMIRESCU</nom>
-		<prenom>Daniela</prenom>
-		<bureau> GEI 217</bureau>
-		<telephone>06-99-98-97-96</telephone>
-		<email>daniela.drago@insa-toulouse.fr</email>
-  	</Personne>
+  <Personne id="Sandrine-MOREL-1">
+    <nom>MOREL</nom>
+    <prenom>Sandrine</prenom>
+    <bureau> GP 234 </bureau>
+    <telephone>06-12-35-98-99</telephone>
+    <email>sandrine-morel@insa-toulouse.fr</email>
+  </Personne>
 
+  <Personne id="Pierre-PINEL-1">
+    <nom>PINEL</nom>
+    <prenom>Pierre</prenom>
+    <bureau>GEI 214</bureau>
+    <telephone>06-10-06-38-23</telephone>
+    <email>pierre-pinel@insa-toulouse.fr</email>
+  </Personne>
 
+  <Personne id="Christophe-VIEU-1">
+    <nom>VIEU</nom>
+    <prenom>Christophe</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-87-33-65-11</telephone>
+    <email>christophe-vieu@insa-toulouse.fr</email>
+  </Personne>
 
-	<Personne id="Manuel-PAREDES-1">
-    	<nom>PAREDES</nom>
-		<prenom>Manuel</prenom>
-		<bureau> GPE 12 </bureau>
-		<telephone>06-11-12-13-14</telephone>
-		<email>manuel.paredes@insa-toulouse.fr</email>
-  	</Personne>
+  <Personne id="Sandrine-SCOTT-1">
+    <nom>SCOTT</nom>
+    <prenom>Sandrine</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-32-47-55-66</telephone>
+    <email>sandrine-scott@insa-toulouse.fr</email>
+  </Personne>
 
+  <Personne id="Lea-COT-1">
+    <nom>COT</nom>
+    <prenom>Lea</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-33-12-55-77</telephone>
+    <email>lea-cot@insa-toulouse.fr</email>
+  </Personne>
 
+  <Personne id="gwendoline-LECORRE-1">
+    <nom>LECORRE</nom>
+    <prenom>Gwendoline</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-11-22-33-99</telephone>
+    <email>gwendoline-lecorre@insa-toulouse.fr</email>
+  </Personne>
 
-	<Personne id="David-VIGNOLLES-1">
-    	<nom>David</nom>
-		<prenom>VIGNOLLES</prenom>
-		<bureau> GP 218</bureau>
-		<telephone>06-66-84-45-96</telephone>
-		<email>david.vignolles@insa-toulouse.fr</email>
-  	</Personne>
+  <Personne id="Claire-HEURTE-1">
+    <nom>HEURTE</nom>
+    <prenom>Claire</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-33-56-75-02</telephone>
+    <email>claire-heurte@insa-toulouse.fr</email>
+  </Personne>
 
+  <Personne id="Sylvie-ROSSARD-1">
+    <nom>ROSSARD</nom>
+    <prenom>Sylvie</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-87-28-56-20</telephone>
+    <email>sylvie-rossard@insa-toulouse.fr</email>
+  </Personne>
 
-	<Personne id="Gilles-HEBRARD-1">
-    	<nom>HEBRARD</nom>
-		<prenom>Gilles</prenom>
-		<bureau> GPE 201 </bureau>
-		<telephone>06-36-65-15-65</telephone>
-		<email>gilles.hebrard@insa-toulouse.fr</email>
-  	</Personne>
+  <Personne id="Helene-CARRERE-1">
+    <nom>CARRERE</nom>
+    <prenom>Helene</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-06-98-6-35</telephone>
+    <email>helene-carrere@insa-toulouse.fr</email>
+  </Personne>
 
+  <Personne id="Julian-CARREY-1">
+    <nom>CARREY</nom>
+    <prenom>Julian</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-33-66-83-12</telephone>
+    <email>julian-carrey@insa-toulouse.fr</email>
+  </Personne>
 
+  <Personne id="Pascal-NOBLE-1">
+    <nom>NOBLE</nom>
+    <prenom>Pascal</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-35-66-87-55</telephone>
+    <email>pascal-noble@insa-toulouse.fr</email>
+  </Personne>
 
-	<Personne id="Jean-Yves-DAUXOIS-1">
-    	<nom>DAUXOIS</nom>
-		<prenom>Jean-Yves</prenom>
-		<bureau> MA 17 </bureau>
-		<telephone>06-60-02-65-02</telephone>
-		<email>jydauxois@insa-toulouse.fr</email>
-  	</Personne>
-
-
-
-	<Personne id="Francois-VERNADAT-1">
-    	<nom>VERNADAT</nom>
-		<prenom>Francois</prenom>
-		<bureau> GEI 212</bureau>
-		<telephone>06-12-26-40-23</telephone>
-		<email>francois-vernadat@insa-toulouse.fr</email>
-
-  	</Personne>
-
-	<Personne id="Alexandre-BERTRON-1">
-		<nom>BERTRON</nom>
-		<prenom>Alexandra</prenom>
-		<bureau> MA 18</bureau>
-		<telephone> 06-14-16-18-32</telephone>
-		<email>Alexandra-bertron@insa-toulouse.fr</email>
-	</Personne>
-
-	<Personne id="Violaine-ROUSSIER-MICHON-1">
-		<nom>ROUSSIER-MICHON</nom>
-		<prenom>Violaine</prenom>
-		<bureau> MA 16</bureau>
-		<telephone> 06-54-56-35-99 </telephone>
-		<email>violaine-roussier@insa-toulouse.fr</email>
-	</Personne>
-
-	<Personne id="Sandrine-MOREL-1">
-		<nom>MOREL</nom>
-		<prenom>Sandrine</prenom>
-		<bureau> GP 234 </bureau>
-		<telephone>06-12-35-98-99</telephone>
-		<email>sandrine-morel@insa-toulouse.fr</email>
-	</Personne>
-
-	<Personne id="Pierre-PINEL-1">
-		<nom>PINEL</nom>
-		<prenom>Pierre</prenom>
-		<bureau>GEI 214</bureau>
-		<telephone>06-10-06-38-23</telephone>
-		<email>pierre-pinel@insa-toulouse.fr</email>
-	</Personne>
-
-	<Personne id="Christophe-VIEU-1">
-		<nom>VIEU</nom>
-		<prenom>Christophe</prenom>
-		<bureau></bureau>
-		<telephone>06-87-33-65-11</telephone>
-		<email>christophe-vieu@insa-toulouse.fr</email>
-	</Personne>
-
-	<Personne id="Sandrine-SCOTT-1">
-		<nom>SCOTT</nom>
-		<prenom>Sandrine</prenom>
-		<bureau></bureau>
-		<telephone>06-32-47-55-66</telephone>
-		<email>sandrine-scott@insa-toulouse.fr</email>
-	</Personne>
-
-	<Personne id="Lea-COT-1">
-		<nom>COT</nom>
-		<prenom>Lea</prenom>
-		<bureau></bureau>
-		<telephone>06-33-12-55-77</telephone>
-		<email>lea-cot@insa-toulouse.fr</email>
-	</Personne>
-
-	<Personne id="gwendoline-LECORRE-1">
-		<nom>LECORRE</nom>
-		<prenom>Gwendoline</prenom>
-		<bureau></bureau>
-		<telephone>06-11-22-33-99</telephone>
-		<email>gwendoline-lecorre@insa-toulouse.fr</email>
-	</Personne>
-
-	<Personne id="Claire-HEURTE-1">
-		<nom>HEURTE</nom>
-		<prenom>Claire</prenom>
-		<bureau></bureau>
-		<telephone>06-33-56-75-02</telephone>
-		<email>claire-heurte@insa-toulouse.fr</email>
-	</Personne>
-
-	<Personne id="Sylvie-ROSSARD-1">
-		<nom>ROSSARD</nom>
-		<prenom>Sylvie</prenom>
-		<bureau></bureau>
-		<telephone>06-87-28-56-20</telephone>
-		<email>sylvie-rossard@insa-toulouse.fr</email>
-	</Personne>
-
-	<Personne id="Helene-CARRERE-1">
-		<nom>CARRERE</nom>
-		<prenom>Helene</prenom>
-		<bureau></bureau>
-		<telephone>06-06-98-6-35</telephone>
-		<email>helene-carrere@insa-toulouse.fr</email>
-	</Personne>
-
-	<Personne id="Julian-CARREY-1">
-		<nom>CARREY</nom>
-		<prenom>Julian</prenom>
-		<bureau></bureau>
-		<telephone>06-33-66-83-12</telephone>
-		<email>julian-carrey@insa-toulouse.fr</email>
-	</Personne>
-
-	<Personne id="Pascal-NOBLE-1">
-		<nom>NOBLE</nom>
-		<prenom>Pascal</prenom>
-		<bureau></bureau>
-		<telephone>06-35-66-87-55</telephone>
-		<email>pascal-noble@insa-toulouse.fr</email>
-	</Personne>
-	
-	<Personne id="Jean-Claude-LAFFITTE-1">
-		<nom>LAFFITTE</nom>
-		<prenom>Jean-Claude</prenom>
-		<bureau></bureau>
-		<telephone>06-23-89-66-24</telephone>
-		<email>jc-laffitte@insa-toulouse.fr</email>
-	</Personne>
+  <Personne id="Jean-Claude-LAFFITTE-1">
+    <nom>LAFFITTE</nom>
+    <prenom>Jean-Claude</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-23-89-66-24</telephone>
+    <email>jc-laffitte@insa-toulouse.fr</email>
+  </Personne>
 
 </Personnes>

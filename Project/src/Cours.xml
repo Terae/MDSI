@@ -1,331 +1,307 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LesCours>
+  <!-- A FAIRE : CReer un type pour l'element " type " acceptant un string "Obligatoire" ou "Optionnel "-->
+  <!-- 1ere Annee -->
+  <!-- UF:I1 ANPH21 -->
 
-<!-- A FAIRE : CReer un type pour l'element " type " acceptant un string "Obligatoire" ou "Optionnel "-->  
+  <Cours nom="APP d'Optique">
+    <CM>10</CM>
+    <TP>4</TP>
+    <TD>8</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>P0_APP0</code_Epreuve>
+    <code_Epreuve>E3_Optique</code_Epreuve>
+    <code_Epreuve>P4_Tpoptique</code_Epreuve>
+    <code_Epreuve>P5_APPoptique</code_Epreuve>
+    <Responsable_cours>Julian-CARREY-1</Responsable_cours>
+  </Cours>
 
-<!-- 1ere Annee --> 
+  <Cours nom="App de Mécanique">
+    <CM>12</CM>
+    <TP>8</TP>
+    <TD>8</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>E2_Meca</code_Epreuve>
+    <code_Epreuve>C1_CC1</code_Epreuve>
+    <Responsable_cours>Julian-CARREY-1</Responsable_cours>
+  </Cours>
 
-<!-- UF:I1 ANPH21 -->
+  <!-- UF: I1 ANMT11 -->
 
-	<Cours nom="APP d'Optique">
-		<CM> 10 </CM>
-		<TP> 4 </TP>
-		<TD> 8 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> P0_APP0 </code_Epreuve>
-		<code_Epreuve> E3_Optique </code_Epreuve>
-		<code_Epreuve> P4_Tpoptique </code_Epreuve>
-		<code_Epreuve> P5_APPoptique </code_Epreuve>
-		<Responsable_cours> Julian-CARREY-1	</Responsable_cours>
-	</Cours>
+  <Cours nom="Mathematique">
+    <CM>12</CM>
+    <TP>4</TP>
+    <TD>12</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>C1_CC1</code_Epreuve>
+    <code_Epreuve>C2_CC2</code_Epreuve>
+    <code_Epreuve>E3_Examen</code_Epreuve>
+    <Responsable_cours>Pascal-NOBLE-1</Responsable_cours>
+  </Cours>
 
-	<Cours nom="App de Mécanique">
-		<CM> 12 </CM>
-		<TP> 8 </TP>
-		<TD> 8 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> E2_Meca </code_Epreuve>
-		<code_Epreuve> C1_CC1	</code_Epreuve>
-		<Responsable_cours> Julian-CARREY-1	</Responsable_cours>
-	</Cours>
+  <!-- UF: I1 ANBC11  -->
 
-<!-- UF: I1 ANMT11 -->
+  <Cours nom="Liaisons Chimiques">
+    <CM>4</CM>
+    <TP>1</TP>
+    <TD>3</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>E3_Chimie</code_Epreuve>
+    <Responsable_cours>Philippe-SCHMITZ-1</Responsable_cours>
+  </Cours>
 
-	<Cours nom="Mathematique">
-		<CM> 12 </CM>
-		<TP> 4 </TP>
-		<TD>  12 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> C1_CC1 </code_Epreuve>
-		<code_Epreuve> C2_CC2	</code_Epreuve>
-		<code_Epreuve> E3_Examen </code_Epreuve>
-		<Responsable_cours> Pascal-NOBLE-1	</Responsable_cours>
-	</Cours>
+  <Cours nom="Chimie des Solutions">
+    <CM>6</CM>
+    <TP>4</TP>
+    <TD>4</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>P4_TP</code_Epreuve>
+    <code_Epreuve>C1_CC1</code_Epreuve>
+    <Responsable_cours>Philippe-SCHMITZ-1</Responsable_cours>
+  </Cours>
 
-<!-- UF: I1 ANBC11  -->
+  <Cours nom="Biotechnologies">
+    <CM>6</CM>
+    <TP>0</TP>
+    <TD>3</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>E2_Bio</code_Epreuve>
+    <Responsable_cours>Philippe-SCHMITZ-1</Responsable_cours>
+  </Cours>
 
-	<Cours nom="Liaisons Chimiques">
-		<CM> 4 </CM>
-		<TP> 1 </TP>
-		<TD> 3 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> E3_Chimie </code_Epreuve>
-		<Responsable_cours> Philippe-SCHMITZ-1	</Responsable_cours>
-	</Cours>
+  <!-- UF : I1 ANIF11 -->
 
-	<Cours nom="Chimie des Solutions">
-		<CM> 6 </CM>
-		<TP> 4 </TP>
-		<TD> 4 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> P4_TP </code_Epreuve>
-		<code_Epreuve>	C1_CC1 </code_Epreuve>
-		<Responsable_cours> Philippe-SCHMITZ-1	</Responsable_cours>
-	</Cours>
+  <Cours nom="Algorithmique">
+    <CM>8</CM>
+    <TP>0</TP>
+    <TD>4</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>M1_Moodle</code_Epreuve>
+    <code_Epreuve>E3_Examen</code_Epreuve>
+    <Responsable_cours>Didier-LEBOTLAN-1	</Responsable_cours>
+  </Cours>
 
-	<Cours nom="Biotechnologies">
-		<CM> 6 </CM>
-		<TP> 0 </TP>
-		<TD> 3 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> E2_Bio </code_Epreuve>
-		<Responsable_cours> Philippe-SCHMITZ-1	</Responsable_cours>
-	</Cours>
+  <Cours nom="Mathématiques">
+    <CM>12</CM>
+    <TP>4</TP>
+    <TD>4</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>P2_TP</code_Epreuve>
+    <Responsable_cours>Sandrine-SCOTT-1</Responsable_cours>
+  </Cours>
 
-<!-- UF : I1 ANIF11 -->
+  <!-- UF: I1 ANTI11 -->
 
-	<Cours nom="Algorithmique">
-		<CM> 8 </CM>
-		<TP> 0 </TP>
-		<TD> 4 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> M1_Moodle </code_Epreuve>
-		<code_Epreuve> E3_Examen </code_Epreuve>
-		<Responsable_cours> Didier-LEBOTLAN-1	</Responsable_cours>
-	</Cours>
+  <Cours nom="Conception des systemes mecaniques">
+    <CM>12</CM>
+    <TP>0</TP>
+    <TD>4</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>C1_CSM</code_Epreuve>
+    <Responsable_cours>
+    </Responsable_cours>
+  </Cours>
 
+  <Cours nom="Etude des Materiaux + CSM">
+    <CM>10</CM>
+    <TP>4</TP>
+    <TD>2</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>C2_EM</code_Epreuve>
+    <Responsable_cours>
+    </Responsable_cours>
+  </Cours>
 
-	<Cours nom="Mathématiques">
-		<CM> 12 </CM>
-		<TP> 4 </TP>
-		<TD> 4 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> P2_TP </code_Epreuve>
-		<Responsable_cours> Sandrine-SCOTT-1 </Responsable_cours>
-	</Cours>
+  <Cours nom="SDP">
+    <CM>10</CM>
+    <TP>6</TP>
+    <TD>6</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>C3_TDP</code_Epreuve>
+    <Responsable_cours>Jean-Claude-LAFFITTE-1</Responsable_cours>
+  </Cours>
 
-<!-- UF: I1 ANTI11 -->
-	
-	<Cours nom="Conception des systemes mecaniques">
-		<CM> 12 </CM>
-		<TP> 0 </TP>
-		<TD> 4  </TD>
-		<type> Obligatoire  </type>
-		<code_Epreuve> C1_CSM  </code_Epreuve>
-		<Responsable_cours> 	</Responsable_cours>
-	</Cours>
-	
-	<Cours nom="Etude des Materiaux + CSM">
-		<CM> 10 </CM>
-		<TP> 4 </TP>
-		<TD> 2 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> C2_EM </code_Epreuve>
-		<Responsable_cours> </Responsable_cours>
-	</Cours>
+  <!-- Semestre 3 IMACS -->
 
-	<Cours nom="SDP">
-		<CM> 10 </CM>
-		<TP> 6 </TP>
-		<TD> 6 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> C3_TDP </code_Epreuve>
-		<Responsable_cours> Jean-Claude-LAFFITTE-1 </Responsable_cours>
-	</Cours>
+  <!-- UF : I2M APH11 -->
 
-<!-- Semestre 3 IMACS -->
+  <Cours nom="Nanophysique">
+    <CM>10</CM>
+    <TP>0</TP>
+    <TD>4</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>E1_CPartiel</code_Epreuve>
+    <Responsable_cours>Christophe-VIEU-1</Responsable_cours>
+  </Cours>
 
-<!-- UF : I2M APH11 -->
+  <Cours nom="TP OPTIQUE">
+    <CM>6</CM>
+    <TP>4</TP>
+    <TD>0</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>E2_TP</code_Epreuve>
+    <Responsable_cours>Christophe-VIEU-1</Responsable_cours>
+  </Cours>
 
-	<Cours nom="Nanophysique">
-		<CM> 10 </CM>
-		<TP> 0 </TP>
-		<TD> 4 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> E1_CPartiel </code_Epreuve>
-		<Responsable_cours> Christophe-VIEU-1 </Responsable_cours>
-	</Cours>
+  <Cours nom="TP MEB">
+    <CM>3</CM>
+    <TP>3</TP>
+    <TD>0</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>E3_CTerminal</code_Epreuve>
+    <Responsable_cours>Christophe-VIEU-1</Responsable_cours>
+  </Cours>
 
-	<Cours nom="TP OPTIQUE">
-		<CM> 6 </CM>
-		<TP> 4 </TP>
-		<TD> 0 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> E2_TP </code_Epreuve>
-		<Responsable_cours> Christophe-VIEU-1	</Responsable_cours>
-	</Cours>
+  <Cours nom="TP AFM">
+    <CM>8</CM>
+    <TP>4</TP>
+    <TD>0</TD>
+    <type>Optionnel</type>
+    <Responsable_cours>Christophe-VIEU-1</Responsable_cours>
+  </Cours>
 
-	<Cours nom="TP MEB">
-		<CM> 3 </CM>
-		<TP> 3 </TP>
-		<TD> 0 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> E3_CTerminal </code_Epreuve>
-		<Responsable_cours> Christophe-VIEU-1	</Responsable_cours>
-	</Cours>
+  <!-- UF : I2M AMT11-->
 
-	<Cours nom="TP AFM">
-		<CM>  8</CM>
-		<TP> 4 </TP>
-		<TD> 0 </TD>
-		<type> Optionnel </type>
-		<Responsable_cours> Christophe-VIEU-1	</Responsable_cours>
-	</Cours>
+  <Cours nom="Analyse 1">
+    <CM>12</CM>
+    <TP>4</TP>
+    <TD>8</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>cc1_formatif</code_Epreuve>
+    <code_Epreuve>cc2_formatif</code_Epreuve>
+    <Responsable_cours>Sandrine-SCOTT-1</Responsable_cours>
+  </Cours>
 
-<!-- UF : I2M AMT11-->
-	
-	<Cours nom="Analyse 1">
-		<CM> 12 </CM>
-		<TP> 4 </TP>
-		<TD> 8 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> cc1_formatif </code_Epreuve>
-		<code_Epreuve> cc2_formatif </code_Epreuve>
-		<Responsable_cours> Sandrine-SCOTT-1 </Responsable_cours>
-	</Cours>
+  <Cours nom="Algèbre">
+    <CM>10</CM>
+    <TP>0</TP>
+    <TD>8</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>cc3_certificatif</code_Epreuve>
+    <Responsable_cours>Sandrine-SCOTT-1</Responsable_cours>
+  </Cours>
 
-	<Cours nom="Algèbre">
-		<CM> 10 </CM>
-		<TP> 0 </TP>
-		<TD> 8 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> cc3_certificatif </code_Epreuve>
-		<Responsable_cours> Sandrine-SCOTT-1 </Responsable_cours>
-	</Cours>
+  <!-- UF I2MAEL11 -->
+  <Cours nom="Electronique analogique">
+    <CM>10</CM>
+    <TP>4</TP>
+    <TD>3</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>E1_CPartiel</code_Epreuve>
+    <code_Epreuve>E2_CPartiel</code_Epreuve>
+    <Responsable_cours>Lea-COT-1</Responsable_cours>
+  </Cours>
 
-<!-- UF I2MAEL11 -->
+  <Cours nom="Signal">
+    <CM>6</CM>
+    <TP>4</TP>
+    <TD>2</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>E3_CTerminal</code_Epreuve>
+    <Responsable_cours>Lea-COT-1</Responsable_cours>
+  </Cours>
 
-	<Cours nom="Electronique analogique">
-		<CM> 10 </CM>
-		<TP> 4 </TP>
-		<TD> 3 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> E1_CPartiel  </code_Epreuve>
-		<code_Epreuve> E2_CPartiel  </code_Epreuve>
-		<Responsable_cours> Lea-COT-1	</Responsable_cours>
-	</Cours>
-	
-	<Cours nom="Signal">
-		<CM> 6 </CM>
-		<TP> 4 </TP>
-		<TD> 2 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> E3_CTerminal </code_Epreuve>
-		<Responsable_cours> Lea-COT-1	</Responsable_cours>
-	</Cours>
+  <!-- UF I2MAIF11 -->
 
-<!-- UF I2MAIF11 -->
+  <Cours nom="Informatique Materielle">
+    <CM>4</CM>
+    <TP>4</TP>
+    <TD>6</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>E1_CT_logique</code_Epreuve>
+    <code_Epreuve>E3_CT_SFO+Elec</code_Epreuve>
+    <Responsable_cours>xsd:integreGwendoline-LECORRE-1xsd:integre</Responsable_cours>
+  </Cours>
 
-	<Cours nom="Informatique Materielle">
-		<CM> 4 </CM>
-		<TP> 4 </TP>
-		<TD> 6 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> E1_CTlogique  </code_Epreuve>
-		<code_Epreuve> E3_CT SFO+Elec </code_Epreuve>
-		<Responsable_cours> Gwendoline-LECORRE-1 </Responsable_cours>
-	</Cours>
+  <Cours nom="Electronique Numerique">
+    <CM>4</CM>
+    <TP>6</TP>
+    <TD>2</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>E2_CP_Elect_num_</code_Epreuve>
+    <Responsable_cours>Gwendoline-LECORRE-1</Responsable_cours>
+  </Cours>
 
-	<Cours nom="Electronique Numerique">
-		<CM> 4 </CM>
-		<TP> 6 </TP>
-		<TD> 2 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> E2_CP Elect num  </code_Epreuve>
-		<Responsable_cours> Gwendoline-LECORRE-1	</Responsable_cours>
-	</Cours>
+  <!-- UF I2CCGE31 -->
 
+  <Cours nom="Expression">
+    <CM>0</CM>
+    <TP>0</TP>
+    <TD>15</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>E1_Exp</code_Epreuve>
+    <Responsable_cours>Claire-HEURTE-1</Responsable_cours>
+  </Cours>
 
+  <Cours nom="Gestion">
+    <CM>0</CM>
+    <TP>0</TP>
+    <TD>15</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>E2_Gest</code_Epreuve>
+    <Responsable_cours>Claire-HEURTE-1</Responsable_cours>
+  </Cours>
 
-<!-- UF I2CCGE31 -->
+  <Cours nom="Lv1">
+    <CM>0</CM>
+    <TP>0</TP>
+    <TD>15</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>E3_Lv1</code_Epreuve>
+    <Responsable_cours>Claire-HEURTE-1</Responsable_cours>
+  </Cours>
 
+  <Cours nom="Stage">
+    <CM>0</CM>
+    <TP>0</TP>
+    <TD>0</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>E4_Stage</code_Epreuve>
+    <Responsable_cours>Claire-HEURTE-1</Responsable_cours>
+  </Cours>
 
-	<Cours nom="Expression">
-		<CM> 0 </CM>
-		<TP> 0 </TP>
-		<TD> 15 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> E1_Exp </code_Epreuve>
-		<Responsable_cours> Claire-HEURTE-1	</Responsable_cours>
-	</Cours>
+  <!-- I2CCGA11 -->
 
-	<Cours nom="Gestion">
-		<CM> 0 </CM>
-		<TP> 0 </TP>
-		<TD> 15 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> E2_Gest </code_Epreuve>
-		<Responsable_cours> Claire-HEURTE-1	</Responsable_cours>
-	</Cours>
+  <Cours nom="EPS">
+    <CM>0</CM>
+    <TP>0</TP>
+    <TD>15</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>E1_Eps</code_Epreuve>
+    <Responsable_cours>Sylvie-ROSSARD-1</Responsable_cours>
+  </Cours>
 
-	<Cours nom="Lv1">
-		<CM> 0 </CM>
-		<TP> 0 </TP>
-		<TD> 15 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> E3_Lv1 </code_Epreuve>
-		<Responsable_cours> Claire-HEURTE-1	</Responsable_cours>
-	</Cours>
+  <Cours nom="PPI">
+    <CM>0</CM>
+    <TP>0</TP>
+    <TD>0</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>e2_Ppi</code_Epreuve>
+    <Responsable_cours>Sylvie-ROSSARD-1</Responsable_cours>
+  </Cours>
 
-	<Cours nom="Stage">
-		<CM> 0 </CM>
-		<TP> 0 </TP>
-		<TD> 0 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve>E4_Stage  </code_Epreuve>
-		<Responsable_cours> Claire-HEURTE-1	</Responsable_cours>
-	</Cours>
+  <Cours nom="MO">
+    <CM>0</CM>
+    <TP>0</TP>
+    <TD>15</TD>
+    <type>Obligatoire</type>
+    <code_Epreuve>I2C_CMO10</code_Epreuve>
+    <Responsable_cours>Sylvie-ROSSARD-1</Responsable_cours>
+  </Cours>
 
-<!-- I2CCGA11 --> 
+  <Cours nom="Musique ou Danse Etude">
+    <CM>0</CM>
+    <TP>0</TP>
+    <TD>0</TD>
+    <type>Optionnel</type>
+    <code_Epreuve>E4_Musiciens</code_Epreuve>
+    <Responsable_cours>Sylvie-ROSSARD-1</Responsable_cours>
+  </Cours>
 
-	<Cours nom="EPS">
-		<CM> 0 </CM>
-		<TP> 0 </TP>
-		<TD> 15 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> E1_Eps </code_Epreuve>
-		<Responsable_cours> Sylvie-ROSSARD-1 </Responsable_cours>
-	</Cours>
-
-	<Cours nom="PPI">
-		<CM> 0 </CM>
-		<TP> 0 </TP>
-		<TD> 0 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> e2_Ppi </code_Epreuve>
-		<Responsable_cours> Sylvie-ROSSARD-1 </Responsable_cours>
-	</Cours>
-
-	<Cours nom="MO">
-		<CM> 0 </CM>
-		<TP> 0 </TP>
-		<TD> 15 </TD>
-		<type> Obligatoire </type>
-		<code_Epreuve> I2C_CMO10 </code_Epreuve>
-		<Responsable_cours> Sylvie-ROSSARD-1 </Responsable_cours>
-	</Cours>
-
-	<Cours nom="Musique ou Danse Etude">
-		<CM> 0 </CM>
-		<TP> 0 </TP>
-		<TD> 0 </TD>
-		<type> Optionnel </type>
-		<code_Epreuve> E4_Musiciens </code_Epreuve>
-		<Responsable_cours> Sylvie-ROSSARD-1 </Responsable_cours>
-	</Cours>
-
-<!-- Semestre 4  IMACS   -->
-
-
-
-
-
-<!-- Semestre 5 IMACS  -->
-
-
-
-
-<!-- Semestre 6  IMACS   -->
-	<!-- Orientation AUTOMATIQUE et ELECTRONIQUE -->
-
-
-	<!-- Orientation Genie Physique -->
-
-	<!-- Tronc Commun -->
-
-
-
-
-
-
+  <!-- Semestre 4  IMACS   -->
+  <!-- Semestre 5 IMACS  -->
+  <!-- Semestre 6  IMACS   -->
+  <!-- Orientation AUTOMATIQUE et ELECTRONIQUE -->
+  <!-- Orientation Genie Physique -->
+  <!-- Tronc Commun -->
 </LesCours>
