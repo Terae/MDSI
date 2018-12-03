@@ -18,13 +18,14 @@
       <xsd:selector xpath="Departements/Departement"/>
       <xsd:field xpath="@id"/>
     </xsd:key>
+
     <xsd:keyref name="refDirecteur" refer="clePersonne">
       <xsd:selector xpath=".//Departement"/>
       <xsd:field xpath="./directeur"/>
     </xsd:keyref>
 
   </xsd:element>
-  
+
   <!-- Personnes -->
   <xsd:element name="Personnes">
     <xsd:complexType>
