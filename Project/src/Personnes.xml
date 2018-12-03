@@ -203,6 +203,13 @@
 		<email>pascal-noble@insa-toulouse.fr</email>
 	</Personne>
 	
+	<Personne id="Jean-Claude-LAFFITTE-1">
+		<nom>LAFFITTE</nom>
+		<prenom>Jean-Claude</prenom>
+		<bureau></bureau>
+		<telephone>06-23-89-66-24</telephone>
+		<email>jc-laffitte@insa-toulouse.fr</email>
+	</Personne>
 
 
 

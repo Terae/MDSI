@@ -5,6 +5,8 @@
 
 <!-- 1ere Annee --> 
 
+<!-- UF:I1 ANPH21 -->
+
 	<Cours nom="APP d'Optique">
 		<CM> 10 </CM>
 		<TP> 4 </TP>
@@ -27,6 +29,8 @@
 		<Responsable_cours> Julian-CARREY-1	</Responsable_cours>
 	<Cours>
 
+<!-- UF: I1 ANMT11 -->
+
 	<Cours nom="Mathematique">
 		<CM> 12 </CM>
 		<TP> 4 </TP>
@@ -37,6 +41,8 @@
 		<code_Epreuve> E3_Examen </code_Epreuve>
 		<Responsable_cours> Pascal-NOBLE-1	</Responsable_cours>
 	<Cours>
+
+<!-- UF: I1 ANBC11  -->
 
 	<Cours nom="Liaisons Chimiques">
 		<CM> 4 </CM>
@@ -66,6 +72,8 @@
 		<Responsable_cours> Philippe-SCHMITZ-1	</Responsable_cours>
 	<Cours>
 
+<!-- UF : I1 ANIF11 -->
+
 	<Cours nom="Algorithmique">
 		<CM> 8 </CM>
 		<TP> 0 </TP>
@@ -77,6 +85,43 @@
 	<Cours>
 
 
+	<Cours nom="Mathématiques">
+		<CM> 12 </CM>
+		<TP> 4 </TP>
+		<TD> 4 </TD>
+		<type> Obligatoire <type>
+		<code_Epreuve> P2_TP </code_Epreuve>
+		<Responsable_cours> Sandrine-SCOTT-1 </Responsable_cours>
+	<Cours>
+
+<!-- UF: I1 ANTI11 -->
+	
+	<Cours nom="Conception des systemes mecaniques">
+		<CM> 12 </CM>
+		<TP> 0 </TP>
+		<TD> 4  </TD>
+		<type> Obligatoire  <type>
+		<code_Epreuve> C1_CSM  </code_Epreuve>
+		<Responsable_cours> 	</Responsable_cours>
+	<Cours>
+	
+	<Cours nom="Etude des Materiaux + CSM">
+		<CM> 10 </CM>
+		<TP> 4 </TP>
+		<TD> 2 </TD>
+		<type> Obligatoire <type>
+		<code_Epreuve> C2_EM </code_Epreuve>
+		<Responsable_cours> </Responsable_cours>
+	<Cours>
+
+	<Cours nom="SDP">
+		<CM> 10 </CM>
+		<TP> 6 </TP>
+		<TD> 6 </TD>
+		<type> Obligatoire <type>
+		<code_Epreuve> C3_TDP </code_Epreuve>
+		<Responsable_cours> Jean-Claude-LAFFITTE-1 </Responsable_cours>
+	<Cours>
 
 
 
