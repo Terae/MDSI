@@ -158,9 +158,9 @@
         <xsd:element name="Responsable_UF" type="xsd:string"/>
         <xsd:element name="grand_domaine" type="xsd:string"/>
         <xsd:element name="type" type="Hetero_ou_Contuin"/>
-        <xsd:element name="par_competence" type="xsd:string"/>
-        <xsd:element name="cours" type="xsd:string"/>
-        <xsd:element name="competence" type="xsd:string"/>
+        <xsd:element name="par_competence" type="xsd:boolean"/>
+        <xsd:element name="cours" type="xsd:string" maxOccurs="unbounded"/>
+        <xsd:element name="competence" type="xsd:string" maxOccurs="unbounded"/>
       </xsd:sequence>
       <xsd:attribute name="code" type="xsd:string"/>
     </xsd:complexType>
@@ -184,9 +184,19 @@
   <xsd:simpleType name="Hetero_ou_Contuin">
     <xsd:restriction base="xsd:string">
       <xsd:enumeration value="Heterogene"/>
-      <xsd:enumeration value="Continuite"/>
+      <xsd:enumeration value="Homogene"/>
     </xsd:restriction>
   </xsd:simpleType>
+
+  <!-- Type personnalisé -->
+  <xsd:simpleType name="Type_dexam">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Ecris"/>
+      <xsd:enumeration value="Oral"/>
+	  <xsd:enumeration value="Rapport"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
 
   <!-- LesCours -->
   <xsd:element name="LesCours">

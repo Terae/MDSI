@@ -6,10 +6,14 @@
     <nom>Nanophysique : optique, photonique, nanotechnologies</nom>
     <Responsable_UF>Christophe-VIEU-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
-    <type></type>
-    <par_competence></par_competence>
-    <cours></cours>
-    <competence></competence>
+    <type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours>Nanophysique</cours>
+	<cours>TP OPTIQUE</cours>
+	<cours>TP MEB</cours>
+	<cours>TP AFM</cours>
+    <competence>Nanophysique1</competence>
+	<competence>Nanophysique2</competence>
   </UF>
 
   <UF code = "I2MAMT11">
@@ -17,6 +21,12 @@
     <nom>Algèbre et Analyse</nom>
     <Responsable_UF>Sandrine-SCOTT-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours>Analyse 1</cours>
+	<cours>Algèbre</cours>
+    <competence>Analyse1</competence>
+	<competence>Analyse2</competence>
   </UF>
 
   <UF code = "I2MAEL11">
@@ -24,6 +34,13 @@
     <nom>Concepts et Circuits pour le Traitement du Signal</nom>
     <Responsable_UF>Etienne-SICARD-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours>Electronique analogique</cours>
+	<cours>Signal</cours>
+    <competence>Signaux1</competence>
+	<competence>Signaux2</competence>
+	<competence>Signaux3</competence>
   </UF>
 
   <UF code = "I2MAIF11">
@@ -31,6 +48,13 @@
     <nom>Informatique matérielle</nom>
     <Responsable_UF>Gwendoline-LECORRE-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours>Informatique Materielle</cours>
+	<cours>Electronique Numerique</cours>    
+	<competence>Informatique1</competence> 
+	<competence>Informatique2</competence> 
+	<competence>Informatique3</competence>
   </UF>
 
   <UF code = "I2CCGE31">
@@ -38,6 +62,15 @@
     <nom>Connaissance de l'entreprise et des modes de communication</nom>
     <Responsable_UF>Laure-FABRE-1</Responsable_UF>
     <grand_domaine>Sciences humaines</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours>Expression</cours>
+	<cours>Gestion</cours>
+	<cours>Lv1</cours>    
+	<cours>Stage</cours>	
+	<competence>CSH1</competence>
+	<competence>CSH2</competence>
+	<competence>CSH3</competence>
   </UF>
 
   <UF code = "I2CCGA11">
@@ -45,7 +78,16 @@
     <nom>Grandir en autonomie - construire son projet professionnel 2</nom>
     <Responsable_UF>Sylvie-ROSSARD-1</Responsable_UF>
     <grand_domaine>APS MO PPI</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours>EPS</cours>
+	<cours>PPI</cours>
+	<cours>MO</cours>
+	<cours>Musique ou Danse Etude</cours>
+    <competence>Autonomie1</competence>
+	<competence>Autonomie2</competence>
   </UF>
+
 
   <!-- Semestre 4  IMACS   -->
   <UF code = "I2MAPH31">
@@ -53,10 +95,10 @@
     <nom>Physique des matériaux applications à la microélectrique</nom>
     <Responsable_UF>Bertrand-RAQUET-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
-    <type>
-    </type>
-    <par_competence>
-    </par_competence>
+    <type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <UF code = "I2MAPH21">
@@ -64,6 +106,10 @@
     <nom>Electromagnétisme</nom>
     <Responsable_UF>Xavier-HEBRAS-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <UF code = "I2MAMT21">
@@ -71,6 +117,10 @@
     <nom>Analyse et probabilités</nom>
     <Responsable_UF>Stephane-GENIEYS-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <UF code = "I2MAIF21">
@@ -78,6 +128,10 @@
     <nom>Algorithme et programmation, Système d'exploitation</nom>
     <Responsable_UF>Guillaume-AURIOL-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <UF code = "I2MAAU11">
@@ -85,6 +139,10 @@
     <nom>Systèmes bouclés</nom>
     <Responsable_UF>Vincent-MAHOUT-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
+	<type>Heterogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <UF code = "I2CCLA31">
@@ -92,6 +150,10 @@
     <nom>Communiquer en langue étrangères</nom>
     <Responsable_UF>Claire-HEURTE-1</Responsable_UF>
     <grand_domaine>Sciences humaines</grand_domaine>
+	<type>Heterogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <UF code = "I2CCGA21">
@@ -99,6 +161,10 @@
     <nom>Grandir en autonomie - construire son projet professionnel 2</nom>
     <Responsable_UF>Sylvie-ROSSARD-1</Responsable_UF>
     <grand_domaine>APS MO PPI</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>true</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <!-- Semestre 5 IMACS  -->
@@ -107,8 +173,10 @@
     <nom>Langage C, Analyse Numérique et Réseaux</nom>
     <Responsable_UF>Florent-CHAZEL-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
-    <type></type>
-    <par_competence></par_competence>
+    <type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <UF code = "I3MAPH11">
@@ -116,6 +184,10 @@
     <nom>Mesures physique et statistique</nom>
     <Responsable_UF>David-VIGNOLLES-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <UF code = "I3MAAE11">
@@ -123,6 +195,10 @@
     <nom>Automatique et Electronique </nom>
     <Responsable_UF>Patrick-TOUNSI-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <UF code = "I3MAPH31">
@@ -130,6 +206,10 @@
     <nom>Propagation ondes électromagnétiques / mécanique classique</nom>
     <Responsable_UF>Guillaume-AURIOL-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <UF code = "I3CCGA11">
@@ -137,13 +217,21 @@
     <nom>Grandir en autonomie 3 </nom>
     <Responsable_UF>inconnu</Responsable_UF>
     <grand_domaine>Sciences humaines</grand_domaine>
+	<type>Heterogene</type>
+    <par_competence>true</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <UF code = "I3CCGE31">
-    <ECTS>inconnu</ECTS>
+    <ECTS>4</ECTS>
     <nom>Techniques de Recherche d'Emploi et Langues (avec LV2 ou Anglais renforcé) </nom>
     <Responsable_UF>Florence-WAGNER-1</Responsable_UF>
     <grand_domaine>Sciences humaines</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <UF code = "I3CCGE11">
@@ -151,6 +239,10 @@
     <nom>Technique de recherche d'emploi et Langues</nom>
     <Responsable_UF>Laure-FABRE-1</Responsable_UF>
     <grand_domaine>Sciences humaines</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <!-- Semestre 6  IMACS   -->
@@ -161,8 +253,10 @@
     <nom>Informatique Matérielle : Architec. et Langage d'assemblage</nom>
     <Responsable_UF>Vincent-MAHOUT-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
-    <type></type>
-		<par_competence></par_competence>
+    <type>Homogene</type>
+    <par_competence>true</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <UF code = "I3MAIF31">
@@ -170,6 +264,10 @@
     <nom>Prog C, Réseaux, B.D.</nom>
     <Responsable_UF>inconnu</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>true</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <UF code = "I3MAAU12">
@@ -177,6 +275,10 @@
     <nom>Automatique : Modélisation et Commande </nom>
     <Responsable_UF>Audine-SUBIAS-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <UF code = "I3MAPH31">
@@ -184,6 +286,10 @@
     <nom>Electronique et signal</nom>
     <Responsable_UF>Thierry-ROCACHER-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <!-- Orientation Genie Physique -->
@@ -192,8 +298,10 @@
     <nom>Thermodynamqiue et Diffusion</nom>
     <Responsable_UF>Marc-RESPAUD-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
-    <type></type>
-    <par_competence></par_competence>
+    <type>Heterogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <UF code = "I3MAPH52">
@@ -201,6 +309,10 @@
     <nom>Physique des matériaux</nom>
     <Responsable_UF>Claude-MENY-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <UF code = "I3MAPH62">
@@ -208,6 +320,10 @@
     <nom>Physique Appliquée des Matériaux</nom>
     <Responsable_UF>Benoit-VIALLET-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <UF code = "I3MAPH71">
@@ -215,14 +331,22 @@
     <nom>Physique Quantique et Statistique</nom>
     <Responsable_UF>Pierre-RENUCCI-1</Responsable_UF>
     <grand_domaine>Sciences appliquées</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <!-- Tronc Commun -->
   <UF code = "I3CCGE41">
-    <ECTS>inconnu</ECTS>
+    <ECTS>5</ECTS>
     <nom>L'entreprise et son environnement</nom>
     <Responsable_UF>Michel-LOMI-1</Responsable_UF>
     <grand_domaine>Sciences humaines</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
   <UF code = "I3CCGA21">
@@ -230,13 +354,21 @@
     <nom>Grandir en autonomie niveau 3</nom>
     <Responsable_UF>inconnu</Responsable_UF>
     <grand_domaine>Sciences humaines</grand_domaine>
+	<type>Homogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
-  <UF code = "I3CCGE51">
-    <ECTS>inconnu</ECTS>
+  <UF code = "I3CCGE51"> 
+    <ECTS>3</ECTS>
     <nom>L'entreprise et son environnement (avec LV2 ou Anglais Renforcé)</nom>
     <Responsable_UF>inconnu</Responsable_UF>
     <grand_domaine>Sciences humaines</grand_domaine>
+	<type>Heterogene</type>
+    <par_competence>false</par_competence>
+    <cours></cours>
+    <competence></competence>
   </UF>
 
 </UFs>

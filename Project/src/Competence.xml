@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Competences>
+
+
+<!-- Competence Semestre 3IMACS -->
+
+	<Competence code="Nanophysique1">
+		<nom>Reformuler certains mécanismes et donner des exemples précis de micro et nano-dispositifs ainsi que de techniques d'analyse très connues qui reposent sur l'exploitation de ces mécanismes. </nom>	
+	</Competence>
+
+	<Competence code="Nanophysique2">
+		<nom>Maitriser les mécanismes élémentaires de la physique à l'échelle nanométrique.
+Choisir la technique la plus adaptée pour une analyse spécifique sur la base des concepts théoriques acquis. </nom>	
+	</Competence>
+
+	<Competence code="Analyse1">
+		<nom>Programmation en python</nom>	
+	</Competence>
+
+	<Competence code="Analyse2">
+		<nom>Manier les produits scalaires et les projections orthogonales dans les espaces euclidiens. Réduire une forme quadratique.</nom>	
+	</Competence>
+
+	<Competence code="Signaux1">
+		<nom>décomposer un signal périodique en série de Fourier</nom>	
+	</Competence>
+
+	<Competence code="Signaux2">
+		<nom>déterminer le spectre d'un signal déterministe</nom>	
+	</Competence>
+
+	<Competence code="Signaux3">
+		<nom>déterminer la fonction de transfert d'un filtre linéaire invariant continu et calculer le signal de sortie d'un tel filtre</nom>	
+	</Competence>
+
+	
+	<Competence code="Informatique1">
+		<nom>Représenter et minimiser des fonctions logiques</nom>	
+	</Competence>
+
+	<Competence code="Informatique2">
+		<nom>Concevoir un système logique combinatoire ou synchrone</nom>	
+	</Competence>
+
+	<Competence code="Informatique3">
+		<nom>Se servir des familles logiques les plus usuelles et les interfacer correctement si nécessaire</nom>	
+	</Competence>
+
+	<Competence code="CSH1">
+		<nom>rédiger une synthèse à partir d¿articles de presse et la présenter à l¿oral avec support Powerpoint </nom>	
+	</Competence>
+
+	<Competence code="CSH2">
+		<nom>exprimer à l¿oral en continu sur un sujet scientifique, économique ou technique avec support Powerpoint, répondre aux questions et susciter un débat</nom>	
+	</Competence>
+
+
+	<Competence code="CSH3">
+		<nom>Comprendre les grands enjeux économiques et sociétaux actuels</nom>	
+	</Competence>
+
+
+	<Competence code="Autonomie1">
+		<nom> Activités Physiques et Sportives </nom>	
+	</Competence>
+
+	<Competence code="Autonomie2">
+		<nom> Analyser avec autrui un problème posé (Identifier le problème, définir les axes d'approche dans un bilan interactif).  </nom>	
+	</Competence>
+
+<!-- Competence Semestre -->
+
+
+
+
+</Competences>	
