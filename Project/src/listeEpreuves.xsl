@@ -19,9 +19,15 @@
   </xsl:template>
   <xsl:template match="Cours">
     <h2>Cours <xsl:value-of select="@nom"/> </h2>
-    <xsl:apply_templates select="code_epreuve"/>
+    <xsl:apply-templates select="code_epreuve"/>
   </xsl:template>
   <xsl:template match="code_epreuve">
-      <h2> Epreuves <xsl:value-of select="//Epreuves/Epreuve/code"/> </h2>
+    <xsl:variable name="Code_e" select="."/>
+    <xsl:for-each select="//Epreuves/Epreuve">
+      <xsl:if test="@code=$Code_e">
+        <h4> Epreuve : <xsl:value-of select="@code"/>  </h4>
+        <h4> duree : <xsl:value-of select="Duree"/> ; nature : <xsl:value-of select="Nature"/> ; coeff : <xsl:value-of select="Coefficient"/></h4>
+      </xsl:if>
+    </xsl:for-each>
   </xsl:template>
 </xsl:stylesheet>
