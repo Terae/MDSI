@@ -21,6 +21,6 @@ generate-xsl:
 	firefox $(BASE_NAME).html
 
 xsl:
-	@$(MAKE) BASE_NAME=INSA generate-xsl > /dev/null
+	@$(MAKE) BASE_NAME=INSA.generated generate-xsl > /dev/null
 
 all: check-xml xsl

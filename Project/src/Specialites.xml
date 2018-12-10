@@ -28,7 +28,7 @@
     <Semestre>S4-2IMACS</Semestre>
     <Semestre>S5-3IMACS</Semestre>
     <Semestre>S6-3IMACS</Semestre>
-    <Responsable>Inconnu-1</Responsable>
+    <Responsable>Inconnu</Responsable>
     <Departement>STPI</Departement>
   </Specialite>
 
@@ -61,7 +61,7 @@
     <Semestre>S8-4AE</Semestre>
     <Semestre>S9-5AE</Semestre>
     <Semestre>S10-5AE</Semestre>
-    <Responsable>Inconnu-2</Responsable>
+    <Responsable>Inconnu</Responsable>
     <Departement>GEI</Departement>
   </Specialite>
 
@@ -72,7 +72,7 @@
     <Semestre>S8-4GB</Semestre>
     <Semestre>S9-5GB</Semestre>
     <Semestre>S10-5GB</Semestre>
-    <Responsable>Inconnu-3</Responsable>
+    <Responsable>Inconnu</Responsable>
     <Departement>GB</Departement>
   </Specialite>
 
@@ -83,7 +83,7 @@
     <Semestre>S8-4IC</Semestre>
     <Semestre>S9-4IC</Semestre>
     <Semestre>S10-4IC</Semestre>
-    <Responsable>Inconnu-4</Responsable>
+    <Responsable>Inconnu</Responsable>
     <Departement>GC</Departement>
   </Specialite>
 
@@ -94,7 +94,7 @@
     <Semestre>S8-4GPE</Semestre>
     <Semestre>S9-4GPE</Semestre>
     <Semestre>S10-4GPE</Semestre>
-    <Responsable>Inconnu-5</Responsable>
+    <Responsable>Inconnu</Responsable>
     <Departement>GPE</Departement>
   </Specialite>
 
@@ -105,7 +105,7 @@
     <Semestre>S8-4GM</Semestre>
     <Semestre>S9-5GM</Semestre>
     <Semestre>S10-5GM</Semestre>
-    <Responsable>Inconnu-6</Responsable>
+    <Responsable>Inconnu</Responsable>
     <Departement>GM</Departement>
   </Specialite>
 
@@ -116,7 +116,7 @@
     <Semestre>S8-4GP</Semestre>
     <Semestre>S9-5GP</Semestre>
     <Semestre>S10-5GP</Semestre>
-    <Responsable>Inconnu-7</Responsable>
+    <Responsable>Inconnu</Responsable>
     <Departement>GP</Departement>
   </Specialite>
 
@@ -138,7 +138,7 @@
     <Semestre>S8-4MA</Semestre>
     <Semestre>S9-5MA</Semestre>
     <Semestre>S10-5MA</Semestre>
-    <Responsable>Inconnu-8</Responsable>
+    <Responsable>Inconnu</Responsable>
     <Departement>MA</Departement>
   </Specialite>
 

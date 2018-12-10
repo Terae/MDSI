@@ -30,10 +30,10 @@
     </xsd:keyref>
 
     <!-- Epreuves -->
-    <xsd:key name="cleEpreuve">
+    <xsd:keyref name="refEpreuve" refer="cleCours">
       <xsd:selector xpath="./Epreuves/Epreuve"/>
-      <xsd:field xpath="@code"/>
-    </xsd:key>
+      <xsd:field xpath="cours_associe"/>
+    </xsd:keyref>
 
     <!-- Cours -->
     <xsd:key name="cleCours">
@@ -45,11 +45,6 @@
       <xsd:selector xpath=".//Cours"/>
       <xsd:field xpath="Responsable_cours"/>
     </xsd:keyref>
-
-    <!--<xsd:keyref name="refEpreuve" refer="cleEpreuve">
-      <xsd:selector xpath=".//Cours"/>
-      <xsd:field xpath="code_epreuve"/>
-    </xsd:keyref>-->
 
     <!-- Compétences -->
     <xsd:key name="cleCompetence">
@@ -273,7 +268,6 @@
         <xsd:element name="TP" type="xsd:string"/>
         <xsd:element name="TD" type="xsd:string"/>
         <xsd:element name="type" type="Oblig_ou_Option"/>
-        <xsd:element name="code_epreuve" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
         <xsd:element name="responsable_cours" type="xsd:string"/>
       </xsd:sequence>
       <xsd:attribute name="nom" type="xsd:string"/>
@@ -292,6 +286,7 @@
   <xsd:element name="Epreuve">
     <xsd:complexType>
       <xsd:sequence>
+        <xsd:element name="cours_associe" type="xsd:string"/>
         <xsd:element name="Duree" type="xsd:string"/>
         <xsd:element name="Nature" type="type_exam"/>
         <xsd:element name="Coefficient" type="xsd:float"/>

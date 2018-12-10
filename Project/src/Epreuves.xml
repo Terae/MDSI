@@ -4,37 +4,43 @@
   <!-- 1ere Annee -->
 
   <!-- UF:I1 ANPH21 -->
-  <Epreuve code="P0_APP0">
+  <Epreuve code="ANPH21_P0_APP0">
+    <cours_associe>APP d'Optique</cours_associe>
     <Duree>1h15</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0.10</Coefficient>
   </Epreuve>
 
   <Epreuve code="ANPH21_IC1_CC1">
+    <cours_associe>APP de Mecanique</cours_associe>
     <Duree>1H15</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0.10</Coefficient>
   </Epreuve>
 
-  <Epreuve code="E2_MECA">
+  <Epreuve code="ANPH21_E2_Meca">
+    <cours_associe>APP de Mecanique</cours_associe>
     <Duree>2H</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0.25</Coefficient>
   </Epreuve>
 
-  <Epreuve code="e3_Optique">
+  <Epreuve code="ANPH21_E3_Optique">
+    <cours_associe>APP d'Optique</cours_associe>
     <Duree>2H</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0.25</Coefficient>
   </Epreuve>
 
-  <Epreuve code="P4_Tpoptique">
+  <Epreuve code="ANPH21_P4_Tpoptique">
+    <cours_associe>APP d'Optique</cours_associe>
     <Duree>2H30</Duree>
     <Nature>Rapport</Nature>
     <Coefficient>0.15</Coefficient>
   </Epreuve>
 
-  <Epreuve code="P5_APPoptique">
+  <Epreuve code="ANPH21_P5_APPoptique">
+    <cours_associe>APP d'Optique</cours_associe>
     <Duree>20Min</Duree>
     <Nature>Oral</Nature>
     <Coefficient>0.10</Coefficient>
@@ -42,18 +48,21 @@
 
   <!-- UF: I1 ANMT11 -->
   <Epreuve code="ANMT11_C1_CC1">
+    <cours_associe>Mathematique</cours_associe>
     <Duree>1h15</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0.25</Coefficient>
   </Epreuve>
 
-  <Epreuve code="C18CC2">
+  <Epreuve code="ANMT11_C18CC2">
+    <cours_associe>Mathematique</cours_associe>
     <Duree>1H15</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0.25</Coefficient>
   </Epreuve>
 
   <Epreuve code="ANMT11_E3_Examen">
+    <cours_associe>Mathematique</cours_associe>
     <Duree>2H30</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0.50</Coefficient>
@@ -61,62 +70,72 @@
 
   <!-- UF: I1 ANBC11  -->
   <Epreuve code="ANBC11_C1_CC1">
+    <cours_associe>Liaisons Chimiques</cours_associe>
     <Duree>1H15</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0.19</Coefficient>
   </Epreuve>
 
-  <Epreuve code="E2_Bio">
+  <Epreuve code="ANBC11_E2_Bio">
+    <cours_associe>Biotechnologies</cours_associe>
     <Duree>1h15</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0.24</Coefficient>
   </Epreuve>
 
-  <Epreuve code="E3_Chimie">
+  <Epreuve code="ANBC11_E3_Chimie">
+    <cours_associe>Chimie des Solutions</cours_associe>
     <Duree>2H</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0.39</Coefficient>
   </Epreuve>
 
-  <Epreuve code="P4_TP">
+  <Epreuve code="ANBC11_P4_TP">
+    <cours_associe>Chimie des Solutions</cours_associe>
     <Duree>2H30</Duree>
     <Nature>Rapport</Nature>
     <Coefficient>0.18</Coefficient>
   </Epreuve>
 
   <!-- UF : I1 ANIF11 -->
-  <Epreuve code="M1_Moodle">
+  <Epreuve code="ANIF11_M1_Moodle">
+    <cours_associe>Algorithmique</cours_associe>
     <Duree>1h15</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0.18</Coefficient>
   </Epreuve>
 
-  <Epreuve code="P2_TP">
+  <Epreuve code="ANIF11_P2_TP">
+    <cours_associe>Mathematiques</cours_associe>
     <Duree>2H</Duree>
     <Nature>Rapport</Nature>
     <Coefficient>0.46</Coefficient>
   </Epreuve>
 
   <Epreuve code="ANIF11_E3_Examen">
+    <cours_associe>Algorithmique</cours_associe>
     <Duree>1h15</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0.36</Coefficient>
   </Epreuve>
 
   <!-- UF: I1 ANTI11 -->
-  <Epreuve code="C1_CSM">
+  <Epreuve code="ANTI11_C1_CSM">
+    <cours_associe>Conception des systemes mecaniques</cours_associe>
     <Duree>1H15</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0.60</Coefficient>
   </Epreuve>
 
-  <Epreuve code="C2_EM">
+  <Epreuve code="ANTI11_C2_EM">
+    <cours_associe>Etude des Materiaux + CSM</cours_associe>
     <Duree>1H15</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0.24</Coefficient>
   </Epreuve>
 
-  <Epreuve code="C3_TDP">
+  <Epreuve code="ANTI11_C3_TDP">
+    <cours_associe>SDP</cours_associe>
     <Duree>2H</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0.16</Coefficient>
@@ -125,126 +144,146 @@
   <!-- Semestre 3 IMACS -->
 
   <!-- UF : I2M APH11 -->
-  <Epreuve code="E1_CPartiel">
+  <Epreuve code="APH11_E1_CPartiel">
+    <cours_associe>Nanophysique</cours_associe>
     <Duree>1H15</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
-  <Epreuve code="E2_TP">
+  <Epreuve code="APH11_E2_TP">
+    <cours_associe>Nanophysique</cours_associe>
     <Duree>1H15</Duree>
     <Nature>Rapport</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
-  <Epreuve code="E3_CTerminal">
+  <Epreuve code="APH11_E3_CTerminal">
+    <cours_associe>Nanophysique</cours_associe>
     <Duree>2H30</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
   <!-- UF : I2M AMT11 -->
-  <Epreuve code="cc1_formatif">
-	<Duree>1H15</Duree>
+  <Epreuve code="AMT11_CC1_formatif">
+    <cours_associe>Analyse 1</cours_associe>
+	  <Duree>1H15</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
-  <Epreuve code="cc2_formatif">
-	<Duree>1H15</Duree>
+  <Epreuve code="AMT11_CC2_formatif">
+    <cours_associe>Analyse 1</cours_associe>
+	  <Duree>1H15</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
-  <Epreuve code="cc3_certificatif">
-	<Duree>2H30</Duree>
+  <Epreuve code="AMT11_CC3_certificatif">
+    <cours_associe>Algebre</cours_associe>
+	  <Duree>2H30</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
   <!-- UF : I2MAEL11 -->
-  <Epreuve code="E1_CPartiel">
-	<Duree>1H15</Duree>
+  <Epreuve code="I2MAEL11_E1_CPartiel">
+    <cours_associe>Electronique analogique</cours_associe>
+	  <Duree>1H15</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
-  <Epreuve code="E2_CPartiel">
-	<Duree>1H15</Duree>
+  <Epreuve code="I2MAEL11_E2_CPartiel">
+    <cours_associe>Electronique analogique</cours_associe>
+	  <Duree>1H15</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
-  <Epreuve code="E3_CTerminal">
-	<Duree>1H15</Duree>
+  <Epreuve code="I2MAEL11_E3_CTerminal">
+    <cours_associe>Signal</cours_associe>
+	  <Duree>1H15</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
   <!-- UF : I2MAIF 11 -->
-  <Epreuve code="E1_CTlogique">
-	<Duree>1H15</Duree>
+  <Epreuve code="I2MAIF11_E1_CT_logique">
+    <cours_associe>Informatique Materielle</cours_associe>
+	  <Duree>1H15</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
-  <Epreuve code="E2_CP Elec num">
-	<Duree>1H15</Duree>
+  <Epreuve code="I2MAIF11_E2_CP_elec_num">
+    <cours_associe>Electronique Numerique</cours_associe>
+	  <Duree>1H15</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
-  <Epreuve code="E3_CT SFO+Elec">
-	<Duree>2H30</Duree>
+  <Epreuve code="I2MAIF11_E3_CT_SFO+Elec">
+    <cours_associe>Informatique Materielle</cours_associe>
+	  <Duree>2H30</Duree>
     <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
   <!-- UF : I2CCGE31-->
-  <Epreuve code="E1_Exp">
+  <Epreuve code="I2CCGE31_E1_Exp">
+    <cours_associe>Expression</cours_associe>
 		<Duree>20Mins</Duree>
 		<Nature>Oral</Nature>
 		<Coefficient>0</Coefficient>
   </Epreuve>
 
-  <Epreuve code="E2_Gest">
+  <Epreuve code="I2CCGE31_E2_Gest">
+    <cours_associe>Gestion</cours_associe>
 		<Duree>20Mins</Duree>
 		<Nature>Oral</Nature>
 		<Coefficient>0</Coefficient>
   </Epreuve>
 
-  <Epreuve code="E3_Lv1">
+  <Epreuve code="I2CCGE31_E3_Lv1">
+    <cours_associe>LV1</cours_associe>
 		<Duree>15Mins</Duree>
 		<Nature>Oral</Nature>
 		<Coefficient>0</Coefficient>
   </Epreuve>
 
-  <Epreuve code="E4_Stage">
+  <Epreuve code="I2CCGE31_E4_Stage">
+    <cours_associe>Stage</cours_associe>
 		<Duree>1H15</Duree>
 		<Nature>Rapport</Nature>
 		<Coefficient>0</Coefficient>
   </Epreuve>
 
   <!-- UF : I2CCGA11-->
-  <Epreuve code="E1_Eps">
+  <Epreuve code="I2CCGA11_E1_EPS">
+    <cours_associe>EPS</cours_associe>
 		<Duree>2H</Duree>
 		<Nature>Oral</Nature>
 		<Coefficient>0</Coefficient>
   </Epreuve>
 
-  <Epreuve code="E2_Ppi">
+  <Epreuve code="I2CCGA11_E2_PPI">
+    <cours_associe>PPI</cours_associe>
 		<Duree>2H</Duree>
 		<Nature>Oral</Nature>
 		<Coefficient>0</Coefficient>
   </Epreuve>
 
-  <Epreuve code="I2CCMO10">
+  <Epreuve code="I2CCGA11_I2C_CMO10">
+    <cours_associe>MO</cours_associe>
 		<Duree>1H15</Duree>
 		<Nature>Ecrit</Nature>
 		<Coefficient>0</Coefficient>
   </Epreuve>
 
-  <Epreuve code="E4_Musiciens">
+  <Epreuve code="I2CCGA11_E4_Musiciens">
+    <cours_associe>Musique ou Danse Etude</cours_associe>
 		<Duree>2H</Duree>
 		<Nature>Ecrit</Nature>
 		<Coefficient>0</Coefficient>

@@ -82,7 +82,7 @@
     <email>francois-vernadat@insa-toulouse.fr</email>
   </Personne>
 
-  <Personne id="Alexandre-BERTRON-1">
+  <Personne id="Alexandra-BERTRON-1">
     <nom>BERTRON</nom>
     <prenom>Alexandra</prenom>
     <bureau> MA 18</bureau>
@@ -202,6 +202,15 @@
     </bureau>
     <telephone>06-23-89-66-24</telephone>
     <email>jc-laffitte@insa-toulouse.fr</email>
+  </Personne>
+
+  <Personne id="Inconnu">
+    <nom>Inconnu</nom>
+    <prenom>Inconnu</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-23-89-66-24</telephone>
+    <email>inconnu@insa-toulouse.fr</email>
   </Personne>
 
 </Personnes>
