@@ -6,22 +6,113 @@
         <xsd:element ref="Personnes" minOccurs="1" maxOccurs="1"/>
         <xsd:element ref="Departements" minOccurs="1" maxOccurs="1"/>
         <xsd:element ref="Specialites" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="Semestres" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="LesCours" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="Epreuves" minOccurs="1" maxOccurs="1"/>
       </xsd:sequence>
     </xsd:complexType>
 
+    <!-- Personnes -->
     <xsd:key name="clePersonne">
       <xsd:selector xpath=".//Personne"/>
       <xsd:field xpath="@id"/>
     </xsd:key>
 
+    <!-- Départements -->
     <xsd:key name="cleDepartement">
-      <xsd:selector xpath="Departements/Departement"/>
-      <xsd:field xpath="@id"/>
+      <xsd:selector xpath="./Departements/Departement"/>
+      <xsd:field xpath="@acronyme"/>
     </xsd:key>
 
     <xsd:keyref name="refDirecteur" refer="clePersonne">
       <xsd:selector xpath=".//Departement"/>
-      <xsd:field xpath="./directeur"/>
+      <xsd:field xpath="directeur"/>
+    </xsd:keyref>
+
+    <!-- Epreuves -->
+    <xsd:key name="cleEpreuve">
+      <xsd:selector xpath="./Epreuves/Epreuve"/>
+      <xsd:field xpath="@code"/>
+    </xsd:key>
+
+    <!-- Cours -->
+    <xsd:key name="cleCours">
+      <xsd:selector xpath="./LesCours/Cours"/>
+      <xsd:field xpath="@nom"/>
+    </xsd:key>
+
+    <xsd:keyref name="refResponsableCours" refer="clePersonne">
+      <xsd:selector xpath=".//Cours"/>
+      <xsd:field xpath="Responsable_cours"/>
+    </xsd:keyref>
+
+    <!--<xsd:keyref name="refEpreuve" refer="cleEpreuve">
+      <xsd:selector xpath=".//Cours"/>
+      <xsd:field xpath="code_epreuve"/>
+    </xsd:keyref>-->
+
+    <!-- Compétences -->
+    <xsd:key name="cleCompetence">
+      <xsd:selector xpath="./Competences/Competence"/>
+      <xsd:field xpath="@code"/>
+    </xsd:key>
+
+    <!-- UF -->
+    <xsd:key name="cleUF">
+      <xsd:selector xpath="./UFs/UF"/>
+      <xsd:field xpath="@code"/>
+    </xsd:key>
+
+    <xsd:keyref name="refResponsableUF" refer="clePersonne">
+      <xsd:selector xpath=".//UF"/>
+      <xsd:field xpath="responsable_UF"/>
+    </xsd:keyref>
+
+    <xsd:keyref name="refCours" refer="cleCours">
+      <xsd:selector xpath=".//UF"/>
+      <xsd:field xpath="cours"/>
+    </xsd:keyref>
+
+    <xsd:keyref name="refCompetence" refer="cleCompetence">
+      <xsd:selector xpath=".//UF"/>
+      <xsd:field xpath="competence"/>
+    </xsd:keyref>
+
+    <!-- Semestre -->
+    <xsd:key name="cleSemestre">
+      <xsd:selector xpath="./Semestres/Semestre"/>
+      <xsd:field xpath="@id"/>
+    </xsd:key>
+
+    <xsd:keyref name="refResponsableSemestre" refer="clePersonne">
+      <xsd:selector xpath=".//Semestre"/>
+      <xsd:field xpath="responsable_semestre"/>
+    </xsd:keyref>
+
+    <!--<xsd:keyref name="refUF" refer="cleUF">
+      <xsd:selector xpath=".//Semestre"/>
+      <xsd:field xpath="UF"/>
+    </xsd:keyref>-->
+
+    <!-- Spécialités -->
+    <xsd:key name="cleSpecialites">
+      <xsd:selector xpath="./Specialites/Specialite"/>
+      <xsd:field xpath="@acronyme"/>
+    </xsd:key>
+
+    <xsd:keyref name="refResponsableSpecialite" refer="clePersonne">
+      <xsd:selector xpath=".//Specialite"/>
+      <xsd:field xpath="Responsable"/>
+    </xsd:keyref>
+
+    <!--<xsd:keyref name="refSemestre" refer="cleSemestre">
+      <xsd:selector xpath=".//Specialite"/>
+      <xsd:field xpath="Semestre"/>
+    </xsd:keyref>-->
+
+    <xsd:keyref name="refDepartement" refer="cleDepartement">
+      <xsd:selector xpath=".//Specialite"/>
+      <xsd:field xpath="Departement"/>
     </xsd:keyref>
 
   </xsd:element>
@@ -75,13 +166,6 @@
         <xsd:element ref="Specialite" minOccurs="0" maxOccurs="unbounded"/>
       </xsd:sequence>
     </xsd:complexType>
-
-    <!-- On peut avoir une référence vers un département à partir de son acronyme -->
-    <xsd:keyref name="refSpecialite" refer="cleSpecialite">
-      <xsd:selector xpath="Specialites/Specialite"/>
-      <xsd:field xpath="acronyme"/>
-    </xsd:keyref>
-
   </xsd:element>
 
   <xsd:element name="Specialite">
@@ -94,12 +178,6 @@
       </xsd:sequence>
       <xsd:attribute name="acronyme" type="xsd:string"/>
     </xsd:complexType>
-
-    <xsd:key name="cleSpecialite">
-      <xsd:selector xpath="."/>
-      <xsd:field xpath="@acronyme"/>
-    </xsd:key>
-
   </xsd:element>
 
   <!-- Semestres -->
@@ -109,29 +187,16 @@
         <xsd:element ref="Semestre" minOccurs="0" maxOccurs="unbounded" />
       </xsd:sequence>
     </xsd:complexType>
-
-    <!--On peut avoir une référence vers un semestre à partir de son idSemestre -->
-    <xsd:keyref name="refSemestre" refer="cleSemestre">
-      <xsd:selector xpath="Semestres/Semestre"/>
-      <xsd:field xpath="idSemestre"/>
-    </xsd:keyref>
-
   </xsd:element>
 
   <xsd:element name="Semestre">
     <xsd:complexType>
       <xsd:sequence>
-        <xsd:element name="Responsable_Semestre" type="xsd:string"/>
+        <xsd:element name="responsable_semestre" type="xsd:string"/>
         <xsd:element name="UF" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
       </xsd:sequence>
-      <xsd:attribute name="idSemestre" type="xsd:string"/>
+      <xsd:attribute name="id" type="xsd:string"/>
     </xsd:complexType>
-
-    <xsd:key name="cleSemestre">
-      <xsd:selector xpath="."/>
-      <xsd:field xpath="@idSemestre"/>
-    </xsd:key>
-
   </xsd:element>
 
   <!-- UFs -->
@@ -141,13 +206,6 @@
         <xsd:element ref="UF" minOccurs="0" maxOccurs="unbounded" />
       </xsd:sequence>
     </xsd:complexType>
-
-    <!--On peut avoir une référence vers un UF à partir de son code -->
-    <xsd:keyref name="refUF" refer="cleUF">
-      <xsd:selector xpath="UFs/UF"/>
-      <xsd:field xpath="code"/>
-    </xsd:keyref>
-
   </xsd:element>
 
   <xsd:element name="UF">
@@ -157,19 +215,13 @@
         <xsd:element name="nom" type="xsd:string"/>
         <xsd:element name="Responsable_UF" type="xsd:string"/>
         <xsd:element name="grand_domaine" type="xsd:string"/>
-        <xsd:element name="type" type="Hetero_ou_Contuin"/>
+        <xsd:element name="type" type="hetero_ou_continu"/>
         <xsd:element name="par_competence" type="xsd:boolean"/>
         <xsd:element name="cours" type="xsd:string" maxOccurs="unbounded"/>
         <xsd:element name="competence" type="xsd:string" maxOccurs="unbounded"/>
       </xsd:sequence>
       <xsd:attribute name="code" type="xsd:string"/>
     </xsd:complexType>
-
-    <xsd:key name="cleUF">
-      <xsd:selector xpath="."/>
-      <xsd:field xpath="@code"/>
-    </xsd:key>
-
   </xsd:element>
 
   <!-- Type personnalisé -->
@@ -181,7 +233,7 @@
   </xsd:simpleType>
 
   <!-- Type personnalisé -->
-  <xsd:simpleType name="Hetero_ou_Contuin">
+  <xsd:simpleType name="hetero_ou_continu">
     <xsd:restriction base="xsd:string">
       <xsd:enumeration value="Heterogene"/>
       <xsd:enumeration value="Homogene"/>
@@ -189,14 +241,21 @@
   </xsd:simpleType>
 
   <!-- Type personnalisé -->
-  <xsd:simpleType name="Type_dexam">
+  <xsd:simpleType name="par_competence">
     <xsd:restriction base="xsd:string">
-      <xsd:enumeration value="Ecris"/>
+      <xsd:enumeration value="oui"/>
+      <xsd:enumeration value="non"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <!-- Type personnalisé -->
+  <xsd:simpleType name="type_exam">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Ecrit"/>
       <xsd:enumeration value="Oral"/>
 	  <xsd:enumeration value="Rapport"/>
     </xsd:restriction>
   </xsd:simpleType>
-
 
   <!-- LesCours -->
   <xsd:element name="LesCours">
@@ -205,13 +264,6 @@
         <xsd:element ref="Cours" minOccurs="0" maxOccurs="unbounded" />
       </xsd:sequence>
     </xsd:complexType>
-
-    <!--On peut avoir une référence vers un UF à partir de son code -->
-    <xsd:keyref name="refCours" refer="cleCours">
-      <xsd:selector xpath="LesCours/Cours"/>
-      <xsd:field xpath="nom"/>
-    </xsd:keyref>
-
   </xsd:element>
 
   <xsd:element name="Cours">
@@ -221,17 +273,11 @@
         <xsd:element name="TP" type="xsd:string"/>
         <xsd:element name="TD" type="xsd:string"/>
         <xsd:element name="type" type="Oblig_ou_Option"/>
-        <xsd:element name="code_Epreuve" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
-        <xsd:element name="Responsable_cours" type="xsd:string"/>
+        <xsd:element name="code_epreuve" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+        <xsd:element name="responsable_cours" type="xsd:string"/>
       </xsd:sequence>
       <xsd:attribute name="nom" type="xsd:string"/>
     </xsd:complexType>
-
-    <xsd:key name="cleCours">
-      <xsd:selector xpath="."/>
-      <xsd:field xpath="@nom"/>
-    </xsd:key>
-
   </xsd:element>
 
   <!-- Epreuves -->
@@ -241,30 +287,17 @@
         <xsd:element ref="Epreuve" minOccurs="0" maxOccurs="unbounded" />
       </xsd:sequence>
     </xsd:complexType>
-
-    <!--On peut avoir une référence vers un UF à partir de son code -->
-    <xsd:keyref name="refEpreuve" refer="cleEpreuve">
-      <xsd:selector xpath="Epreuves/Epreuve"/>
-      <xsd:field xpath="code"/>
-    </xsd:keyref>
-
   </xsd:element>
 
   <xsd:element name="Epreuve">
     <xsd:complexType>
       <xsd:sequence>
         <xsd:element name="Duree" type="xsd:string"/>
-        <xsd:element name="Nature" type="xsd:string"/>
+        <xsd:element name="Nature" type="type_exam"/>
         <xsd:element name="Coefficient" type="xsd:float"/>
       </xsd:sequence>
       <xsd:attribute name="code" type="xsd:string"/>
     </xsd:complexType>
-
-    <xsd:key name="cleEpreuve">
-      <xsd:selector xpath="."/>
-      <xsd:field xpath="@code"/>
-    </xsd:key>
-
   </xsd:element>
 
   <!-- Competences -->
@@ -274,13 +307,6 @@
         <xsd:element ref="Competence" minOccurs="0" maxOccurs="unbounded" />
       </xsd:sequence>
     </xsd:complexType>
-
-    <!--On peut avoir une référence vers un UF à partir de son code -->
-    <xsd:keyref name="refCompetence" refer="cleCompetence">
-      <xsd:selector xpath="Competences/Competence"/>
-      <xsd:field xpath="code"/>
-    </xsd:keyref>
-
   </xsd:element>
 
   <xsd:element name="Competence">
@@ -290,12 +316,6 @@
       </xsd:sequence>
       <xsd:attribute name="code" type="xsd:string"/>
     </xsd:complexType>
-
-    <xsd:key name="cleCompetence">
-      <xsd:selector xpath="."/>
-      <xsd:field xpath="@code"/>
-    </xsd:key>
-
   </xsd:element>
 
 </xsd:schema>

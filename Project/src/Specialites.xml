@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Specialites>
 
-  <!-- Année de tronc commjun -->
+  <!-- Année de tronc commun -->
   <Specialite acronyme="TC">
     <nom>Tronc Commun</nom>
     <Semestre>S1-1TC</Semestre>

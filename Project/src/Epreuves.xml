@@ -6,25 +6,25 @@
   <!-- UF:I1 ANPH21 -->
   <Epreuve code="P0_APP0">
     <Duree>1h15</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0.10</Coefficient>
   </Epreuve>
 
-  <Epreuve code="C1_CC1">
+  <Epreuve code="ANPH21_IC1_CC1">
     <Duree>1H15</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0.10</Coefficient>
   </Epreuve>
 
   <Epreuve code="E2_MECA">
     <Duree>2H</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0.25</Coefficient>
   </Epreuve>
 
   <Epreuve code="e3_Optique">
     <Duree>2H</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0.25</Coefficient>
   </Epreuve>
 
@@ -41,40 +41,40 @@
   </Epreuve>
 
   <!-- UF: I1 ANMT11 -->
-  <Epreuve code="C1_CC1">
+  <Epreuve code="ANMT11_C1_CC1">
     <Duree>1h15</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0.25</Coefficient>
   </Epreuve>
 
   <Epreuve code="C18CC2">
     <Duree>1H15</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0.25</Coefficient>
   </Epreuve>
 
-  <Epreuve code="E3_Examen">
+  <Epreuve code="ANMT11_E3_Examen">
     <Duree>2H30</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0.50</Coefficient>
   </Epreuve>
 
   <!-- UF: I1 ANBC11  -->
-  <Epreuve code="C1_CC1">
+  <Epreuve code="ANBC11_C1_CC1">
     <Duree>1H15</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0.19</Coefficient>
   </Epreuve>
 
   <Epreuve code="E2_Bio">
     <Duree>1h15</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0.24</Coefficient>
   </Epreuve>
 
   <Epreuve code="E3_Chimie">
     <Duree>2H</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0.39</Coefficient>
   </Epreuve>
 
@@ -87,7 +87,7 @@
   <!-- UF : I1 ANIF11 -->
   <Epreuve code="M1_Moodle">
     <Duree>1h15</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0.18</Coefficient>
   </Epreuve>
 
@@ -97,28 +97,28 @@
     <Coefficient>0.46</Coefficient>
   </Epreuve>
 
-  <Epreuve code="E3_Examen">
+  <Epreuve code="ANIF11_E3_Examen">
     <Duree>1h15</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0.36</Coefficient>
   </Epreuve>
 
   <!-- UF: I1 ANTI11 -->
   <Epreuve code="C1_CSM">
     <Duree>1H15</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0.60</Coefficient>
   </Epreuve>
 
   <Epreuve code="C2_EM">
     <Duree>1H15</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0.24</Coefficient>
   </Epreuve>
 
   <Epreuve code="C3_TDP">
     <Duree>2H</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0.16</Coefficient>
   </Epreuve>
 
@@ -127,7 +127,7 @@
   <!-- UF : I2M APH11 -->
   <Epreuve code="E1_CPartiel">
     <Duree>1H15</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
@@ -139,64 +139,64 @@
 
   <Epreuve code="E3_CTerminal">
     <Duree>2H30</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
   <!-- UF : I2M AMT11 -->
   <Epreuve code="cc1_formatif">
 	<Duree>1H15</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
   <Epreuve code="cc2_formatif">
 	<Duree>1H15</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
   <Epreuve code="cc3_certificatif">
 	<Duree>2H30</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
   <!-- UF : I2MAEL11 -->
   <Epreuve code="E1_CPartiel">
 	<Duree>1H15</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
   <Epreuve code="E2_CPartiel">
 	<Duree>1H15</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
   <Epreuve code="E3_CTerminal">
 	<Duree>1H15</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
   <!-- UF : I2MAIF 11 -->
   <Epreuve code="E1_CTlogique">
 	<Duree>1H15</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
   <Epreuve code="E2_CP Elec num">
 	<Duree>1H15</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
   <Epreuve code="E3_CT SFO+Elec">
 	<Duree>2H30</Duree>
-    <Nature>Ecris</Nature>
+    <Nature>Ecrit</Nature>
     <Coefficient>0</Coefficient>
   </Epreuve>
 
@@ -240,13 +240,13 @@
 
   <Epreuve code="I2CCMO10">
 		<Duree>1H15</Duree>
-		<Nature>Ecris</Nature>
+		<Nature>Ecrit</Nature>
 		<Coefficient>0</Coefficient>
   </Epreuve>
 
   <Epreuve code="E4_Musiciens">
 		<Duree>2H</Duree>
-		<Nature>Ecris</Nature>
+		<Nature>Ecrit</Nature>
 		<Coefficient>0</Coefficient>
   </Epreuve>
 
