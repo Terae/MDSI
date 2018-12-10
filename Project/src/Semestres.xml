@@ -1,57 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Semestres>
 
-  <Semestre id = "S3-2IMACS">
+  <Semestre id = "S3_IMACS">
     <responsable_semestre>Helene-CARRERE-1</responsable_semestre>
     <specialite_associee>IMACS</specialite_associee>
-    <UF>I2MAPH11</UF>
-    <UF>I2MAMT11</UF>
-    <UF>I2MAEL11</UF>
-    <UF>I2MAIF11</UF>
-    <UF>I2CCGE31</UF>
-    <UF>I2CCGA11</UF>
   </Semestre>
 
-  <Semestre id = "S4-2IMACS">
+  <Semestre id = "S4_IMACS">
     <responsable_semestre>Helene-CARRERE-1</responsable_semestre>
     <specialite_associee>IMACS</specialite_associee>
-    <UF>I2MAPH31</UF>
-    <UF>I2MAPH21</UF>
-    <UF>I2MAMT21</UF>
-    <UF>I2MAIF21</UF>
-    <UF>I2MAAU11</UF>
-    <UF>I2CCLA31</UF>
-    <UF>I2CCGA21</UF>
   </Semestre>
 
-  <Semestre id = "S5-3IMACS">
+  <Semestre id = "S5_IMACS">
     <responsable_semestre>Helene-CARRERE-1</responsable_semestre>
     <specialite_associee>IMACS</specialite_associee>
-    <UF>I3MAIF11</UF>
-    <UF>I3MAPH11</UF>
-    <UF>I3MAAE11</UF>
-    <UF>I3MAPH31</UF>
-    <UF>I3CCGA11</UF>
-    <UF>I3CCGE31</UF>
-    <UF>I3CCGE11</UF>
   </Semestre>
 
-  <Semestre id = "S6-3IMACS">
+  <Semestre id = "S6_IMACS">
     <responsable_semestre>Helene-CARRERE-1</responsable_semestre>
     <specialite_associee>IMACS</specialite_associee>
-    <!-- Orientation AUTOMATIQUE et ELECTRONIQUE -->
-    <UF>I3MAIF22</UF>
-    <UF>I3MAIF31</UF>
-    <UF>I3MAAU12</UF>
-    <UF>I3MAEL21</UF>
-    <!-- Orientation Genie Physique -->
-    <UF>I3MAPH42</UF>
-    <UF>I3MAPH52</UF>
-    <UF>I3MAPH62</UF>
-    <UF>I3MAPH71</UF>
-    <!-- Tronc Commun -->
-    <UF>I3CCGA21</UF>
-    <UF>I3CCGE41</UF>
-    <UF>I3CCGE51</UF>
   </Semestre>
 </Semestres>

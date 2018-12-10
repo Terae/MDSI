@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Competences>
+	<Competence code="Unknown">
+		<nom>Competence fantome pour meubler les UFs.</nom>
+	</Competence>
+
+  <!-- Competence Semestre 3IMACS -->
+  <Competence code="Nanophysique">
+    <nom>Reformuler certains mecanismes et donner des exemples precis de micro et nano-dispositifs ainsi que de techniques d'analyse tres connues qui reposent sur l'exploitation de ces mecanismes. </nom>
+    <nom>Maitriser les mecanismes elementaires de la physique a l'echelle nanometrique.Choisir la technique la plus adaptee pour une analyse specifique sur la base des concepts theoriques acquis. </nom>
+  </Competence>
+
+  <Competence code="Analyse">
+    <nom>Programmation en python</nom>
+    <nom>Manier les produits scalaires et les projections orthogonales dans les espaces euclidiens. Reduire une forme quadratique.</nom>
+  </Competence>
+
+  <Competence code="Signaux">
+    <nom>decomposer un signal periodique en serie de Fourier</nom>
+    <nom>determiner le spectre d'un signal deterministe</nom>
+    <nom>determiner la fonction de transfert d'un filtre lineaire invariant continu et calculer le signal de sortie d'un tel filtre</nom>
+  </Competence>
+
+  <Competence code="Informatique">
+    <nom>Representer et minimiser des fonctions logiques</nom>
+    <nom>Concevoir un systeme logique combinatoire ou synchrone</nom>
+    <nom>Se servir des familles logiques les plus usuelles et les interfacer correctement si necessaire</nom>
+  </Competence>
+
+  <Competence code="CSH">
+    <nom>rediger une synthese a partir d articles de presse et la presenter a l oral avec support Powerpoint </nom>
+    <nom>exprimer a l oral en continu sur un sujet scientifique, economique ou technique avec support Powerpoint, repondre aux questions et susciter un debat</nom>
+    <nom>Comprendre les grands enjeux economiques et societaux actuels</nom>
+  </Competence>
+
+  <Competence code="Autonomie">
+    <nom> Activites Physiques et Sportives </nom>
+    <nom> Analyser avec autrui un probleme pose (Identifier le probleme, definir les axes d'approche dans un bilan interactif).  </nom>
+  </Competence>
+
+  <!-- Competence Semestre -->
+</Competences>

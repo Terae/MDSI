@@ -9,6 +9,7 @@
     <TD>8</TD>
     <type>Obligatoire</type>
     <responsable_cours>Julian-CARREY-1</responsable_cours>
+    <uf_associe>UNKNOWN_UF</uf_associe>
   </Cours>
 
   <Cours nom="APP de Mecanique">
@@ -17,6 +18,7 @@
     <TD>8</TD>
     <type>Obligatoire</type>
     <responsable_cours>Julian-CARREY-1</responsable_cours>
+    <uf_associe>UNKNOWN_UF</uf_associe>
   </Cours>
 
   <!-- UF: I1 ANMT11 -->
@@ -27,6 +29,7 @@
     <TD>12</TD>
     <type>Obligatoire</type>
     <responsable_cours>Pascal-NOBLE-1</responsable_cours>
+    <uf_associe>UNKNOWN_UF</uf_associe>
   </Cours>
 
   <!-- UF: I1 ANBC11  -->
@@ -37,6 +40,7 @@
     <TD>3</TD>
     <type>Obligatoire</type>
     <responsable_cours>Philippe-SCHMITZ-1</responsable_cours>
+    <uf_associe>UNKNOWN_UF</uf_associe>
   </Cours>
 
   <Cours nom="Chimie des Solutions">
@@ -45,6 +49,7 @@
     <TD>4</TD>
     <type>Obligatoire</type>
     <responsable_cours>Philippe-SCHMITZ-1</responsable_cours>
+    <uf_associe>UNKNOWN_UF</uf_associe>
   </Cours>
 
   <Cours nom="Biotechnologies">
@@ -53,6 +58,7 @@
     <TD>3</TD>
     <type>Obligatoire</type>
     <responsable_cours>Philippe-SCHMITZ-1</responsable_cours>
+    <uf_associe>UNKNOWN_UF</uf_associe>
   </Cours>
 
   <!-- UF : I1 ANIF11 -->
@@ -63,6 +69,7 @@
     <TD>4</TD>
     <type>Obligatoire</type>
     <responsable_cours>Didier-LEBOTLAN-1	</responsable_cours>
+    <uf_associe>UNKNOWN_UF</uf_associe>
   </Cours>
 
   <Cours nom="Mathematiques">
@@ -71,6 +78,7 @@
     <TD>4</TD>
     <type>Obligatoire</type>
     <responsable_cours>Sandrine-SCOTT-1</responsable_cours>
+    <uf_associe>UNKNOWN_UF</uf_associe>
   </Cours>
 
   <!-- UF: I1 ANTI11 -->
@@ -80,8 +88,8 @@
     <TP>0</TP>
     <TD>4</TD>
     <type>Obligatoire</type>
-    <responsable_cours>
-    </responsable_cours>
+    <responsable_cours></responsable_cours>
+    <uf_associe>UNKNOWN_UF</uf_associe>
   </Cours>
 
   <Cours nom="Etude des Materiaux + CSM">
@@ -89,8 +97,8 @@
     <TP>4</TP>
     <TD>2</TD>
     <type>Obligatoire</type>
-    <responsable_cours>
-    </responsable_cours>
+    <responsable_cours></responsable_cours>
+    <uf_associe>UNKNOWN_UF</uf_associe>
   </Cours>
 
   <Cours nom="SDP">
@@ -99,6 +107,7 @@
     <TD>6</TD>
     <type>Obligatoire</type>
     <responsable_cours>Jean-Claude-LAFFITTE-1</responsable_cours>
+    <uf_associe>UNKNOWN_UF</uf_associe>
   </Cours>
 
   <!-- Semestre 3 IMACS -->
@@ -111,6 +120,7 @@
     <TD>4</TD>
     <type>Obligatoire</type>
     <responsable_cours>Christophe-VIEU-1</responsable_cours>
+    <uf_associe>I2MAPH11</uf_associe>
   </Cours>
 
   <Cours nom="TP OPTIQUE">
@@ -119,6 +129,7 @@
     <TD>0</TD>
     <type>Obligatoire</type>
     <responsable_cours>Christophe-VIEU-1</responsable_cours>
+    <uf_associe>I2MAPH11</uf_associe>
   </Cours>
 
   <Cours nom="TP MEB">
@@ -127,6 +138,7 @@
     <TD>0</TD>
     <type>Obligatoire</type>
     <responsable_cours>Christophe-VIEU-1</responsable_cours>
+    <uf_associe>I2MAPH11</uf_associe>
   </Cours>
 
   <Cours nom="TP AFM">
@@ -135,6 +147,7 @@
     <TD>0</TD>
     <type>Optionnel</type>
     <responsable_cours>Christophe-VIEU-1</responsable_cours>
+    <uf_associe>I2MAPH11</uf_associe>
   </Cours>
 
   <!-- UF : I2M AMT11-->
@@ -145,6 +158,7 @@
     <TD>8</TD>
     <type>Obligatoire</type>
     <responsable_cours>Sandrine-SCOTT-1</responsable_cours>
+    <uf_associe>I2MAMT11</uf_associe>
   </Cours>
 
   <Cours nom="Algebre">
@@ -153,6 +167,7 @@
     <TD>8</TD>
     <type>Obligatoire</type>
     <responsable_cours>Sandrine-SCOTT-1</responsable_cours>
+    <uf_associe>I2MAMT11</uf_associe>
   </Cours>
 
   <!-- UF I2MAEL11 -->
@@ -162,6 +177,7 @@
     <TD>3</TD>
     <type>Obligatoire</type>
     <responsable_cours>Lea-COT-1</responsable_cours>
+    <uf_associe>I2MAEL11</uf_associe>
   </Cours>
 
   <Cours nom="Signal">
@@ -170,6 +186,7 @@
     <TD>2</TD>
     <type>Obligatoire</type>
     <responsable_cours>Lea-COT-1</responsable_cours>
+    <uf_associe>I2MAEL11</uf_associe>
   </Cours>
 
   <!-- UF I2MAIF11 -->
@@ -180,6 +197,7 @@
     <TD>6</TD>
     <type>Obligatoire</type>
     <responsable_cours>Gwendoline-LECORRE-1</responsable_cours>
+    <uf_associe>I2MAIF11</uf_associe>
   </Cours>
 
   <Cours nom="Electronique Numerique">
@@ -188,6 +206,7 @@
     <TD>2</TD>
     <type>Obligatoire</type>
     <responsable_cours>Gwendoline-LECORRE-1</responsable_cours>
+    <uf_associe>I2MAIF11</uf_associe>
   </Cours>
 
   <!-- UF I2CCGE31 -->
@@ -198,6 +217,7 @@
     <TD>15</TD>
     <type>Obligatoire</type>
     <responsable_cours>Claire-HEURTE-1</responsable_cours>
+    <uf_associe>I2CCGE31</uf_associe>
   </Cours>
 
   <Cours nom="Gestion">
@@ -206,6 +226,7 @@
     <TD>15</TD>
     <type>Obligatoire</type>
     <responsable_cours>Claire-HEURTE-1</responsable_cours>
+    <uf_associe>I2CCGE31</uf_associe>
   </Cours>
 
   <Cours nom="LV1">
@@ -214,6 +235,7 @@
     <TD>15</TD>
     <type>Obligatoire</type>
     <responsable_cours>Claire-HEURTE-1</responsable_cours>
+    <uf_associe>I2CCGE31</uf_associe>
   </Cours>
 
   <Cours nom="Stage">
@@ -222,6 +244,7 @@
     <TD>0</TD>
     <type>Obligatoire</type>
     <responsable_cours>Claire-HEURTE-1</responsable_cours>
+    <uf_associe>I2CCGE31</uf_associe>
   </Cours>
 
   <!-- I2CCGA11 -->
@@ -232,6 +255,7 @@
     <TD>15</TD>
     <type>Obligatoire</type>
     <responsable_cours>Sylvie-ROSSARD-1</responsable_cours>
+    <uf_associe>I2CCGA11</uf_associe>
   </Cours>
 
   <Cours nom="PPI">
@@ -240,6 +264,7 @@
     <TD>0</TD>
     <type>Obligatoire</type>
     <responsable_cours>Sylvie-ROSSARD-1</responsable_cours>
+    <uf_associe>I2CCGA11</uf_associe>
   </Cours>
 
   <Cours nom="MO">
@@ -248,6 +273,7 @@
     <TD>15</TD>
     <type>Obligatoire</type>
     <responsable_cours>Sylvie-ROSSARD-1</responsable_cours>
+    <uf_associe>I2CCGA11</uf_associe>
   </Cours>
 
   <Cours nom="Musique ou Danse Etude">
@@ -256,6 +282,7 @@
     <TD>0</TD>
     <type>Optionnel</type>
     <responsable_cours>Sylvie-ROSSARD-1</responsable_cours>
+    <uf_associe>I2CCGA11</uf_associe>
   </Cours>
 
   <!-- Semestre 4  IMACS   -->

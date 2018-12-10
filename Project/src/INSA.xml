@@ -7,6 +7,8 @@
   <xi:include href="Departements.xml" parse="xml"/>
   <xi:include href="Specialites.xml" parse="xml"/>
 	<xi:include href="Semestres.xml" parse="xml"/>
+	<xi:include href="Competences.xml" parse="xml"/>
+	<xi:include href="UF.xml" parse="xml"/>
 	<xi:include href="Cours.xml" parse="xml"/>
 	<xi:include href="Epreuves.xml" parse="xml"/>
 </INSA>

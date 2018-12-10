@@ -1,365 +1,364 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UFs>
+  <UF code="UNKNOWN_UF">
+    <ECTS>0</ECTS>
+    <nom>This UF is here to complete 'Cours.xml' by an empty UF.</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+    <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+    <semestre_associe>S3_IMACS</semestre_associe>
+    <competence>Unknown</competence>
+  </UF>
+
   <!-- Semestre 3  IMACS   -->
-  <UF code = "I2MAPH11">
+  <UF code="I2MAPH11">
     <ECTS>4</ECTS>
     <nom>Nanophysique : optique, photonique, nanotechnologies</nom>
     <responsable_UF>Christophe-VIEU-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
+    <grand_domaine>Sciences appliquees</grand_domaine>
     <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours>Nanophysique</cours>
-	  <cours>TP OPTIQUE</cours>
-  	<cours>TP MEB</cours>
-	  <cours>TP AFM</cours>
+    <semestre_associe>S3_IMACS</semestre_associe>
     <competence>Nanophysique</competence>
   </UF>
 
-  <UF code = "I2MAMT11">
+  <UF code="I2MAMT11">
     <ECTS>6</ECTS>
-    <nom>Algèbre et Analyse</nom>
+    <nom>Algebre et Analyse</nom>
     <responsable_UF>Sandrine-SCOTT-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
-	<type>Homogene</type>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours>Analyse 1</cours>
-	<cours>Algèbre</cours>
+    <semestre_associe>S3_IMACS</semestre_associe>
     <competence>Analyse</competence>
   </UF>
 
-  <UF code = "I2MAEL11">
+  <UF code="I2MAEL11">
     <ECTS>6</ECTS>
     <nom>Concepts et Circuits pour le Traitement du Signal</nom>
     <responsable_UF>Etienne-SICARD-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
-	<type>Homogene</type>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+  	<type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours>Electronique analogique</cours>
-	<cours>Signal</cours>
+    <semestre_associe>S3_IMACS</semestre_associe>
     <competence>Signaux</competence>
   </UF>
 
-  <UF code = "I2MAIF11">
+  <UF code="I2MAIF11">
     <ECTS>4</ECTS>
-    <nom>Informatique matérielle</nom>
+    <nom>Informatique materielle</nom>
     <responsable_UF>Gwendoline-LECORRE-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
-	<type>Homogene</type>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+  	<type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours>Informatique Materielle</cours>
-	<cours>Electronique Numerique</cours>
-	<competence>Informatique</competence>
+    <semestre_associe>S3_IMACS</semestre_associe>
+	  <competence>Informatique</competence>
   </UF>
 
-  <UF code = "I2CCGE31">
+  <UF code="I2CCGE31">
     <ECTS>5</ECTS>
     <nom>Connaissance de l'entreprise et des modes de communication</nom>
     <responsable_UF>Laure-FABRE-1</responsable_UF>
     <grand_domaine>Sciences humaines</grand_domaine>
-	<type>Homogene</type>
+	  <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours>Expression</cours>
-	<cours>Gestion</cours>
-	<cours>Lv1</cours>
-	<cours>Stage</cours>
-	<competence>CSH</competence>
+    <semestre_associe>S3_IMACS</semestre_associe>
+	  <competence>CSH</competence>
   </UF>
 
-  <UF code = "I2CCGA11">
+  <UF code="I2CCGA11">
     <ECTS>5</ECTS>
     <nom>Grandir en autonomie - construire son projet professionnel 2</nom>
     <responsable_UF>Sylvie-ROSSARD-1</responsable_UF>
     <grand_domaine>APS MO PPI</grand_domaine>
-	<type>Homogene</type>
+  	<type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours>EPS</cours>
-	<cours>PPI</cours>
-	<cours>MO</cours>
-	<cours>Musique ou Danse Etude</cours>
+    <semestre_associe>S3_IMACS</semestre_associe>
     <competence>Autonomie</competence>
   </UF>
 
 
   <!-- Semestre 4  IMACS   -->
-  <UF code = "I2MAPH31">
+  <UF code="I2MAPH31">
     <ECTS>5</ECTS>
-    <nom>Physique des matériaux applications à la microélectrique</nom>
+    <nom>Physique des materiaux applications à la microelectrique</nom>
     <responsable_UF>Bertrand-RAQUET-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
+    <grand_domaine>Sciences appliquees</grand_domaine>
     <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S4_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I2MAPH21">
+  <UF code="I2MAPH21">
     <ECTS>3</ECTS>
-    <nom>Electromagnétisme</nom>
+    <nom>Electromagnetisme</nom>
     <responsable_UF>Xavier-HEBRAS-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
-	<type>Homogene</type>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S4_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I2MAMT21">
+  <UF code="I2MAMT21">
     <ECTS>5</ECTS>
-    <nom>Analyse et probabilités</nom>
+    <nom>Analyse et probabilites</nom>
     <responsable_UF>Stephane-GENIEYS-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
-	<type>Homogene</type>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S4_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I2MAIF21">
+  <UF code="I2MAIF21">
     <ECTS>4</ECTS>
-    <nom>Algorithme et programmation, Système d'exploitation</nom>
+    <nom>Algorithme et programmation, Systeme d'exploitation</nom>
     <responsable_UF>Guillaume-AURIOL-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
-	<type>Homogene</type>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S4_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I2MAAU11">
+  <UF code="I2MAAU11">
     <ECTS>3</ECTS>
-    <nom>Systèmes bouclés</nom>
+    <nom>Systemes boucles</nom>
     <responsable_UF>Vincent-MAHOUT-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
-	<type>Heterogene</type>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Heterogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S4_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I2CCLA31">
+  <UF code="I2CCLA31">
     <ECTS>5</ECTS>
-    <nom>Communiquer en langue étrangères</nom>
+    <nom>Communiquer en langue etrangeres</nom>
     <responsable_UF>Claire-HEURTE-1</responsable_UF>
     <grand_domaine>Sciences humaines</grand_domaine>
-	<type>Heterogene</type>
+	  <type>Heterogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S4_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I2CCGA21">
+  <UF code="I2CCGA21">
     <ECTS>5</ECTS>
     <nom>Grandir en autonomie - construire son projet professionnel 2</nom>
     <responsable_UF>Sylvie-ROSSARD-1</responsable_UF>
     <grand_domaine>APS MO PPI</grand_domaine>
-	<type>Homogene</type>
+	  <type>Homogene</type>
     <eval_par_competence>oui</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S4_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
   <!-- Semestre 5 IMACS  -->
-  <UF code = "I3MAIF11">
+  <UF code="I3MAIF11">
     <ECTS>6</ECTS>
-    <nom>Langage C, Analyse Numérique et Réseaux</nom>
+    <nom>Langage C, Analyse Numerique et Reseaux</nom>
     <responsable_UF>Florent-CHAZEL-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
+    <grand_domaine>Sciences appliquees</grand_domaine>
     <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S5_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I3MAPH11">
+  <UF code="I3MAPH11">
     <ECTS>5</ECTS>
     <nom>Mesures physique et statistique</nom>
     <responsable_UF>David-VIGNOLLES-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
-	<type>Homogene</type>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+  	<type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S5_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I3MAAE11">
+  <UF code="I3MAAE11">
     <ECTS>5</ECTS>
     <nom>Automatique et Electronique </nom>
     <responsable_UF>Patrick-TOUNSI-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
-	<type>Homogene</type>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S5_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I3MAPH31">
+  <UF code="I3MAPH31-S5">
     <ECTS>4</ECTS>
-    <nom>Propagation ondes électromagnétiques / mécanique classique</nom>
+    <nom>Propagation ondes electromagnetiques / mecanique classique</nom>
     <responsable_UF>Guillaume-AURIOL-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
-	<type>Homogene</type>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S5_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I3CCGA11">
+  <UF code="I3CCGA11">
     <ECTS>5</ECTS>
     <nom>Grandir en autonomie 3 </nom>
-    <responsable_UF>inconnu</responsable_UF>
+    <responsable_UF>Inconnu</responsable_UF>
     <grand_domaine>Sciences humaines</grand_domaine>
-	<type>Heterogene</type>
+	  <type>Heterogene</type>
     <eval_par_competence>oui</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S5_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I3CCGE31">
+  <UF code="I3CCGE31">
     <ECTS>4</ECTS>
-    <nom>Techniques de Recherche d'Emploi et Langues (avec LV2 ou Anglais renforcé) </nom>
+    <nom>Techniques de Recherche d'Emploi et Langues (avec LV2 ou Anglais renforce) </nom>
     <responsable_UF>Florence-WAGNER-1</responsable_UF>
     <grand_domaine>Sciences humaines</grand_domaine>
-	<type>Homogene</type>
+	  <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S5_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I3CCGE11">
+  <UF code="I3CCGE11">
     <ECTS>5</ECTS>
     <nom>Technique de recherche d'emploi et Langues</nom>
     <responsable_UF>Laure-FABRE-1</responsable_UF>
     <grand_domaine>Sciences humaines</grand_domaine>
-	<type>Homogene</type>
+	  <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S5_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
   <!-- Semestre 6  IMACS   -->
 
   <!-- Orientation AUTOMATIQUE et ELECTRONIQUE -->
-  <UF code = "I3MAIF22">
+  <UF code="I3MAIF22">
     <ECTS>5</ECTS>
-    <nom>Informatique Matérielle : Architec. et Langage d'assemblage</nom>
+    <nom>Informatique Materielle : Architec. et Langage d'assemblage</nom>
     <responsable_UF>Vincent-MAHOUT-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
+    <grand_domaine>Sciences appliquees</grand_domaine>
     <type>Homogene</type>
     <eval_par_competence>oui</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S6_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I3MAIF31">
+  <UF code="I3MAIF31">
     <ECTS>4</ECTS>
-    <nom>Prog C, Réseaux, B.D.</nom>
-    <responsable_UF>inconnu</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
-	<type>Homogene</type>
+    <nom>Prog C, Reseaux, B.D.</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
     <eval_par_competence>oui</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S6_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I3MAAU12">
+  <UF code="I3MAAU12">
     <ECTS>5</ECTS>
-    <nom>Automatique : Modélisation et Commande </nom>
+    <nom>Automatique : Modelisation et Commande </nom>
     <responsable_UF>Audine-SUBIAS-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
-	<type>Homogene</type>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S6_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I3MAPH31">
+  <UF code="I3MAPH31-S6">
     <ECTS>6</ECTS>
     <nom>Electronique et signal</nom>
     <responsable_UF>Thierry-ROCACHER-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
-	<type>Homogene</type>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S6_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
   <!-- Orientation Genie Physique -->
-  <UF code = "I3MAPH42">
+  <UF code="I3MAPH42">
     <ECTS>5</ECTS>
     <nom>Thermodynamqiue et Diffusion</nom>
     <responsable_UF>Marc-RESPAUD-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
+    <grand_domaine>Sciences appliquees</grand_domaine>
     <type>Heterogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S6_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I3MAPH52">
+  <UF code="I3MAPH52">
     <ECTS>4</ECTS>
-    <nom>Physique des matériaux</nom>
+    <nom>Physique des materiaux</nom>
     <responsable_UF>Claude-MENY-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
-	<type>Homogene</type>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S6_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I3MAPH62">
+  <UF code="I3MAPH62">
     <ECTS>5</ECTS>
-    <nom>Physique Appliquée des Matériaux</nom>
+    <nom>Physique Appliquee des Materiaux</nom>
     <responsable_UF>Benoit-VIALLET-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
-	<type>Homogene</type>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+  	<type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S6_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I3MAPH71">
+  <UF code="I3MAPH71">
     <ECTS>6</ECTS>
     <nom>Physique Quantique et Statistique</nom>
     <responsable_UF>Pierre-RENUCCI-1</responsable_UF>
-    <grand_domaine>Sciences appliquées</grand_domaine>
-	<type>Homogene</type>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S6_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
   <!-- Tronc Commun -->
-  <UF code = "I3CCGE41">
+  <UF code="I3CCGE41">
     <ECTS>5</ECTS>
     <nom>L'entreprise et son environnement</nom>
     <responsable_UF>Michel-LOMI-1</responsable_UF>
     <grand_domaine>Sciences humaines</grand_domaine>
-	<type>Homogene</type>
+	  <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S6_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I3CCGA21">
+  <UF code="I3CCGA21">
     <ECTS>5</ECTS>
     <nom>Grandir en autonomie niveau 3</nom>
-    <responsable_UF>inconnu</responsable_UF>
+    <responsable_UF>Inconnu</responsable_UF>
     <grand_domaine>Sciences humaines</grand_domaine>
-	<type>Homogene</type>
+	  <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S6_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
-  <UF code = "I3CCGE51">
+  <UF code="I3CCGE51">
     <ECTS>3</ECTS>
-    <nom>L'entreprise et son environnement (avec LV2 ou Anglais Renforcé)</nom>
-    <responsable_UF>inconnu</responsable_UF>
+    <nom>L'entreprise et son environnement (avec LV2 ou Anglais Renforce)</nom>
+    <responsable_UF>Inconnu</responsable_UF>
     <grand_domaine>Sciences humaines</grand_domaine>
-	<type>Heterogene</type>
+	  <type>Heterogene</type>
     <eval_par_competence>non</eval_par_competence>
-    <cours></cours>
-    <competence></competence>
+    <semestre_associe>S6_IMACS</semestre_associe>
+    <competence>Unknown</competence>
   </UF>
 
 </UFs>
