@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Semestres>
 
-  <Semestre id = "S3-POIMACS">
+  <Semestre id = "S3-2IMACS">
     <responsable_semestre>Helene-CARRERE-1</responsable_semestre>
     <UF>I2MAPH11</UF>
     <UF>I2MAMT11</UF>
@@ -11,7 +11,7 @@
     <UF>I2CCGA11</UF>
   </Semestre>
 
-  <Semestre id = "S4-POIMACS">
+  <Semestre id = "S4-2IMACS">
     <responsable_semestre>Helene-CARRERE-1</responsable_semestre>
     <UF>I2MAPH31</UF>
     <UF>I2MAPH21</UF>
@@ -22,7 +22,7 @@
     <UF>I2CCGA21</UF>
   </Semestre>
 
-  <Semestre id = "S5-POIMACS">
+  <Semestre id = "S5-3IMACS">
     <responsable_semestre>Helene-CARRERE-1</responsable_semestre>
     <UF>I3MAIF11</UF>
     <UF>I3MAPH11</UF>
@@ -33,7 +33,7 @@
     <UF>I3CCGE11</UF>
   </Semestre>
 
-  <Semestre id = "S6-POIMACS">
+  <Semestre id = "S6-3IMACS">
     <responsable_semestre>Helene-CARRERE-1</responsable_semestre>
     <!-- Orientation AUTOMATIQUE et ELECTRONIQUE -->
     <UF>I3MAIF22</UF>

@@ -12,8 +12,7 @@
 	  <cours>TP OPTIQUE</cours>
   	<cours>TP MEB</cours>
 	  <cours>TP AFM</cours>
-    <competence>Nanophysique1</competence>
-	<competence>Nanophysique2</competence>
+    <competence>Nanophysique</competence>
   </UF>
 
   <UF code = "I2MAMT11">
@@ -25,8 +24,7 @@
     <eval_par_competence>non</eval_par_competence>
     <cours>Analyse 1</cours>
 	<cours>Algèbre</cours>
-    <competence>Analyse1</competence>
-	<competence>Analyse2</competence>
+    <competence>Analyse</competence>
   </UF>
 
   <UF code = "I2MAEL11">
@@ -38,9 +36,7 @@
     <eval_par_competence>non</eval_par_competence>
     <cours>Electronique analogique</cours>
 	<cours>Signal</cours>
-    <competence>Signaux1</competence>
-	<competence>Signaux2</competence>
-	<competence>Signaux3</competence>
+    <competence>Signaux</competence>
   </UF>
 
   <UF code = "I2MAIF11">
@@ -52,9 +48,7 @@
     <eval_par_competence>non</eval_par_competence>
     <cours>Informatique Materielle</cours>
 	<cours>Electronique Numerique</cours>
-	<competence>Informatique1</competence>
-	<competence>Informatique2</competence>
-	<competence>Informatique3</competence>
+	<competence>Informatique</competence>
   </UF>
 
   <UF code = "I2CCGE31">
@@ -68,9 +62,7 @@
 	<cours>Gestion</cours>
 	<cours>Lv1</cours>
 	<cours>Stage</cours>
-	<competence>CSH1</competence>
-	<competence>CSH2</competence>
-	<competence>CSH3</competence>
+	<competence>CSH</competence>
   </UF>
 
   <UF code = "I2CCGA11">
@@ -84,8 +76,7 @@
 	<cours>PPI</cours>
 	<cours>MO</cours>
 	<cours>Musique ou Danse Etude</cours>
-    <competence>Autonomie1</competence>
-	<competence>Autonomie2</competence>
+    <competence>Autonomie</competence>
   </UF>
 
 
