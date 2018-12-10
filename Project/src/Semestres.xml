@@ -3,6 +3,7 @@
 
   <Semestre id = "S3-2IMACS">
     <responsable_semestre>Helene-CARRERE-1</responsable_semestre>
+    <specialite_associee>IMACS</specialite_associee>
     <UF>I2MAPH11</UF>
     <UF>I2MAMT11</UF>
     <UF>I2MAEL11</UF>
@@ -13,6 +14,7 @@
 
   <Semestre id = "S4-2IMACS">
     <responsable_semestre>Helene-CARRERE-1</responsable_semestre>
+    <specialite_associee>IMACS</specialite_associee>
     <UF>I2MAPH31</UF>
     <UF>I2MAPH21</UF>
     <UF>I2MAMT21</UF>
@@ -24,6 +26,7 @@
 
   <Semestre id = "S5-3IMACS">
     <responsable_semestre>Helene-CARRERE-1</responsable_semestre>
+    <specialite_associee>IMACS</specialite_associee>
     <UF>I3MAIF11</UF>
     <UF>I3MAPH11</UF>
     <UF>I3MAAE11</UF>
@@ -35,6 +38,7 @@
 
   <Semestre id = "S6-3IMACS">
     <responsable_semestre>Helene-CARRERE-1</responsable_semestre>
+    <specialite_associee>IMACS</specialite_associee>
     <!-- Orientation AUTOMATIQUE et ELECTRONIQUE -->
     <UF>I3MAIF22</UF>
     <UF>I3MAIF31</UF>

@@ -74,14 +74,14 @@
     </xsd:keyref>
 
     <!-- Semestre -->
-    <xsd:key name="cleSemestre">
-      <xsd:selector xpath="./Semestres/Semestre"/>
-      <xsd:field xpath="@id"/>
-    </xsd:key>
-
     <xsd:keyref name="refResponsableSemestre" refer="clePersonne">
       <xsd:selector xpath=".//Semestre"/>
       <xsd:field xpath="responsable_semestre"/>
+    </xsd:keyref>
+
+    <xsd:keyref name="refSpecialite" refer="cleSpecialite">
+      <xsd:selector xpath=".//Semestre"/>
+      <xsd:field xpath="specialite_associee"/>
     </xsd:keyref>
 
     <!--<xsd:keyref name="refUF" refer="cleUF">
@@ -90,7 +90,7 @@
     </xsd:keyref>-->
 
     <!-- Spécialités -->
-    <xsd:key name="cleSpecialites">
+    <xsd:key name="cleSpecialite">
       <xsd:selector xpath="./Specialites/Specialite"/>
       <xsd:field xpath="@acronyme"/>
     </xsd:key>
@@ -99,11 +99,6 @@
       <xsd:selector xpath=".//Specialite"/>
       <xsd:field xpath="Responsable"/>
     </xsd:keyref>
-
-    <!--<xsd:keyref name="refSemestre" refer="cleSemestre">
-      <xsd:selector xpath=".//Specialite"/>
-      <xsd:field xpath="Semestre"/>
-    </xsd:keyref>-->
 
     <xsd:keyref name="refDepartement" refer="cleDepartement">
       <xsd:selector xpath=".//Specialite"/>
@@ -167,7 +162,6 @@
     <xsd:complexType>
       <xsd:sequence>
         <xsd:element name="nom" type="xsd:string"/>
-        <xsd:element name="Semestre" type="xsd:string" minOccurs="2" maxOccurs="4"/>
         <xsd:element name="Responsable" type="xsd:string"/>
         <xsd:element name="Departement" type="xsd:string"/>
       </xsd:sequence>
@@ -188,6 +182,7 @@
     <xsd:complexType>
       <xsd:sequence>
         <xsd:element name="responsable_semestre" type="xsd:string"/>
+        <xsd:element name="specialite_associee" type="xsd:string"/>
         <xsd:element name="UF" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
       </xsd:sequence>
       <xsd:attribute name="id" type="xsd:string"/>
