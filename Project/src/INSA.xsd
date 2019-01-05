@@ -49,10 +49,10 @@
       <xsd:field xpath="@code"/>
     </xsd:key>
 
-    <!--<xsd:keyref name="refResponsableUF" refer="clePersonne">
+    <xsd:keyref name="refResponsableUF" refer="clePersonne">
       <xsd:selector xpath=".//UF"/>
       <xsd:field xpath="responsable_UF"/>
-    </xsd:keyref>-->
+    </xsd:keyref>
 
     <xsd:keyref name="refCompetence" refer="cleCompetence">
       <xsd:selector xpath=".//UF"/>

@@ -204,6 +204,175 @@
     <email>jc-laffitte@insa-toulouse.fr</email>
   </Personne>
 
+  <Personne id="Etienne-SICARD-1">
+    <nom>SICARD</nom>
+    <prenom>Etienne</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-15-66-12-66</telephone>
+    <email>etienne-sicard@insa-toulouse.fr</email>
+  </Personne>
+  
+  
+   <Personne id="Laure-FABRE-1">
+    <nom>FABRE</nom>
+    <prenom>Laure</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-63-02-03-99</telephone>
+    <email>laure-fabre@insa-toulouse.fr</email>
+  </Personne>
+  
+  
+   <Personne id="Bertrand-RAQUET-1">
+    <nom>RAQUET</nom>
+    <prenom>Bertrand</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-98-78-58-48</telephone>
+    <email>bertrand-raquet@insa-toulouse.fr</email>
+  </Personne>
+  
+   <Personne id="Xavier-HEBRAS-1">
+    <nom>HEBRAS</nom>
+    <prenom>Xavier</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-11-11-11-11</telephone>
+    <email>xavier-hebras@insa-toulouse.fr</email>
+  </Personne>
+  
+  
+  <Personne id="Stephane-GENIEYS-1">
+    <nom>GENIEYS</nom>
+    <prenom>Stephane</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-22-22-55-22</telephone>
+    <email>stephane-genieys@insa-toulouse.fr</email>
+  </Personne>
+
+
+  <Personne id="Guillaume-AURIOL-1">
+    <nom>AURIOL</nom>
+    <prenom>Guillaume</prenom>
+    <bureau>
+    </bureau>
+    <telephone>07-55-47-99-46</telephone>
+    <email>guillaume-auriol@insa-toulouse.fr</email>
+  </Personne>
+
+
+  <Personne id="Vincent-MAHOUT-1">
+    <nom>MAHOUT</nom>
+    <prenom>Vincent</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-78-62-55-13</telephone>
+    <email>vincent-mahout@insa-toulouse.fr</email>
+  </Personne>
+  
+  
+   <Personne id="Florent-CHAZEL-1">
+    <nom>CHAZEL</nom>
+    <prenom>Florent</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-36-47-92-91</telephone>
+    <email>florent-chazel@insa-toulouse.fr</email>
+  </Personne>
+  
+  
+   <Personne id="Patrick-TOUNSI-1">
+    <nom>TOUNSI</nom>
+    <prenom>Patrick</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-11-99-11-66</telephone>
+    <email>patrick-tounsi@insa-toulouse.fr</email>
+  </Personne>
+  
+  
+   <Personne id="Florence-WAGNER-1">
+    <nom>WAGNER</nom>
+    <prenom>Florence</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-54-45-54-45</telephone>
+    <email>florence-wagner@insa-toulouse.fr</email>
+  </Personne>
+  
+  
+   <Personne id="Audine-SUBIAS-1">
+    <nom>SUBIAS</nom>
+    <prenom>Audine</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-48-78-96-12</telephone>
+    <email>audine-subias@insa-toulouse.fr</email>
+  </Personne>
+  
+  
+   <Personne id="Thierry-ROCACHER-1">
+    <nom>ROCACHER</nom>
+    <prenom>Thierry</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-30-10-40-90</telephone>
+    <email>thierry-rocacher@insa-toulouse.fr</email>
+  </Personne>
+  
+   <Personne id="Marc-RESPAUD-1">
+    <nom>RESPAUD</nom>
+    <prenom>Marc</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-10-12-14-66</telephone>
+    <email>marc-respaud@insa-toulouse.fr</email>
+  </Personne>
+  
+  
+   <Personne id="Claude-MENY-1">
+    <nom>MENY</nom>
+    <prenom>Claude</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-14-18-39-45</telephone>
+    <email>claude-meny@insa-toulouse.fr</email>
+  </Personne>
+
+
+  <Personne id="Benoit-VIALLET-1">
+    <nom>VIALLET</nom>
+    <prenom>Benoit</prenom>
+    <bureau>
+    </bureau>
+    <telephone>06-36-37-38-39</telephone>
+    <email>benoit-viallet@insa-toulouse.fr</email>
+  </Personne>
+  
+   <Personne id="Pierre-RENUCCI-1">
+    <nom>RENUCCI</nom>
+    <prenom>Pierre</prenom>
+    <bureau>
+    </bureau>
+    <telephone>07-58-96-45-23</telephone>
+    <email>pierre-renucci@insa-toulouse.fr</email>
+  </Personne>
+
+
+  <Personne id="Michel-LOMI-1">
+    <nom>LOMI</nom>
+    <prenom>Michel</prenom>
+    <bureau>
+    </bureau>
+    <telephone>07-14-56-62-78</telephone>
+    <email>michel-lomi@insa-toulouse.fr</email>
+  </Personne>
+
+
+
+
   <Personne id="Inconnu">
     <nom>Inconnu</nom>
     <prenom>Inconnu</prenom>
