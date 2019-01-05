@@ -141,7 +141,7 @@
     <email>lea-cot@insa-toulouse.fr</email>
   </Personne>
 
-  <Personne id="gwendoline-LECORRE-1">
+  <Personne id="Gwendoline-LECORRE-1">
     <nom>LECORRE</nom>
     <prenom>Gwendoline</prenom>
     <bureau>
@@ -212,8 +212,8 @@
     <telephone>06-15-66-12-66</telephone>
     <email>etienne-sicard@insa-toulouse.fr</email>
   </Personne>
-  
-  
+
+
    <Personne id="Laure-FABRE-1">
     <nom>FABRE</nom>
     <prenom>Laure</prenom>
@@ -222,8 +222,8 @@
     <telephone>06-63-02-03-99</telephone>
     <email>laure-fabre@insa-toulouse.fr</email>
   </Personne>
-  
-  
+
+
    <Personne id="Bertrand-RAQUET-1">
     <nom>RAQUET</nom>
     <prenom>Bertrand</prenom>
@@ -232,7 +232,7 @@
     <telephone>06-98-78-58-48</telephone>
     <email>bertrand-raquet@insa-toulouse.fr</email>
   </Personne>
-  
+
    <Personne id="Xavier-HEBRAS-1">
     <nom>HEBRAS</nom>
     <prenom>Xavier</prenom>
@@ -241,8 +241,8 @@
     <telephone>06-11-11-11-11</telephone>
     <email>xavier-hebras@insa-toulouse.fr</email>
   </Personne>
-  
-  
+
+
   <Personne id="Stephane-GENIEYS-1">
     <nom>GENIEYS</nom>
     <prenom>Stephane</prenom>
@@ -271,8 +271,8 @@
     <telephone>06-78-62-55-13</telephone>
     <email>vincent-mahout@insa-toulouse.fr</email>
   </Personne>
-  
-  
+
+
    <Personne id="Florent-CHAZEL-1">
     <nom>CHAZEL</nom>
     <prenom>Florent</prenom>
@@ -281,8 +281,8 @@
     <telephone>06-36-47-92-91</telephone>
     <email>florent-chazel@insa-toulouse.fr</email>
   </Personne>
-  
-  
+
+
    <Personne id="Patrick-TOUNSI-1">
     <nom>TOUNSI</nom>
     <prenom>Patrick</prenom>
@@ -291,8 +291,8 @@
     <telephone>06-11-99-11-66</telephone>
     <email>patrick-tounsi@insa-toulouse.fr</email>
   </Personne>
-  
-  
+
+
    <Personne id="Florence-WAGNER-1">
     <nom>WAGNER</nom>
     <prenom>Florence</prenom>
@@ -301,8 +301,8 @@
     <telephone>06-54-45-54-45</telephone>
     <email>florence-wagner@insa-toulouse.fr</email>
   </Personne>
-  
-  
+
+
    <Personne id="Audine-SUBIAS-1">
     <nom>SUBIAS</nom>
     <prenom>Audine</prenom>
@@ -311,8 +311,8 @@
     <telephone>06-48-78-96-12</telephone>
     <email>audine-subias@insa-toulouse.fr</email>
   </Personne>
-  
-  
+
+
    <Personne id="Thierry-ROCACHER-1">
     <nom>ROCACHER</nom>
     <prenom>Thierry</prenom>
@@ -321,7 +321,7 @@
     <telephone>06-30-10-40-90</telephone>
     <email>thierry-rocacher@insa-toulouse.fr</email>
   </Personne>
-  
+
    <Personne id="Marc-RESPAUD-1">
     <nom>RESPAUD</nom>
     <prenom>Marc</prenom>
@@ -330,8 +330,8 @@
     <telephone>06-10-12-14-66</telephone>
     <email>marc-respaud@insa-toulouse.fr</email>
   </Personne>
-  
-  
+
+
    <Personne id="Claude-MENY-1">
     <nom>MENY</nom>
     <prenom>Claude</prenom>
@@ -350,7 +350,7 @@
     <telephone>06-36-37-38-39</telephone>
     <email>benoit-viallet@insa-toulouse.fr</email>
   </Personne>
-  
+
    <Personne id="Pierre-RENUCCI-1">
     <nom>RENUCCI</nom>
     <prenom>Pierre</prenom>

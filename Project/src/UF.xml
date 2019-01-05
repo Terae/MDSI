@@ -2,7 +2,7 @@
 <UFs>
   <UF code="UNKNOWN_UF">
     <ECTS>0</ECTS>
-    <nom>This UF is here to complete 'Cours.xml' by an empty UF.</nom>
+    <nom>UF presente pour les cours provenant d'une UF inconnue</nom>
     <responsable_UF>Inconnu</responsable_UF>
     <grand_domaine>Sciences appliquees</grand_domaine>
     <type>Homogene</type>
