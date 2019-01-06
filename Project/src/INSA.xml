@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
 <!-- <xs:schema xmlns:xs= "http://www.w3.org/2001/XMLSchema%22%3E"/> -->
-<?xml-stylesheet href="listeUfImportantes.xsl" type="text/xsl"?>
+<!-- <?xml-stylesheet href="listeUfImportantes.xsl" type="text/xsl"?> -->
 <INSA xmlns:xi="http://www.w3.org/2001/XInclude">
 	<xi:include href="Personnes.xml" parse="xml"/>
   <xi:include href="Departements.xml" parse="xml"/>
