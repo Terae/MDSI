@@ -5,7 +5,7 @@
   <xsl:template match="/">
     <html lang="fr">
       <head>
-        <title>Liste Compétences par Spé</title>
+        <title>Liste des Competences par Specialite</title>
       </head>
       <body>
         <xsl:apply-templates select=".//Specialites"/>
@@ -14,7 +14,7 @@
   </xsl:template>
 
   <xsl:template match="Specialites">
-    <h1>Liste des Compétences par Spécialité</h1>
+    <h1>Liste des Competences par Specialite</h1>
     <xsl:apply-templates select="Specialite"/>
   </xsl:template>
 
@@ -22,8 +22,6 @@
     <h2> * <xsl:value-of select="@acronyme"/> </h2>
     <xsl:apply-templates select="@acronyme"/>
   </xsl:template>
-
-
 
   <xsl:template match="@acronyme" >
     <xsl:variable name="My_Name" select="."/>
@@ -35,7 +33,6 @@
     </xsl:for-each>
   </xsl:template>
 
-
   <xsl:template match="@id">
     <xsl:variable name="My_id" select="."/>
     <xsl:for-each select="//UFs/UF">
@@ -44,7 +41,5 @@
       </xsl:if>
     </xsl:for-each>
   </xsl:template>
-
-
 
 </xsl:stylesheet>

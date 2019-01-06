@@ -17,8 +17,9 @@
     <h1>Responsables des departements</h1>
     <xsl:apply-templates select="Departement"/>
   </xsl:template>
+
   <xsl:template match="//Departements/Departement">
-    <h2>Departement      <xsl:value-of select="@acronyme"/>
-  </h2>
-</xsl:template>
+    <h2>Departement <xsl:value-of select="@acronyme"/></h2>
+  </xsl:template>
+
 </xsl:stylesheet>
