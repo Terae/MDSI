@@ -6,6 +6,7 @@
     <html lang="fr">
       <head>
         <title>Liste des Epreuves</title>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css"/>
       </head>
       <body>
         <xsl:apply-templates select=".//LesCours"/>
@@ -28,7 +29,7 @@
     <xsl:for-each select="//Epreuves/Epreuve">
       <xsl:if test="cours_associe=$My_Name">
         <h4> == Epreuve : <xsl:value-of select="@code"/> ==  </h4>
-        <h4> Durée : <xsl:value-of select="Duree"/> ; Nature : <xsl:value-of select="Nature"/> ; Coeff : <xsl:value-of select="Coefficient"/></h4>
+        <h4> Duree : <xsl:value-of select="Duree"/> ; Nature : <xsl:value-of select="Nature"/> ; Coeff : <xsl:value-of select="Coefficient"/></h4>
       </xsl:if>
     </xsl:for-each>
   </xsl:template>

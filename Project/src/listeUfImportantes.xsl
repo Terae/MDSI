@@ -6,6 +6,7 @@
     <html lang="fr">
       <head>
         <title>Liste des UF par Specialite</title>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css"/>
       </head>
       <body>
         <xsl:apply-templates select=".//Specialites"/>
@@ -14,7 +15,7 @@
   </xsl:template>
 
   <xsl:template match="Specialites">
-    <h1>Liste des Unites de Formation par Spécialite</h1>
+    <h1>Liste des Unites de Formation par Specialite</h1>
     <xsl:apply-templates select="Specialite"/>
   </xsl:template>
 

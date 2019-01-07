@@ -6,6 +6,7 @@
     <html lang="fr">
       <head>
         <title>Nb Heures par Cours</title>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css"/>
       </head>
       <body>
         <xsl:apply-templates select=".//UFs"/>

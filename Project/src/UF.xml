@@ -72,7 +72,7 @@
     <nom>Grandir en autonomie - construire son projet professionnel 2</nom>
     <responsable_UF>Sylvie-ROSSARD-1</responsable_UF>
     <grand_domaine>APS MO PPI</grand_domaine>
-  	<type>Homogene</type>
+    <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
     <semestre_associe>S3_IMACS</semestre_associe>
     <competence>Autonomie</competence>
@@ -82,7 +82,7 @@
   <!-- Semestre 4  IMACS   -->
   <UF code="I2MAPH31">
     <ECTS>5</ECTS>
-    <nom>Physique des materiaux applications à la microelectrique</nom>
+    <nom>Physique des materiaux applications a la microelectrique</nom>
     <responsable_UF>Bertrand-RAQUET-1</responsable_UF>
     <grand_domaine>Sciences appliquees</grand_domaine>
     <type>Homogene</type>

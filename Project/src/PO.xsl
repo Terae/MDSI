@@ -7,6 +7,7 @@
     <html lang="fr">
       <head>
         <title>Specialite</title>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css"/>
       </head>
       <body>
         <xsl:apply-templates select="//Specialites"/>
