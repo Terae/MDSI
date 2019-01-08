@@ -18,7 +18,7 @@ Ce Bureau D'Étude a pour objectif de gérer la maquette des cours de
 
 ### Choix
 * XSL : on a fait nos propres fichiers qui semblent utiles (pas de compteur d'UFs)
-* GitHub : chacun travaille sur son fichier (google drive c'est de la m****)
+* GitHub : chacun travaille sur son fichier
 	* mise en commun avec INSA.xml avec des balises <xml:include/>
 * chronologiquement : UML, XML, XSD pour tout valider, on aurait dû faire XSD puis XML ? (ouverture, toussa)
 
@@ -30,3 +30,8 @@ Travail de chacun
 3.
 4.
 
+
+## Conclusion
+
+Points à améliorer, choses + et -
+25% pour le projet c'est du foutage de gueule
