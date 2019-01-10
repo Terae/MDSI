@@ -7,13 +7,25 @@ Jordan DELENTE, [delente@etud.insa-toulouse.fr](mailto:delente@etud.insa-toulous
 Thomas MAISIERES, [maisiere@etud.insa-toulouse.fr](mailto:maisiere@etud.insa-toulouse.fr)
 
 # Rapport du projet MDSI
+
+Ce projet est réalisé dans le cadre du module MDSI lors de la formation de 4ème année à l'INSA Toulouse, en Informatique et Réseaux.
+
+Le code source de ce projet est [entreposé sur un dépôt GitHub](https://github.com/Terae/MDSI/tree/master/Project).
+
 ## Objectif
 
-Ce Bureau D'Étude a pour objectif de gérer la maquette des cours de 
+Ce Bureau D'Étude a pour objectif de gérer la maquette des cours de l'INSA pour les étudiants étrangers.
+
+La base de donnée est sous forme de XML, la validation schématique se fait grâce à un XSD et des fichiers XSL permettent de générer des fichiers HTML pour aider les étudiants étrangers avec un affichage utilisable.
 
 ## Travail en commun
 
 ### Conception de la base de donnée
+
+Après avoir reçu le cahier des charges, nous avons commencé à définir un diagramme UML qui explicite la base de donnée répondant au problème.
+
+Voici une image de ce diagramme. Un [fichier PDF](https://github.com/Terae/MDSI/blob/master/Project/UML.pdf) est également disponible.
+
 ![Diagramme UML](UML.png)
 
 ### Choix
