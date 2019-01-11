@@ -1,5 +1,5 @@
 1- Pour chaque PO, nombre total UF
 2- Pour chaque PO, nombre total de cours + info sur les cours ( nom, respo )
-3- Pour chaque cours, lisye des epreuves
+3- Pour chaque cours, liste des epreuves
 4- Pour chaque personne, liste de ses respos ( Departements, UFs, Cours )
 5- Pour chaque PO, liste des compétences

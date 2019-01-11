@@ -327,7 +327,7 @@
     <competence>Unknown</competence>
   </UF>
 
-  <!-- Tronc Commun -->
+ 	 <!-- Tronc Commun -->
   <UF code="I3CCGE41">
     <ECTS>5</ECTS>
     <nom>L'entreprise et son environnement</nom>
@@ -336,7 +336,7 @@
 	  <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
     <semestre_associe>S6_IMACS</semestre_associe>
-    <competence>Unknown</competence>
+    <competence>CSH</competence>
   </UF>
 
   <UF code="I3CCGA21">
@@ -347,7 +347,7 @@
 	  <type>Homogene</type>
     <eval_par_competence>non</eval_par_competence>
     <semestre_associe>S6_IMACS</semestre_associe>
-    <competence>Unknown</competence>
+    <competence>CSH</competence>
   </UF>
 
   <UF code="I3CCGE51">
@@ -358,7 +358,431 @@
 	  <type>Heterogene</type>
     <eval_par_competence>non</eval_par_competence>
     <semestre_associe>S6_IMACS</semestre_associe>
+    <competence>CSH</competence>
+ </UF>
+	<!-- Semestre  6 MIC   -->
+
+  <!-- Orientation Informatique et Reseaux -->
+  <UF code="I3MIIF21">
+    <ECTS>5</ECTS>
+    <nom>Programmation système et réseau</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+    <type>Homogene</type>
+    <eval_par_competence>oui</eval_par_competence>
+    <semestre_associe>S6_MIC</semestre_associe>
+    <competence>Informatique</competence>
+  </UF>
+
+  <UF code="I3MIIL11">
+    <ECTS>4</ECTS>
+    <nom>POO et Graphes</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>oui</eval_par_competence>
+    <semestre_associe>S6_MIC</semestre_associe>
+    <competence>Informatique</competence>
+  </UF>
+
+  <UF code="I3MITS11">
+    <ECTS>5</ECTS>
+    <nom>Signaux et Télécommunications</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+    <semestre_associe>S6_MIC</semestre_associe>
+    <competence>Signaux</competence>
+  </UF>
+
+  <UF code="I3MIIM11">
+    <ECTS>6</ECTS>
+    <nom>Concepts et hardware pour la transmission d'informations</nom>
+    <responsable_UF>Thierry-ROCACHER-1</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+    <semestre_associe>S6_MIC</semestre_associe>
     <competence>Unknown</competence>
+  </UF>
+	
+	<!-- Semestre  6 MIC   -->
+
+  <!-- Orientation Genie Mathematiques et Modelisation -->
+  <UF code="I3MIPH12">
+    <ECTS>3</ECTS>
+    <nom>Mécanique et Matériaux</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+    <type>Homogene</type>
+    <eval_par_competence>oui</eval_par_competence>
+    <semestre_associe>S6_MIC</semestre_associe>
+    <competence>Unknown</competence>
+  </UF>
+
+  <UF code="I3MIMT21">
+    <ECTS>3</ECTS>
+    <nom>Introduction à la modélisation numérique</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>oui</eval_par_competence>
+    <semestre_associe>S6_MIC</semestre_associe>
+    <competence>Analyse</competence>
+  </UF>
+
+  <UF code="I3MIMT41">
+    <ECTS>5</ECTS>
+    <nom>Statistiques</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+    <semestre_associe>S6_MIC</semestre_associe>
+    <competence>Analyse</competence>
+  </UF>
+
+  <UF code="I3MIMT31">
+    <ECTS>6</ECTS>
+    <nom>Calcul matriciel et géométrie</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+    <semestre_associe>S6_MIC</semestre_associe>
+    <competence>Signaux</competence>
+  </UF>
+	
+	<UF code="I3MIIL21">
+    <ECTS>3</ECTS>
+    <nom>Programmation Orientée Objet</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+    <semestre_associe>S6_MIC</semestre_associe>
+    <competence>Informatique</competence>
+  </UF>
+
+		 <!-- Tronc Commun -->
+  <UF code="I3CCGI41">
+    <ECTS>5</ECTS>
+    <nom>L'entreprise et son environnement</nom>
+    <responsable_UF>Michel-LOMI-1</responsable_UF>
+    <grand_domaine>Sciences humaines</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+	<semestre_associe>S6_MIC</semestre_associe>
+    <competence>CSH</competence>
+  </UF>
+
+  <UF code="I3CCGI21">
+    <ECTS>5</ECTS>
+    <nom>Grandir en autonomie niveau 3</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences humaines</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+	<semestre_associe>S6_MIC</semestre_associe>
+    <competence>CSH</competence>
+  </UF>
+
+  <UF code="I3CCGI51">
+    <ECTS>3</ECTS>
+    <nom>L'entreprise et son environnement (avec LV2 ou Anglais Renforce)</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences humaines</grand_domaine>
+	  <type>Heterogene</type>
+    <eval_par_competence>non</eval_par_competence>
+	<semestre_associe>S6_MIC</semestre_associe>
+    <competence>CSH</competence>	
+  </UF>
+
+	<!-- Semestre  6 IC   -->
+
+  <!-- Orientation Genie Mecanique -->
+  <UF code="I3ICDM12">
+    <ECTS>7</ECTS>
+    <nom>Dynamique et Contrôle</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+    <type>Homogene</type>
+    <eval_par_competence>oui</eval_par_competence>
+    <semestre_associe>S6_IC</semestre_associe>
+    <competence>Unknown</competence>
+  </UF>
+
+  <UF code="I3ICCT21">
+    <ECTS>6</ECTS>
+    <nom>Conception et Fabrication Mécanique</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>oui</eval_par_competence>
+    <semestre_associe>S6_IC</semestre_associe>
+    <competence>Unknown</competence>
+  </UF>
+
+  <UF code="I3ICEF12">
+    <ECTS>4</ECTS>
+    <nom>Dimensionnement des Structures</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+    <semestre_associe>S6_IC</semestre_associe>
+    <competence>Unknown</competence>
+  </UF>
+	  
+  <UF code="I3ICIS21">
+    <ECTS>3</ECTS>
+    <nom>Systèmes mécatroniques multicorps</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+    <semestre_associe>S6_IC</semestre_associe>
+    <competence>Unknown</competence>
+  </UF>
+
+
+ <UF code="I3ICFA32">
+    <ECTS>3</ECTS>
+    <nom>Etude de fabrication 2</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+    <semestre_associe>S6_IC</semestre_associe>
+    <competence>Unknown</competence>
+  </UF>
+
+
+
+	  <!-- Orientation Genie Civile -->
+  <UF code="I3ICMS01">
+    <ECTS>5</ECTS>
+    <nom>Geotechnique 1</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+    <type>Homogene</type>
+    <eval_par_competence>oui</eval_par_competence>
+    <semestre_associe>S6_IC</semestre_associe>
+    <competence>Unknown</competence>
+  </UF>
+
+  <UF code="I3ICBA11">
+    <ECTS>5</ECTS>
+    <nom>Beton armé et béton précontraint</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>oui</eval_par_competence>
+    <semestre_associe>S6_IC</semestre_associe>
+    <competence>Unknown</competence>
+  </UF>
+
+  <UF code="I3ICFT12">
+    <ECTS>6</ECTS>
+    <nom>Thermique, Transferts et Mecanique des fluides 2</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+    <semestre_associe>S6_IC</semestre_associe>
+    <competence>Unknown</competence>
+  </UF>
+	  
+  <UF code="I3ICAS11">
+    <ECTS>4</ECTS>
+    <nom>Analyse des Structures Statiques et Dynamiques</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+    <semestre_associe>S6_IC</semestre_associe>
+    <competence>Unknown</competence>
+  </UF>
+
+
+
+	 <!-- Tronc Commun -->
+  <UF code="I3CCGA41">
+    <ECTS>5</ECTS>
+    <nom>L'entreprise et son environnement</nom>
+    <responsable_UF>Michel-LOMI-1</responsable_UF>
+    <grand_domaine>Sciences humaines</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+	<semestre_associe>S6_IC</semestre_associe>
+    <competence>CSH</competence>
+  </UF>
+
+  <UF code="I3CCGE21">
+    <ECTS>5</ECTS>
+    <nom>Grandir en autonomie niveau 3</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences humaines</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+	<semestre_associe>S6_IC</semestre_associe>
+    <competence>CSH</competence>
+  </UF>
+
+  <UF code="I3CCGA51">
+    <ECTS>3</ECTS>
+    <nom>L'entreprise et son environnement (avec LV2 ou Anglais Renforce)</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences humaines</grand_domaine>
+	  <type>Heterogene</type>
+    <eval_par_competence>non</eval_par_competence>
+	<semestre_associe>S6_IC</semestre_associe>
+    <competence>CSH</competence>
+  </UF>
+
+
+	
+	<!-- Semestre  6 IC   -->
+
+  <!-- Orientation Genie des Procédés -->
+  <UF code="I3BEON11">
+    <ECTS>4</ECTS>
+    <nom>Contrôle des procédés</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+    <type>Homogene</type>
+    <eval_par_competence>oui</eval_par_competence>
+    <semestre_associe>S6_ICBE</semestre_associe>
+    <competence>Unknown</competence>
+  </UF>
+
+  <UF code="I3BEAN11">
+    <ECTS>3</ECTS>
+    <nom>Méthodes d'analyse II</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>oui</eval_par_competence>
+    <semestre_associe>S6_ICBE</semestre_associe>
+    <competence>Analyse</competence>
+  </UF>
+
+  <UF code="I3BERR12">
+    <ECTS>3</ECTS>
+    <nom>Génie de la réaction chimique 2</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+    <semestre_associe>S6_ICBE</semestre_associe>
+    <competence>Unknown</competence>
+  </UF>
+	  
+  <UF code="I3BETH12">
+    <ECTS>3</ECTS>
+    <nom>Thermodynamique énergétique</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+    <semestre_associe>S6_ICBE</semestre_associe>
+    <competence>Unknown</competence>
+  </UF>
+
+
+  <UF code="I3BEGP11">
+    <ECTS>3</ECTS>
+    <nom>Procédés de transformation de la matière et de l'énergie</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+    <semestre_associe>S6_ICBE</semestre_associe>
+    <competence>Unknown</competence>
+  </UF>
+
+
+
+	  <!-- Orientation Genie Biochimique -->
+  <UF code="I3BEEN11">
+    <ECTS>4</ECTS>
+    <nom>Contrôle des procédés</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+    <type>Homogene</type>
+    <eval_par_competence>oui</eval_par_competence>
+    <semestre_associe>S6_ICBE</semestre_associe>
+    <competence>Unknown</competence>
+  </UF>
+
+  <UF code="I3BEBC32">
+    <ECTS>7</ECTS>
+    <nom>Bioséparation, cinétique enzymatique et régulation génique</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>oui</eval_par_competence>
+    <semestre_associe>S6_ICBE</semestre_associe>
+    <competence>Nanophysique</competence>
+  </UF>
+
+  <UF code="I3BECH11">
+    <ECTS>6</ECTS>
+    <nom>Chimie organique et structurale</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+    <semestre_associe>S6_ICBE</semestre_associe>
+    <competence>Nanophysique</competence>
+  </UF>
+	  
+  <UF code="I3BEPJ11">
+    <ECTS>3</ECTS>
+    <nom>Découverte des filières de production</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences appliquees</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+    <semestre_associe>S6_ICBE</semestre_associe>
+    <competence>Unknown</competence>
+  </UF>
+
+
+
+	 <!-- Tronc Commun -->
+  <UF code="I3CCGO41">
+    <ECTS>5</ECTS>
+    <nom>L'entreprise et son environnement</nom>
+    <responsable_UF>Michel-LOMI-1</responsable_UF>
+    <grand_domaine>Sciences humaines</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+	<semestre_associe>S6_IC</semestre_associe>
+    <competence>CSH</competence>
+  </UF>
+
+  <UF code="I3CCGO21">
+    <ECTS>5</ECTS>
+    <nom>Grandir en autonomie niveau 3</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences humaines</grand_domaine>
+	  <type>Homogene</type>
+    <eval_par_competence>non</eval_par_competence>
+	<semestre_associe>S6_IC</semestre_associe>
+    <competence>CSH</competence>
+  </UF>
+
+  <UF code="I3CCGO51">
+    <ECTS>3</ECTS>
+    <nom>L'entreprise et son environnement (avec LV2 ou Anglais Renforce)</nom>
+    <responsable_UF>Inconnu</responsable_UF>
+    <grand_domaine>Sciences humaines</grand_domaine>
+	  <type>Heterogene</type>
+    <eval_par_competence>non</eval_par_competence>
+	<semestre_associe>S6_IC</semestre_associe>
+    <competence>CSH</competence>
   </UF>
 
 </UFs>

@@ -20,4 +20,20 @@
     <responsable_semestre>Helene-CARRERE-1</responsable_semestre>
     <specialite_associee>IMACS</specialite_associee>
   </Semestre>
+  
+  <Semestre id = "S6_MIC">
+    <responsable_semestre>Pierre-PINEL-1</responsable_semestre>
+    <specialite_associee>MIC</specialite_associee>
+  </Semestre>
+
+  <Semestre id = "S6_IC">
+    <responsable_semestre>Claude-MENY-1</responsable_semestre>
+    <specialite_associee>IC</specialite_associee>
+  </Semestre>
+
+  <Semestre id = "S6_ICBE">
+    <responsable_semestre>Benoit-VIALLET-1</responsable_semestre>
+    <specialite_associee>ICBE</specialite_associee>
+  </Semestre>
+
 </Semestres>

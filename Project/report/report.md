@@ -39,7 +39,19 @@ Voici une image de ce diagramme. Un [fichier PDF](https://github.com/Terae/MDSI/
 Travail de chacun
 1.
 2.
-3.
+3.  Après avoir fait la conception du diagramme de classe en groupe, comme il est expliqué au dessus, il m'a été confié de m'occuper de la classe UF et Semestre en priorité, j'ai donc commencé par implementer le fichier UF.xml, contenant l'ensemble des UF du semestre 3 à 6, ainsi que les semestres 6 (pour chaque pré-Orientation existante) de MIC, IC et ICBE, avec le code, nombre de crédits ECTS apportés, le nom, le grand domaine, le type, le semestre associés, si c'est un semestre avec évaluation par compétences et la compétence acquise. 
+
+![Extrait du fichier UF.xml](UF.png)
+
+Je me suis ensuite occupé des Semestres, ou il fallait faire correspondre les Id des UFs implémentés précedemment. Il est constitué de Id, responsable semestre, et de la spécialité associées.
+
+![Extrait du fichier Semestres.xml](Semestre.png)
+ 
+Il était important de respecter les mises en formes élaborées précedemment pour pouvoir avoir une concordance entre chaque fichier, par exemple la syntaxe pour les UFs, ou les noms ( Prenom-NOM-1 ) pour les responsables UF.
+
+Puis pour finir avec les fichiers xml, avec Jordan on a implémenté le fichier xml Competences qui contient un identifiant, etant un nom de compétence, permettant aux UFs de faire référence à une compétence.
+
+Ensuite, je suis passé à la partie XML-Schema
 
 4.
 	1.	Partie XML:
@@ -50,7 +62,6 @@ Travail de chacun
 
  		Suite à l'implémentation de cours, j'ai fais le xml de Epreuves,  ayant un identifiant étant le code de l'épreuve, et une référence vers le cours qui lui est associé, qui est le nom du cours. 
 
-		Puis pour finir, j'ai implémenté le fichier xml Competences qui contient un identifiant, etant un nom de compétence, permettant aux UFs de faire référence à une compétence.
 
 
 	2.	Partie XML-Schema:
