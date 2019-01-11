@@ -32,6 +32,8 @@ Voici une image de ce diagramme final. Un [fichier PDF](https://github.com/Terae
 
 Une fois que l'on était d'accord sur l'architecture des bases de données, nous nous sommes répartis l'écriture des différentes classes dans des fichiers différents pour paralléliser les tâches.
 
+Cette parallélisation nous a permis d'utiliser de maière optimale l'outil github : on était indépendant sur nos différents fichiers.
+
 Ainsi, le [fichier XSD principal](https://github.com/Terae/MDSI/blob/master/Project/src/INSA.xml) est une succession de balises `<xi:include>` tandis que chaque classe est renseignée dans des fichiers séparés.
 
 Un simple appel à la fonction `xmllint --xinclude <file.xml> > <file.generated.xml>` permets à posteriori de n'avoir qu'un unique fichier XML utilisable pour générer des documents utiles aux étudiants étrangers.
@@ -63,11 +65,19 @@ On en a écrit huit différents pour fournir une prévisualisation efficace des 
 ## Travail individuel : répartition des tâches
 
 ### Maxime ARENS
+
+Pour commencer j’ai participé au brainstorming duquel a émergé la première version du diagramme UML. Ensuite j’ai faire des recherches sur les diverses sites internet de l’INSA afin de trouver des informations complémentaires pour compléter les diverses fichiers xml.
+
+ Lors de la répartition des tâches j’ai choisi de m’occuper d’un seul fichier xml qui était conséquent à écrire, Specialites.xml dans le but de pouvoir ensuite passer plus vite sur la réalisation des fichiers xsd avec Benjamin Bigey. En raison de nos plus grandes difficultés sur les fichiers xsd nous avons travaillé en binôme avec Benjamin. Nos problèmes étaient principalement liés sur l’utilisation des key/keyrefs qui nous on posé des problèmes sur plusieurs séances à nous et notre professeur de TD.
+
+ Une fois ce problème réglé j’ai laissé Benjamin continué à rédiger les xsd afin de les faire fonctionner parfaitement et je me suis penché sur les fichiers xsl. J’ai mis toute l’avant-dernière séance à faire un xsl qui permettait de répondre à une requête complexe. Après à partir de cet exemple fonctionnel j’ai pu plus facilement faire les autres xsl pendant les vacances (listeCompParSpe.xsl, listeCoursParSpe.xsl, listeEpreuves.xsl, listeUfImportantes.xsl, listeUfParSpe.xsl). J’ai de plus réalisé NbHeureCours.xsl, listeRespo.xsl et PO.xsl avec Jordan et Thomas le jour de la rentrée afin de leur montrer la réalisation de xsl fonctionnels.
+
+  Pour la réalisation des xsl il est important de savoir que j’ai eu des discussions sur le fond de ceux-ci avec Benjamin et qu’il en a découlé le fait de ne pas faire exactement ce que notre professeur nous avait proposé comme requête mais de faire des requêtes dont le résultat nous semblait utile pour un élève étranger se renseignant sur l’INSA.
 ### Benjamin BIGEY
 
 Durant ce projet, mon rôle global a été de coordiner le travail de toute l'équipe : j'ai encadré l'avancement du diagramme UML, je l'ai mis au propre sur ordinateur puis une fois qu'il était accepté par toute le monde j'ai converti la structure en 3NF.
 
-Ensuite, après nous avoir réparti le travail d'écriture des documents XML, j'ai commencé à maintenir un [makefile](https://github.com/Terae/MDSI/blob/master/Project/src/makefile) 
+Ensuite, après nous avoir réparti le travail d'écriture des documents XML, j'ai commencé à maintenir un [makefile](https://github.com/Terae/MDSI/blob/master/Project/src/makefile)
 
 ### Thomas MAISIERES
 
@@ -83,7 +93,7 @@ Il était important de respecter les mises en formes élaborées précedemment p
 
 Puis pour finir avec les fichiers xml, avec Jordan on a implémenté le fichier xml Competences qui contient un identifiant, etant un nom de compétence, permettant aux UFs de faire référence à une compétence.
 
-Ensuite, je suis passé à la partie XML-Schema, sur INSA.xsd, avec UF et UFs, Semestre et Semestres, pour UFs et Semestres, j'ai du créer des types personnalisés, pour faire correspondre au .xml, il y a d'abord le type "par_competence" qui ne peut etre qu'un string avec pour valeurs "oui" ou "non". Le type "hetero_ou_continu" lui aussi un string avec comme valeurs "Heterogene" ou "Homogene". Les deux sont utilisés dans UFs, en dehors de ses deux là, les autres sont de type "classique" c'est à dire qu'ils sont soit "xsd:string" soit "xsd:int". 
+Ensuite, je suis passé à la partie XML-Schema, sur INSA.xsd, avec UF et UFs, Semestre et Semestres, pour UFs et Semestres, j'ai du créer des types personnalisés, pour faire correspondre au .xml, il y a d'abord le type "par_competence" qui ne peut etre qu'un string avec pour valeurs "oui" ou "non". Le type "hetero_ou_continu" lui aussi un string avec comme valeurs "Heterogene" ou "Homogene". Les deux sont utilisés dans UFs, en dehors de ses deux là, les autres sont de type "classique" c'est à dire qu'ils sont soit "xsd:string" soit "xsd:int".
 
 ### Jordan DELENTE
 
@@ -102,10 +112,10 @@ Les fichiers xml étant tous remplis avec chaque élement, attributs et sous él
 ## Conclusion
 
 Nous pensons qu'une des choses à améliorer dans le projet en lui même, c'est l'implémentation des valeurs, car une grosse partie du temps est consacré à entrer des données diverses pour pouvoir tester au mieux nos fichiers via de multiples requetes xslt, donc forcément du temps en moins pour améliorer la conception, ou encore travailler sur un CSS plus développé.
-Pour ce qui est de l'organisation de la matière nous trouvons que le pourcentage de la notation accordé au projet, par rapport au temps passé dessus n'est pas du tout proportionnel alors qu'un bon nombres de compétences sont acquises lors de ce projet, et peut refléter parfois autant si ce n'est plus l'acquisition des compétences attendues qu'un partiel.
+
+Pour ce qui est de l'organisation de la matière nous trouvons que le pourcentage de la notation accordé au projet, par rapport au temps passé dessus n'est pas du tout proportionnel alors qu'un bon nombres de compétences sont acquises lors de ce projet, et peut refléter parfois autant si ce n'est plus l'acquisition des compétences attendues qu'un partiel. Un 50/50 sur la note aurait été plus juste, surtout étant donné que le projet est noté de manière individuel.
+
 
 Pour ce qu'il y a de positif, nous avons trouvé que le déroulement était bien organisé, nous avons pu bénéficier d'une aide pour différents type de quesitons facilement et régulièrement. De plus, les séances n'étant pas trop écartées entres elles, celà ne permet de pas perdre le fil et de pouvoir être à notre avis plus efficace que si le projet était répartie sur une plus grande durée.
 
-    
-Points à améliorer, choses + et -
-25% pour le projet c'est du foutage de gueule
+Pour les points a améliorer, nous avons tous le ressenti que le rapport de la note du projet sur la note de l'examen moodle est trop faible.
