@@ -77,7 +77,15 @@ Pour commencer j’ai participé au brainstorming duquel a émergé la première
 
 Durant ce projet, mon rôle global a été de coordiner le travail de toute l'équipe : j'ai encadré l'avancement du diagramme UML, je l'ai mis au propre sur ordinateur puis une fois qu'il était accepté par toute le monde j'ai converti la structure en 3NF.
 
-Ensuite, après nous avoir réparti le travail d'écriture des documents XML, j'ai commencé à maintenir un [makefile](https://github.com/Terae/MDSI/blob/master/Project/src/makefile)
+Ensuite, après nous avoir réparti le travail d'écriture des documents XML, j'ai commencé à maintenir un [makefile](https://github.com/Terae/MDSI/blob/master/Project/src/makefile) pour automatiser le travail que l'on fait à partir des fichiers et j'ai mis en place un dépôt git pour qu'on puisse partager le travail.
+
+J'ai rédigé la base de données [Departements.xml](https://github.com/Terae/MDSI/blob/master/Project/src/Departements.xml) puis je me suis occupé de l'intégralité du XSD de validation. Comme je l'ai précisé dans un paragraphe précédemment, notre volonté initiale par rapport au XML schéma était de chacun rédiger notre propre partie de validation, mais j'ai rencontré un problème lors de l'appel à `xmllint --schema <file.xsd> <file>xml>` dû au fait qu'on ne peut pas partager de clefs `<xsd:key>` et `<xsd:keyref>` entre différents fichiers XSD. Ainsi, après avoir récupérer les morceaux XSD propres à chaque XML de mes collègues, j'ai finalisé l'[unique fichier XSD](https://github.com/Terae/MDSI/blob/master/Project/src/INSA.xsd) avec l'ajout des clefs et des références entre les différentes bases de données.
+
+Ensuite, j'ai modifié l'ensemble des documents XML pour correspondre au fichier XSD car la cardinalité entre les différentes classes dans les documents n'était pas respectée : pour une relation **`1:N`**, l'implémentation dans les bases de données spécifiait que la classe en **`1`** possède **`N`** lignes pour chaque classe fille, mais cette implémentation est incorrecte au vu des clefs de validation. J'ai ainsi changé la cardinalité de toutes les relations **`1:N`** du diagramme UML pour correspondre à une base de donnée 3NF, en rajoutant un champ dans la classe en **`1`** qui pointe vers la classe en **`N`**.
+
+J'en ai également profité pour formater tous les documents XML pour notamment supprimer des espaces en trop qui faisaient que les clefs XSD ne pouvaient pas pointer vers le bon objet, garantir une convention de nommage identique au projet ainsi que pour indenter tous ces fichiers.
+
+Enfin, après avoir réalisé tout ce travail de maintenance pour faire valider la base de donnée, j'ai rédigé le XSL qui permets de lister toutes les PO, et ce fichier a pu servir de template à mes collègues pour qu'ils rédigent les autres documents. Je me suis occupé de l'écriture finale du makefile pour qu'une target make puisse automatiquement générer tous les documents HTML à partir des XSL fournis.
 
 ### Thomas MAISIERES
 
@@ -111,11 +119,10 @@ Les fichiers xml étant tous remplis avec chaque élement, attributs et sous él
 
 ## Conclusion
 
-Nous pensons qu'une des choses à améliorer dans le projet en lui même, c'est l'implémentation des valeurs, car une grosse partie du temps est consacré à entrer des données diverses pour pouvoir tester au mieux nos fichiers via de multiples requetes xslt, donc forcément du temps en moins pour améliorer la conception, ou encore travailler sur un CSS plus développé.
+Nous pensons qu'une des choses à améliorer dans le projet en lui-même, c'est l'implémentation des valeurs, car une grosse partie du temps est consacrée à entrer des données diverses pour pouvoir tester au mieux nos fichiers via de multiples requêtes xslt. Ceci entraîne une disponibilté moindre pour améliorer la conception, ou encore travailler sur un CSS plus développé.
 
-Pour ce qui est de l'organisation de la matière nous trouvons que le pourcentage de la notation accordé au projet, par rapport au temps passé dessus n'est pas du tout proportionnel alors qu'un bon nombres de compétences sont acquises lors de ce projet, et peut refléter parfois autant si ce n'est plus l'acquisition des compétences attendues qu'un partiel. Un 50/50 sur la note aurait été plus juste, surtout étant donné que le projet est noté de manière individuel.
+Pour ce qui est de l'organisation de la matière, nous trouvons que le pourcentage de la notation accordé au projet, par rapport au temps passé dessus, n'est pas du tout proportionnel alors qu'un bon nombres de compétences sont acquises lors de ce projet. Le travail que nous avons effectué reflète selon nous bien mieux l'acquisition des compétences attendue qu'un partiel de seulement 1h30 durant lequel on n'a pas été évalué sur toutes les compétences et surtout durant lequel les compétences évaluées ne le sont que sur un temps très court, ce qui ne permets pas de rendre un travail de qualité aussi grande que ce qui est fait lors de ce projet. Ainsi, nous trouvons qu'une répartition 75/25 en faveur du projet, voire un 50/50 aurait été plus juste, surtout sachant que le projet est noté de manière individuelle.
 
+Pour ce qu'il y a de positif, nous avons trouvé que le déroulement était bien organisé, le temps accordé nous semble adéquat et nous avons pu bénéficier d'une aide pour différents types de quesitons facilement et régulièrement. De plus, les séances n'étant pas trop écartées entres elles, cela nous permets de pas perdre le fil et de pouvoir être à notre avis plus efficace que si le projet était répartit sur une plus grande durée.
 
-Pour ce qu'il y a de positif, nous avons trouvé que le déroulement était bien organisé, nous avons pu bénéficier d'une aide pour différents type de quesitons facilement et régulièrement. De plus, les séances n'étant pas trop écartées entres elles, celà ne permet de pas perdre le fil et de pouvoir être à notre avis plus efficace que si le projet était répartie sur une plus grande durée.
-
-Pour les points a améliorer, nous avons tous le ressenti que le rapport de la note du projet sur la note de l'examen moodle est trop faible.
+Pour les points à améliorer, nous avons tous le ressenti que le rapport entre la note du projet et la note de l'examen moodle est trop faible.
