@@ -28,6 +28,9 @@ Voici une image de ce diagramme. Un [fichier PDF](https://github.com/Terae/MDSI/
 
 ![Diagramme UML](UML.png)
 
+Ce diagramme résulte d'un ajustement au fur à mesure de l'avancement et de l'implentation, car nous nous rendions compte qu'il était possible de l'optimiser et ainsi d'éviter des redondances inutiles.
+ 
+
 ### Choix
 * XSL : on a fait nos propres fichiers qui semblent utiles (pas de compteur d'UFs)
 * GitHub : chacun travaille sur son fichier
@@ -47,16 +50,17 @@ Je me suis ensuite occupé des Semestres, ou il fallait faire correspondre les I
 
 ![Extrait du fichier Semestres.xml](Semestre.png)
  
-Il était important de respecter les mises en formes élaborées précedemment pour pouvoir avoir une concordance entre chaque fichier, par exemple la syntaxe pour les UFs, ou les noms ( Prenom-NOM-1 ) pour les responsables UF.
+Il était important de respecter les mises en formes élaborées précedemment pour pouvoir avoir une concordance entre chaque fichier, par exemple la syntaxe pour les UFs, ou les noms ( Prenom-NOM-1 ) pour les responsables UF ainsi que les cardinalités pour ne pas avoir de redondance.
 
 Puis pour finir avec les fichiers xml, avec Jordan on a implémenté le fichier xml Competences qui contient un identifiant, etant un nom de compétence, permettant aux UFs de faire référence à une compétence.
 
-Ensuite, je suis passé à la partie XML-Schema
+Ensuite, je suis passé à la partie XML-Schema, sur INSA.xsd, avec UF et UFs, Semestre et Semestres, pour UFs et Semestres, j'ai du créer des types personnalisés, pour faire correspondre au .xml, il y a d'abord le type "par_competence" qui ne peut etre qu'un string avec pour valeurs "oui" ou "non". Le type "hetero_ou_continu" lui aussi un string avec comme valeurs "Heterogene" ou "Homogene". Les deux sont utilisés dans UFs, en dehors de ses deux là, les autres sont de type "classique" c'est à dire qu'ils sont soit "xsd:string" soit "xsd:int". 
+ 
 
 4.
 	1.	Partie XML:
 
-		Pour ma partie, j'ai commencé par implémenter le fichier xml Personnes, contenant toutes les personnes travaillant à l'INSA en leurs donnant un identifiant sous la forme de "NOM-Prenom-1". Beaucoup d'autre elements ont un responsable étant une personne, l'identifiant de personne permet de faire reference a une personne comme etant un responsable.
+		Pour ma partie, j'ai commencé par implémenter le fichier xml Personnes, contenant toutes les personnes travaillant à l'INSA en leurs donnant un identifiant sous la forme de "Prenom-NOM-1". Beaucoup d'autre elements ont un responsable étant une personne, l'identifiant de personne permet de faire reference a une personne comme etant un responsable.
 
  		Par la suite, après que mon collègue ai implémenté le fichier xml UFs, j'ai pu implémenter le fichier xml Cours, qui contient tout les cours, avec pour identifiant son nom, et ayant deux références, un responsable de cours, étant un id de Personnes ainsi qu'un UF associé qui est un id de UFs. De plus, chaque cours contient un élement type, permettant de savoir si le cours est obligatoire ou facultatif.
 
@@ -72,5 +76,11 @@ Ensuite, je suis passé à la partie XML-Schema
 
 ## Conclusion
 
+Nous pensons qu'une des choses à améliorer dans le projet en lui même, c'est l'implémentation des valeurs, car une grosse partie du temps est consacré à entrer des données diverses pour pouvoir tester au mieux nos fichiers via de multiples requetes xslt, donc forcément du temps en moins pour améliorer la conception, ou encore travailler sur un CSS plus développé.
+Pour ce qui est de l'organisation de la matière nous trouvons que le pourcentage de la notation accordé au projet, par rapport au temps passé dessus n'est pas du tout proportionnel alors qu'un bon nombres de compétences sont acquises lors de ce projet, et peut refléter parfois autant si ce n'est plus l'acquisition des compétences attendues qu'un partiel.
+
+Pour ce qu'il y a de positif, nous avons trouvé que le déroulement était bien organisé, nous avons pu bénéficier d'une aide pour différents type de quesitons facilement et régulièrement. De plus, les séances n'étant pas trop écartées entres elles, celà ne permet de pas perdre le fil et de pouvoir être à notre avis plus efficace que si le projet était répartie sur une plus grande durée.
+
+    
 Points à améliorer, choses + et -
 25% pour le projet c'est du foutage de gueule
