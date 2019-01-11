@@ -40,7 +40,23 @@ Travail de chacun
 1.
 2.
 3.
+
 4.
+	1.	Partie XML:
+
+		Pour ma partie, j'ai commencé par implémenter le fichier xml Personnes, contenant toutes les personnes travaillant à l'INSA en leurs donnant un identifiant sous la forme de "NOM-Prenom-1". Beaucoup d'autre elements ont un responsable étant une personne, l'identifiant de personne permet de faire reference a une personne comme etant un responsable.
+
+ 		Par la suite, après que mon collègue ai implémenté le fichier xml UFs, j'ai pu implémenter le fichier xml Cours, qui contient tout les cours, avec pour identifiant son nom, et ayant deux références, un responsable de cours, étant un id de Personnes ainsi qu'un UF associé qui est un id de UFs. De plus, chaque cours contient un élement type, permettant de savoir si le cours est obligatoire ou facultatif.
+
+ 		Suite à l'implémentation de cours, j'ai fais le xml de Epreuves,  ayant un identifiant étant le code de l'épreuve, et une référence vers le cours qui lui est associé, qui est le nom du cours. 
+
+		Puis pour finir, j'ai implémenté le fichier xml Competences qui contient un identifiant, etant un nom de compétence, permettant aux UFs de faire référence à une compétence.
+
+
+	2.	Partie XML-Schema:
+
+		Les fichiers xml étant tous remplis avec chaque élement, attributs et sous élements, j'ai codé ma partie du fichier xml schema INSA.xsd, pour les elements Personnes, Personne, LesCours, Cours, Epreuves, Epreuve, Competences et Competence, ainsi que chaque clé et reference. Pour finir sur le xml schema, j'ai eu a creer un type pour l'élement type dans l'élement Cours. Comme dit précedement, ce type devait etre un string etant soit obligatoire soit facultatif.
+
 
 
 ## Conclusion
